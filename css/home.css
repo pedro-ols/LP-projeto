@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: ghostwhite;
+    font-family: 'Montserrat';
+}
+
+.site-header {
+    height: 125px;
+    width: 100%;
+    background-color: #E30613;
+    display: flex;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.main-nav {
+    align-items: center;
+    display: flex;
+    margin-left: 1100px;
+}
+
+.nav-item a {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 100px;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.site-footer {
+    text-align: center;
+    background-color: #9a1915;
+    padding: 20px 0;
+    margin-top: 688px;
+    color: #ffffff;
+}
+
+.contact-info {
+    margin-bottom: 5px;
+}
+
+.author-name {
+    margin-bottom: 5px;
+}
+
+.author-email {
+    margin-bottom: 5px;
+}
+
+.email-link {
+    color: #2e89e4;
+    text-decoration: none;
+    transition: 0.5s;
+}
