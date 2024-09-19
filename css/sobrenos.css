@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
+    
 }
 
 a {
@@ -11,7 +13,8 @@ a {
 
 body {
     background-color: ghostwhite;
-    font-family: 'Montserrat';
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .nav-image {
@@ -22,23 +25,28 @@ body {
     height: 125px;
     width: 100%;
     background-color: #E30613;
-    display: flex;
     color: white;
-    display: flex;
     align-items: center;
+    display: flex;
+    padding: 40px;
 }
 
 .main-nav {
     align-items: center;
     display: flex;
-    margin-left: 1100px;
+    margin-left: 800px;
+}
 
+.main-text{
+    font-size: 20px;
+    text-align: center;
+    display: flex;
 }
 
 .nav-item a {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
-    margin: 100px;
+    margin: 15px;
     transition: 0.2s;
 }
 
@@ -51,15 +59,24 @@ a:hover {
     text-align: center;
     font-size: 2em;
     font-weight: bolder;
-    color: #7D030A;
+    color: #681413;
+}
+
+.sobrenos-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 50px;
+    color: #681413;
 }
 
 .site-footer {
     text-align: center;
     background-color: #9a1915;
     padding: 20px 0;
-    margin-top: 688px;
     color: #ffffff;
+    margin-top: 50px;
 }
 
 .contact-info {
@@ -80,6 +97,60 @@ a:hover {
     transition: 0.5s;
 }
 
+.saudacoes-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.nos-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.grupo{
+    align-items: center;
+}
+.membros-container {
+    margin-top: 5px;
+    font-size: 18px;
+    padding-left: 39%;
+}
+
+.membros-title {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .membro-div {
+    text-align: center;
+    font-size: 16px;
+    margin: 15px;
+    background-color: #9a1915;
+    color: aliceblue;
+    border-radius: 15px;
+    width: 400px;
+}
+
+
+.pedro {
+
+}
+
+.raphaelle {
+    
+}
+
+.theo {
+
+}
+
+.vitor {
     
 }
