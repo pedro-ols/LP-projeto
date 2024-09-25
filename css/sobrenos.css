@@ -28,13 +28,12 @@ body {
     color: white;
     align-items: center;
     display: flex;
-    padding: 40px;
 }
 
 .main-nav {
     align-items: center;
     display: flex;
-    margin-left: 800px;
+    margin-left: 750px;
 }
 
 .main-text{
@@ -55,6 +54,10 @@ a:hover {
     text-decoration: underline;
 }
 
+.senai-image {
+    height: 50px;
+}
+
 .site-title {
     text-align: center;
     font-size: 2em;
@@ -71,12 +74,26 @@ a:hover {
     color: #681413;
 }
 
+.person-photo {
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
 .site-footer {
     text-align: center;
     background-color: #9a1915;
-    padding: 20px 0;
     color: #ffffff;
-    margin-top: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 15px;
+}
+
+.site-footer p {
+    margin-bottom: 8px;
+    margin-top: 8px;
 }
 
 .contact-info {
@@ -84,6 +101,7 @@ a:hover {
 }
 
 .author-name {
+    color: #dccacb;
     margin-bottom: 5px;
 }
 
@@ -112,13 +130,21 @@ a:hover {
     margin-top: 15px;
 }
 
-.grupo{
+.group-image{
+    justify-content: center;
+    display: flex;
     align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+
 .membros-container {
     margin-top: 5px;
     font-size: 18px;
-    padding-left: 39%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .membros-title {
@@ -129,28 +155,18 @@ a:hover {
 }
 
 .membro-div {
-    text-align: center;
     font-size: 16px;
     margin: 15px;
     background-color: #9a1915;
     color: aliceblue;
-    border-radius: 15px;
-    width: 400px;
+    border-radius: 30px;
+    width: 750px;
+    height: 600px;
+    text-align: center;
+}
+
+.people-text {
+    margin-top: 30px;
 }
 
 
-.pedro {
-
-}
-
-.raphaelle {
-    
-}
-
-.theo {
-
-}
-
-.vitor {
-    
-}
