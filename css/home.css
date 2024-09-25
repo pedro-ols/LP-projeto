@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    
 }
 
 a {
@@ -17,8 +18,7 @@ body {
 }
 
 .nav-image {
-    width: 200px;
-    height: 80px;
+    margin-left: 100px;
 }
 
 .site-header {
@@ -28,13 +28,12 @@ body {
     color: white;
     align-items: center;
     display: flex;
-    padding: 40px;
 }
 
 .main-nav {
     align-items: center;
     display: flex;
-    margin-left: 380px;
+    margin-left: 800px;
 }
 
 .main-text{
@@ -44,15 +43,19 @@ body {
 }
 
 .nav-item a {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
-    transition: 0.2s;
     margin: 15px;
+    transition: 0.2s;
 }
 
 a:hover {
     color: #000000;
     text-decoration: underline;
+}
+
+.senai-image {
+    height: 50px;
 }
 
 .home-title {
@@ -63,14 +66,6 @@ a:hover {
     font-size: 50px;
     color: #681413;
     
-}
-
-.index-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-    margin-bottom: 50px;
 }
 
 .main-image {
@@ -98,12 +93,18 @@ a:hover {
 .site-footer {
     text-align: center;
     background-color: #9a1915;
-    padding: 20px 0;
     color: #ffffff;
-    margin-top: 50px;
-
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 15px;
 }
 
+.site-footer p {
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
 .contact-info {
     margin-bottom: 5px;
 }
