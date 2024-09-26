@@ -63,10 +63,9 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 60px;
-    font-size: 50px;
+    margin: 3vh;
+    font-size: 35px;
     color: #681413;
-    
 }
 
 .main-image {
@@ -74,7 +73,7 @@ a:hover {
     border-radius: 3px;
     width: 100%;
     margin-top: 0px;
-    height: 30vh;
+    height: 60vh;
 }
 
 .greetings {
@@ -92,15 +91,29 @@ a:hover {
 }
 
 .site-footer {
-    text-align: center;
-    background-color: #9a1915;
+    background-color: #E30613;
+    height: 280x;
     color: #ffffff;
-    position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
     font-size: 15px;
+    border-top: 2px solid black;
 }
+
+.footer-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-senai {
+    height: 8vh;
+    width: 60vh;
+    margin: 10px;
+}
+
+.bar-footer
 
 .site-footer p {
     margin-bottom: 8px;
@@ -123,5 +136,12 @@ a:hover {
     color: #2e89e4;
     text-decoration: none;
     transition: 0.5s;
+}
+
+.copy-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
 }
 
