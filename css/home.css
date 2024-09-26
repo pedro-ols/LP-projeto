@@ -33,7 +33,8 @@ body {
 .main-nav {
     align-items: center;
     display: flex;
-    margin-left: 800px;
+    gap: 30px;
+    margin-left: 60vh;
 }
 
 .main-text{
@@ -73,7 +74,7 @@ a:hover {
     border-radius: 3px;
     width: 100%;
     margin-top: 0px;
-    height: 200px;
+    height: 30vh;
 }
 
 .greetings {

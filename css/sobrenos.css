@@ -33,7 +33,8 @@ body {
 .main-nav {
     align-items: center;
     display: flex;
-    margin-left: 750px;
+    gap: 30px;
+    margin-left: 60vh;
 }
 
 .main-text{
