@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+.site-header {
+    height: 125px;
+    width: 100%;
+    background-color: #E30613;
+    color: white;
+    align-items: center;
+    display: flex;
+}
+
+.main-nav {
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    margin-left: 60vh;
+}
+
+.carreiras-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    font-size: 50px;
+    color: #681413;
+}
+
+.main-text{
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+}
+
+.site-footer {
+    text-align: center;
+    background-color: #9a1915;
+    color: #ffffff;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 15px;
+    margin-top: 100px;
+}
+
+.contact-info {
+    margin-bottom: 5px;
+}
+
+.author-name {
+    color: #dccacb;
+    margin-bottom: 5px;
+}
+
+.author-email {
+    margin-bottom: 5px;
+}
+
+.email-link {
+    color: #2e89e4;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.membros-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 5rem;
+    left: 35rem;
+}
+
+.carreira-div {
+    font-size: 16px;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    width: 300px;
+    height: 180px;
+    flex-flow: wrap;
+}
+
+.carreira-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: black;
+}
+
+.estagio-main {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin-bottom: 20px;
+}
+
+.estagio-container {   
+    gap: 5rem;
+}
+
+.estagio-div {
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    width: 300px;
+    height: 180px;
+    display: flex;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+}
+
