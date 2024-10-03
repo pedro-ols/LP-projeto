@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-    
+
 }
 
 a {
@@ -36,8 +36,14 @@ body {
     gap: 30px;
     margin-left: 60vh;
 }
+.grupo {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
 
-.main-text{
+.main-text {
     font-size: 20px;
     text-align: center;
     display: flex;
@@ -66,7 +72,7 @@ a:hover {
     color: #681413;
 }
 
-.membros-container{
+.membros-container {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -86,7 +92,7 @@ a:hover {
     width: 400px;
     border-radius: 50px;
     margin-top: 20px;
-    border: #681413 solid 5px; 
+    border: #681413 solid 5px;
 }
 
 .site-footer {
@@ -138,15 +144,15 @@ a:hover {
     margin-top: 15px;
 }
 
-.group-image{
-    justify-content: center;
+.group-image {
     display: flex;
+    justify-content: center;
     align-items: center;
     margin-top: 30px;
     margin-bottom: 30px;
     border: #681413 solid 8px;
+    width: 50rem;
 }
-
 
 .membros-title {
     font-size: 20px;
@@ -159,7 +165,6 @@ a:hover {
     font-size: 16px;
     margin: 15px;
     background-color: #9a1915;
-    background-image: url(../img/);
     color: aliceblue;
     border-radius: 70px;
     width: 750px;
