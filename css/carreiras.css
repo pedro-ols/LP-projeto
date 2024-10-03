@@ -73,6 +73,9 @@
     justify-content: center;
     gap: 500px;
     margin-top: 50px;
+    position: absolute;
+    left: 35rem;
+    flex-flow: row wrap;
 }
 
 .carreira-div {
@@ -87,9 +90,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative  ;
+    position: relative;
     right: 45vh;
-    bottom: 6vh;
-    font-size: 25px;
+    font-size: 20px;
+    color: black;
 }
-
