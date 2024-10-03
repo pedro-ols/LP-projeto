@@ -22,7 +22,7 @@ body {
 }
 
 .site-header {
-    height: 125px;
+    height: 7.8125rem;
     width: 100%;
     background-color: #E30613;
     color: white;
@@ -59,12 +59,12 @@ a:hover {
     height: 50px;
 }
 
-.home-title {
+.title {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 3vh;
-    font-size: 35px;
+    margin: 2rem;
+    font-size: 2.1875rem;
     color: #681413;
 }
 
@@ -73,7 +73,7 @@ a:hover {
     border-radius: 3px;
     width: 100%;
     margin-top: 0px;
-    height: 60vh;
+    height: 40rem;
 }
 
 .greetings {
@@ -88,6 +88,43 @@ a:hover {
     display: flex;
     align-items: center;
     margin: 20px;
+}
+
+.interviews-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+}
+
+.block, .block-2 {
+    height: 15rem;
+    width: 25rem;
+    background-color: #ff0000;
+    border-radius: 2rem;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+}
+
+.block-2 {
+    margin: 2rem;
+}
+
+.news-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+}
+
+.news-block {
+    height: 15rem;
+    width: 25rem;
+    background-color: #ff0000;
+    border-radius: 2rem;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    margin-bottom: 2rem;
 }
 
 .site-footer {
