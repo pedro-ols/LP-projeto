@@ -139,27 +139,33 @@ a:hover {
 }
 
 .group-image{
-    justify-content: center;
     display: flex;
-    align-items: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     border: #681413 solid 8px;
+    width: 25rem;
 }
-
-
+.group-image img{
+    width: 100%;
+    height: 100%;
+}
+.grupo{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
 .membros-title {
     font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .membro-div {
     font-size: 16px;
     margin: 15px;
     background-color: #9a1915;
-    background-image: url(../img/);
+    background-image: url();
     color: aliceblue;
     border-radius: 70px;
     width: 750px;
