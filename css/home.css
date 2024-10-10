@@ -6,10 +6,6 @@
 
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
 
 body {
     background-color: ghostwhite;
@@ -55,9 +51,11 @@ body {
     font-weight: bold;
     transition: 0.2s;
     overflow-wrap: unset;
+    text-decoration: none;
+    color: white;
 }
 
-a:hover {
+.nav-item a:hover {
     color: #000000;
 }
 
@@ -66,13 +64,21 @@ a:hover {
     height: auto;
 }
 
-.title {
+.title-a {  
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 2rem;
     font-size: 2.1875rem;
     color: #681413;
+    text-decoration: none;
+}
+
+.title-a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    color: #F52C2C;
 }
 
 .main-image {
@@ -99,11 +105,12 @@ a:hover {
     text-align: center;
 }
 
-.interviews-div, .news-carousel, .simulados {
+.interviews-div, .news-carousel {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8rem;
+    gap: 5rem;
+
 }
 
 .block, .block-2, .news-block, .carrers-block {
@@ -123,19 +130,24 @@ a:hover {
     margin-bottom: 2rem;
 }
 
-.simulados-topics {
-    width: 40rem;
-}
-
-.simulados-title {
+.simulados {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 8%;
+    margin: 2%;
+}
+
+.simulados-topics {
+    width: 35rem;
+}
+
+.simulados-title {
     font-size: 1.25rem;
     font-weight: bold;
     color: #E30613;
-    padding: 0.5rem;
     margin-bottom: 1rem;
+    position: relative;
 }
 
 .simulados-block {
@@ -155,9 +167,9 @@ a:hover {
     color: white;
     font-weight: bold;
     font-size: 1.3rem;
-    align-items: center;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .simulados-button {
@@ -165,8 +177,7 @@ a:hover {
     border-radius: 100%;
     height: 3rem;
     width: 3rem;
-    position: relative;
-    left: 5rem;
+    margin-left: 1rem;
 }
 
 .simulados-button:hover {
@@ -198,7 +209,8 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 25rem;
+    width: 24.7rem;
+    margin-left: 0.1rem;
     margin-bottom: 8rem;
     font-weight: bold;
     font-size: 1.7rem;
@@ -206,10 +218,32 @@ a:hover {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
+.carreiras-div {
+    display: flex;
+}
+
+.carrers-block1 {
+    background-image: url(/img/professor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carrers-block2 {
+    background-image: url(/img/escritor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carrers-block3 {
+    background-image: url(/img/juiz.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .carrers-block:hover .carrers-name {
-    width: 0;
-    transition: width 0.8s, opacity 0.8s;
-    opacity: 0;
+    background-color: #681413;
+    opacity: 1;
+    transition: 0.3s ease;
 }
 
 .site-footer {
