@@ -6,10 +6,6 @@
 
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
 
 body {
     background-color: ghostwhite;
@@ -55,9 +51,11 @@ body {
     font-weight: bold;
     transition: 0.2s;
     overflow-wrap: unset;
+    text-decoration: none;
+    color: white;
 }
 
-a:hover {
+.nav-item a:hover {
     color: #000000;
 }
 
@@ -65,22 +63,39 @@ a:hover {
     width: 80%;
     height: auto;
 }
+.section-title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
-.title {
+.title-a {  
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 2rem;
     font-size: 2.1875rem;
     color: #681413;
+    text-decoration: none;
+    width: 100%;
+}
+
+.title-a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    color: #F52C2C;
+}
+.title{
+    display: flex;
+    align-self: center;
 }
 
 .main-image {
     width: 100%;
-    height: 40rem;
+    height: auto;
     margin-top: 0;
-    border: 0.25rem solid black;
-    border-radius: 0.1875rem;
+    border: #000000 solid 0.25rem;
 }
 
 .greetings {
@@ -99,11 +114,12 @@ a:hover {
     text-align: center;
 }
 
-.interviews-div, .news-carousel, .simulados {
+.interviews-div, .news-carousel {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8rem;
+    gap: 5rem;
+
 }
 
 .block, .block-2, .news-block, .carrers-block {
@@ -123,19 +139,23 @@ a:hover {
     margin-bottom: 2rem;
 }
 
-.simulados-topics {
-    width: 40rem;
-}
-
-.simulados-title {
+.simulados {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.25rem;
-    font-weight: bold;
-    color: #E30613;
-    padding: 0.5rem;
+    gap: 8%;
+    margin: 2%;
+}
+
+.simulados-topics {
+    width: 35rem;
+}
+
+.simulados-title {
+    font-size: 1.5rem;
+    color: #8F1A1A;
     margin-bottom: 1rem;
+    position: relative;
 }
 
 .simulados-block {
@@ -155,9 +175,9 @@ a:hover {
     color: white;
     font-weight: bold;
     font-size: 1.3rem;
-    align-items: center;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .simulados-button {
@@ -165,8 +185,7 @@ a:hover {
     border-radius: 100%;
     height: 3rem;
     width: 3rem;
-    position: relative;
-    left: 5rem;
+    margin-left: 1rem;
 }
 
 .simulados-button:hover {
@@ -198,7 +217,8 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 25rem;
+    width: 24.7rem;
+    margin-left: 0.1rem;
     margin-bottom: 8rem;
     font-weight: bold;
     font-size: 1.7rem;
@@ -206,31 +226,58 @@ a:hover {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
+.carreiras-div {
+    display: flex;
+}
+
+.carrers-block1 {
+    background-image: url(/img/professor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carrers-block2 {
+    background-image: url(/img/escritor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carrers-block3 {
+    background-image: url(/img/juiz.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .carrers-block:hover .carrers-name {
-    width: 0;
-    transition: width 0.8s, opacity 0.8s;
-    opacity: 0;
+    background-color: #681413;
+    opacity: 1;
+    transition: 0.3s ease;
 }
 
 .site-footer {
     display: flex;
-    flex-direction: column;
+    text-align: center;
     background-color: #E30613;
-    height: 17.5rem;
-    color: white;
+    color: #ffffff;
+    flex-direction: column;
+    font-size: 15px;
+    height: 23rem;
     border-top: 0.125rem solid black;
+    width: 100%;
 }
 
 .footer-img {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .footer-senai {
-    height: 8vh;
-    width: 60vh;
+    height: auto;
+    width: 32%;
     margin: 0.625rem;
+    margin-bottom: 18px;
 }
 
 .bar-footer .site-footer p {
@@ -239,7 +286,7 @@ a:hover {
 }
 
 .contact-info {
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
 }
 
 .site-footer p {
@@ -263,9 +310,37 @@ a:hover {
 }
 
 .footer-text-section{
-    background-color: #681413;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     justify-content: center;
     align-items: center;
+    margin-top: 2.5rem;
+    text-align: center;
+}
+
+.footer-horizontal {
+    background-color: #ffffff;
+    height: 0.75vh;
+    width: 50%;
+}
+
+.footer-vertical{
+    background-color: #ffffff;
+    border-right: 3px;
+    width: 8px;
+    height: 70%;
+    margin-top: 15px;
+}
+
+.footer-bottom{
+    background-color: #9A1915;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    margin-top: 15px;
+    
+    /* text-align: justify; */
+
 }

@@ -109,11 +109,11 @@ a:hover {
 }
 
 .person-photo {
-    height: 400px;
-    width: 400px;
-    border-radius: 50px;
-    margin-top: 20px;
-    border: #681413 solid 5px;
+    height: 25rem;
+    width: 25rem;
+    border-radius: 3.125rem;
+    margin-top: 1.25rem;
+    border: #681413 solid 0.313rem;
 }
 
 .site-footer {
@@ -123,25 +123,25 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
-    font-size: 15px;
+    font-size: 0.938rem;
 }
 
 .site-footer p {
-    margin-bottom: 8px;
-    margin-top: 8px;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
 }
 
 .contact-info {
-    margin-bottom: 5px;
+    margin-bottom: 0.313rem;
 }
 
 .author-name {
     color: #dccacb;
-    margin-bottom: 5px;
+    margin-bottom: 0.313rem;
 }
 
 .author-email {
-    margin-bottom: 5px;
+    margin-bottom: 0.313rem;
 }
 
 .email-link {
@@ -154,22 +154,22 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    font-size: 25px;
+    margin-top: 1.25rem;
+    font-size: 1.563rem;
 }
 
 .nos-text {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 15px;
+    margin-top: 0.938rem;
 }
 
 .group-image{
     display: flex;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    border: #681413 solid 8px;
+    border: #681413 solid 0.5rem;
     width: 25rem;
 }
 .group-image img{
@@ -187,9 +187,9 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    border: #681413 solid 8px;
+    margin-top: 1.875rem;
+    margin-bottom: 1.875rem;
+    border: #681413 solid 0.5rem;
     width: 50rem;
 }
 
@@ -200,20 +200,20 @@ a:hover {
     align-items: center;
 }
 .membro-div {
-    font-size: 16px;
-    margin: 15px;
+    font-size: 1rem;
+    margin: 0.938rem;
     background-color: #9a1915;
     color: aliceblue;
-    border-radius: 70px;
+    border-radius: 4.375rem;
     width: 40rem;
-    height: 600px;
+    height: 37.5rem;
     text-align: center;
-    border: #681413 solid 8px;
+    border: #681413 solid 0.5rem;
 }
 .hide-icon{
     transform: rotate(90deg);
 }
 
 .people-text {
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
