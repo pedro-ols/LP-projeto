@@ -1,0 +1,98 @@
+:root {
+    --background-color: white;
+    --title-color: #681413;
+    --description-color: black;
+    --name-color: #8F1A1A;
+    --button-background: #9a1915;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+.main-title {
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.dicas-title {
+    font-size: 4rem;
+    color: var(--title-color);
+    font-weight: bold;
+}
+
+.dicas-description {
+    font-size: 1.5rem;
+    color: var(--description-color);
+    font-weight: bold;
+}
+
+.dicas-article {
+    margin: 4rem;
+}
+
+.dicas-name {
+    font-size: 2rem;
+    color: var(--name-color);
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.dicas-explanation {
+    font-size: 1.5rem;
+    color: var(--description-color);
+}
+
+.greetings {
+    margin: 4rem;
+}
+
+.greetings-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--title-color);
+    font-size: 2.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.greetings-description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.greetings-button-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.greetings-button {
+    height: 3rem;
+    width: 12rem;
+    font-size: 1rem;
+    color: var(--description-color);
+    transition: 0.2s ease-in-out;
+    background-color: var(--background-color);
+    border-radius: 0.5rem;
+}
+
+.greetings-button:hover {
+    cursor: pointer;
+    background-color: var(--button-background);
+    color: white;
+}
+
+.button-ahref {
+   text-decoration: none;
+   color: var(--description-color); 
+}
