@@ -1,15 +1,16 @@
-var button = document.getElementById("action-btn");
-var container = document.getElementById("group-image");
+var hideButton = document.getElementById("hide-action-btn");
+var groupImage = document.getElementById("group-image-div");
 
 
-button.addEventListener("click", function() {   
+hideButton.addEventListener("click", function() {   
     console.log('ativou função') 
+    var display = window.getComputedStyle(groupImage).display;
     
-    if(container.style.display !== "none"){
-        container.style.display = "none";
+    if(display !== "none"){
+        groupImage.style.display = "none";
         console.log('ativou if')
     }else{
-        container.style.display = "flex";
+        groupImage.style.display = "flex";
         console.log('ativou else')
     };
 });
