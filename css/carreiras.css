@@ -5,15 +5,6 @@
     overflow-x: hidden;
 }
 
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    overflow-x: hidden;
-
-}
-
 a {
     text-decoration: none;
     color: white;
@@ -57,6 +48,7 @@ body {
     width: 70%;
     justify-content: space-around;
 }
+
 .nav-item a {
     font-size: 1.1rem;
     font-weight: bold;
