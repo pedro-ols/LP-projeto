@@ -205,6 +205,97 @@ a:hover {
     justify-content: center;
 }
 
+.site-footer {
+    display: flex;
+    text-align: center;
+    background-color: #E30613;
+    color: #ffffff;
+    flex-direction: column;
+    font-size: 15px;
+    height: 23rem;
+    border-top: 0.125rem solid black;
+    width: 100%;
+}
+
+.footer-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-senai {
+    height: auto;
+    width: 32%;
+    margin: 0.625rem;
+    margin-bottom: 18px;
+}
+
+.bar-footer .site-footer p {
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.contact-info {
+    margin-bottom: 5px;
+}
+
+.site-footer p {
+    margin: 0.5rem 0;
+}
+
+.contact-info, .author-name, .author-email {
+    margin-bottom: 0.3125rem;
+}
+
+.email-link {
+    color: #2e89e4;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.copy-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text-section{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+    text-align: center;
+}
+
+.footer-horizontal {
+    background-color: #ffffff;
+    height: 0.75vh;
+    width: 50%;
+}
+
+.footer-vertical{
+    background-color: #ffffff;
+    border-right: 3px;
+    width: 8px;
+    height: 70%;
+    margin-top: 15px;
+}
+
+.footer-bottom{
+    background-color: #9A1915;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    margin-top: 15px;
+    
+    /* text-align: justify; */
+
+}
+
 @media (max-width: 600px) {
     .membros-container {
         flex-direction: column;
