@@ -74,6 +74,14 @@ a:hover {
     color: #681413;
 }
 
+.saudacoes-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
 .main-text{
     font-size: 20px;
     text-align: center;
@@ -117,6 +125,7 @@ a:hover {
     margin-top: 50px;
     gap: 5rem;
     left: 35rem;
+    ;
 }
 
 .carreira-div {
@@ -129,10 +138,11 @@ a:hover {
 }
 
 .carreira-text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     position: relative;
+    color: black;
+}
+
+.carreira-profissao {
     color: black;
 }
 
@@ -159,3 +169,11 @@ a:hover {
     border-right: 5px solid black;
 }
 
+.carrer-name {
+    font-weight: bold;
+}
+
+.carreira-photo {
+    height: 11rem;
+    width: 300px;
+}
