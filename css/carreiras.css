@@ -5,15 +5,6 @@
     overflow-x: hidden;
 }
 
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    overflow-x: hidden;
-
-}
-
 a {
     text-decoration: none;
     color: white;
@@ -57,6 +48,7 @@ body {
     width: 70%;
     justify-content: space-around;
 }
+
 .nav-item a {
     font-size: 1.1rem;
     font-weight: bold;
@@ -77,13 +69,21 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 30px;
-    font-size: 50px;
+    margin: 1.875rem;
+    font-size: 3.125rem;
     color: #681413;
 }
 
+.saudacoes-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.25rem;
+    font-size: 1.563rem;
+}
+
 .main-text{
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: center;
     display: flex;
 }
@@ -95,21 +95,21 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
-    font-size: 15px;
-    margin-top: 100px;
+    font-size: 0.938rem;
+    margin-top: 6.25rem;
 }
 
 .contact-info {
-    margin-bottom: 5px;
+    margin-bottom: 0.313rem;
 }
 
 .author-name {
     color: #dccacb;
-    margin-bottom: 5px;
+    margin-bottom: 0.313rem;
 }
 
 .author-email {
-    margin-bottom: 5px;
+    margin-bottom: 0.313rem;
 }
 
 .email-link {
@@ -122,25 +122,27 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 3.125rem;
     gap: 5rem;
     left: 35rem;
+    ;
 }
 
 .carreira-div {
-    font-size: 16px;
+    font-size: 1rem;
     background-color: #D9D9D9;
-    border-radius: 20px;
-    width: 300px;
-    height: 180px;
+    border-radius: 1.25rem;
+    width: 18.75rem;
+    height: 11.25rem;
     flex-flow: wrap;
 }
 
 .carreira-text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     position: relative;
+    color: black;
+}
+
+.carreira-profissao {
     color: black;
 }
 
@@ -150,7 +152,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     gap: 4rem;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .estagio-container {   
@@ -159,11 +161,24 @@ a:hover {
 
 .estagio-div {
     background-color: #D9D9D9;
-    border-radius: 20px;
-    width: 300px;
-    height: 180px;
+    border-radius: 1.25rem;
+    width: 18.75rem;
+    height: 11.25rem;
     display: flex;
-    border-bottom: 5px solid black;
-    border-right: 5px solid black;
+    border-bottom: 0.313rem solid black;
+    border-right: 0.313rem solid black;
 }
 
+.carrer-name {
+    font-weight: bold;
+}
+
+.carreira-photo {
+    height: 10.75rem;
+    width: 18.75rem;
+}
+
+.h6 {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -11,6 +11,7 @@
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+
 }
 
 a {
@@ -78,9 +79,10 @@ a:hover {
 }
 
 .dicas-title {
-    font-size: 4rem;
+    font-size: 3rem;
     color: var(--title-color);
     font-weight: bold;
+    margin: 1rem;
 }
 
 .dicas-description {
