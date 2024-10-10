@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-    
+
 }
 
 a {
@@ -37,7 +37,7 @@ body {
     margin-left: 60vh;
 }
 
-.main-text{
+.main-text {
     font-size: 20px;
     text-align: center;
     display: flex;
@@ -83,7 +83,7 @@ a:hover {
     font-size: 30px;
 }
 
-.main-text{
+.main-text {
     justify-content: center;
     display: flex;
     align-items: center;
@@ -113,12 +113,11 @@ a:hover {
     margin: 10px;
 }
 
-.bar-footer
-
-.site-footer p {
+.bar-footer .site-footer p {
     margin-bottom: 8px;
     margin-top: 8px;
 }
+
 .contact-info {
     margin-bottom: 5px;
 }
@@ -144,4 +143,10 @@ a:hover {
     justify-content: center;
     margin: 10px;
 }
-
+.footer-text-section{
+    background-color: #681413;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}

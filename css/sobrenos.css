@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-    
+
 }
 
 a {
@@ -17,12 +17,25 @@ body {
     font-optical-sizing: auto;
 }
 
+.header-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
 .nav-image {
-    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 30%;
 }
 
 .site-header {
-    height: 125px;
+    height: 7rem;
     width: 100%;
     background-color: #E30613;
     color: white;
@@ -31,33 +44,40 @@ body {
 }
 
 .main-nav {
-    align-items: center;
     display: flex;
-    gap: 30px;
-    margin-left: 60vh;
+    align-items: center;
+    width: 70%;
+    justify-content: space-around;
+}
+.nav-item a {
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: 0.2s;
+    overflow-wrap: unset;
 }
 
-.main-text{
+a:hover {
+    color: #000000;
+}
+
+.senai-image {
+    width: 80%;
+    height: auto;
+}
+
+.grupo {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text {
     font-size: 20px;
     text-align: center;
     display: flex;
 }
 
-.nav-item a {
-    font-size: 20px;
-    font-weight: bold;
-    margin: 15px;
-    transition: 0.2s;
-}
-
-a:hover {
-    color: #000000;
-    text-decoration: underline;
-}
-
-.senai-image {
-    height: 50px;
-}
 
 .site-title {
     text-align: center;
@@ -66,16 +86,13 @@ a:hover {
     color: #681413;
 }
 
-.membros-container{
+.membros-container {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
 }
 
 .sobrenos-title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin-top: 20px;
     font-size: 50px;
     color: #681413;
@@ -86,7 +103,7 @@ a:hover {
     width: 400px;
     border-radius: 50px;
     margin-top: 20px;
-    border: #681413 solid 5px; 
+    border: #681413 solid 5px;
 }
 
 .site-footer {
@@ -138,6 +155,7 @@ a:hover {
     margin-top: 15px;
 }
 
+<<<<<<< HEAD
 .group-image{
     display: flex;
     margin-top: 2rem;
@@ -155,6 +173,18 @@ a:hover {
     justify-content: center;
     align-items: center;
 }
+=======
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: #681413 solid 8px;
+    width: 50rem;
+}
+
+>>>>>>> c38262bad70bad83baa929852b8fa1e79c144061
 .membros-title {
     font-size: 20px;
     display: flex;
@@ -165,13 +195,19 @@ a:hover {
     font-size: 16px;
     margin: 15px;
     background-color: #9a1915;
+<<<<<<< HEAD
     background-image: url();
+=======
+>>>>>>> c38262bad70bad83baa929852b8fa1e79c144061
     color: aliceblue;
     border-radius: 70px;
-    width: 750px;
+    width: 40rem;
     height: 600px;
     text-align: center;
     border: #681413 solid 8px;
+}
+.hide-icon{
+    transform: rotate(90deg);
 }
 
 .people-text {
