@@ -93,6 +93,13 @@ a:hover {
 
 .dicas-article {
     margin: 4rem;
+    width: 90%;
+    height: auto;
+    border: 0.5rem solid #9a1915;
+    border-top-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    background-color: ghostwhite;
+    padding: 2.5rem;
 }
 
 .dicas-name {
