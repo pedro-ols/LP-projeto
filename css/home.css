@@ -3,16 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-<<<<<<< HEAD
 
-=======
->>>>>>> 1ce069ff0fc09a38c2f82329fd6bd24c56a1db18
 }
 
 a {
     text-decoration: none;
     color: white;
-    transition: 0.2s;
 }
 
 body {
@@ -21,48 +17,52 @@ body {
     font-optical-sizing: auto;
 }
 
-.site-header {
-    display: flex;
-    align-items: center;
-    height: 7.8125rem;
+.header-container{
     width: 100%;
-    background-color: #E30613;
-    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
 }
 
 .nav-image {
-    margin-left: 6.25rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 30%;
+}
+
+.site-header {
+    height: 7rem;
+    width: 100%;
+    background-color: #E30613;
+    color: white;
+    align-items: center;
+    display: flex;
 }
 
 .main-nav {
     display: flex;
     align-items: center;
-    gap: 1.875rem;
-    margin-left: 60vh;
+    width: 70%;
+    justify-content: space-around;
 }
-
-<<<<<<< HEAD
-.main-text {
-    font-size: 20px;
-    text-align: center;
-    display: flex;
-}
-
-=======
->>>>>>> 1ce069ff0fc09a38c2f82329fd6bd24c56a1db18
 .nav-item a {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     font-weight: bold;
-    margin: 0.9375rem;
+    transition: 0.2s;
+    overflow-wrap: unset;
 }
 
 a:hover {
     color: #000000;
-    text-decoration: underline;
 }
 
 .senai-image {
-    height: 3.125rem;
+    width: 80%;
+    height: auto;
 }
 
 .title {
@@ -90,10 +90,7 @@ a:hover {
 }
 
 .main-text {
-<<<<<<< HEAD
-=======
     display: flex;
->>>>>>> 1ce069ff0fc09a38c2f82329fd6bd24c56a1db18
     justify-content: center;
     align-items: center;
     margin: 1.25rem;
@@ -235,7 +232,6 @@ a:hover {
     margin: 0.625rem;
 }
 
-<<<<<<< HEAD
 .bar-footer .site-footer p {
     margin-bottom: 8px;
     margin-top: 8px;
@@ -243,10 +239,10 @@ a:hover {
 
 .contact-info {
     margin-bottom: 5px;
-=======
+}
+
 .site-footer p {
     margin: 0.5rem 0;
->>>>>>> 1ce069ff0fc09a38c2f82329fd6bd24c56a1db18
 }
 
 .contact-info, .author-name, .author-email {
@@ -263,9 +259,8 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0.625rem;
 }
-<<<<<<< HEAD
+
 .footer-text-section{
     background-color: #681413;
     display: flex;
@@ -273,5 +268,3 @@ a:hover {
     justify-content: center;
     align-items: center;
 }
-=======
->>>>>>> 1ce069ff0fc09a38c2f82329fd6bd24c56a1db18
