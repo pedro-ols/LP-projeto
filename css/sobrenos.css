@@ -17,12 +17,25 @@ body {
     font-optical-sizing: auto;
 }
 
+.header-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
 .nav-image {
-    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 30%;
 }
 
 .site-header {
-    height: 125px;
+    height: 7rem;
     width: 100%;
     background-color: #E30613;
     color: white;
@@ -31,11 +44,27 @@ body {
 }
 
 .main-nav {
-    align-items: center;
     display: flex;
-    gap: 30px;
-    margin-left: 60vh;
+    align-items: center;
+    width: 70%;
+    justify-content: space-around;
 }
+.nav-item a {
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: 0.2s;
+    overflow-wrap: unset;
+}
+
+a:hover {
+    color: #000000;
+}
+
+.senai-image {
+    width: 80%;
+    height: auto;
+}
+
 .grupo {
     display: flex;
     flex-flow: column wrap;
@@ -49,21 +78,6 @@ body {
     display: flex;
 }
 
-.nav-item a {
-    font-size: 20px;
-    font-weight: bold;
-    margin: 15px;
-    transition: 0.2s;
-}
-
-a:hover {
-    color: #000000;
-    text-decoration: underline;
-}
-
-.senai-image {
-    height: 50px;
-}
 
 .site-title {
     text-align: center;
@@ -79,9 +93,6 @@ a:hover {
 }
 
 .sobrenos-title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin-top: 20px;
     font-size: 50px;
     color: #681413;
@@ -144,7 +155,7 @@ a:hover {
     margin-top: 15px;
 }
 
-.group-image {
+#container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -167,10 +178,13 @@ a:hover {
     background-color: #9a1915;
     color: aliceblue;
     border-radius: 70px;
-    width: 750px;
+    width: 40rem;
     height: 600px;
     text-align: center;
     border: #681413 solid 8px;
+}
+.hide-icon{
+    transform: rotate(90deg);
 }
 
 .people-text {
