@@ -63,6 +63,11 @@ body {
     width: 80%;
     height: auto;
 }
+.section-title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
 .title-a {  
     display: flex;
@@ -72,6 +77,7 @@ body {
     font-size: 2.1875rem;
     color: #681413;
     text-decoration: none;
+    width: 100%;
 }
 
 .title-a:hover {
@@ -79,6 +85,10 @@ body {
     cursor: pointer;
     transition: 0.3s ease-in-out;
     color: #F52C2C;
+}
+.title{
+    display: flex;
+    align-self: center;
 }
 
 .main-image {
@@ -143,9 +153,8 @@ body {
 }
 
 .simulados-title {
-    font-size: 1.25rem;
-    font-weight: bold;
-    color: #E30613;
+    font-size: 1.5rem;
+    color: #8F1A1A;
     margin-bottom: 1rem;
     position: relative;
 }
