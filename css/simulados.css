@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: ghostwhite;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.header-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.nav-image {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 30%;
+}
+
+.site-header {
+    height: 7rem;
+    width: 100%;
+    background-color: #E30613;
+    color: white;
+    align-items: center;
+    display: flex;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: space-around;
+}
+.nav-item a {
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: 0.2s;
+    overflow-wrap: unset;
+}
+
+a:hover {
+    color: #000000;
+}
+
+.senai-image {
+    width: 80%;
+    height: auto;
+}
+
+.site-footer {
+    display: flex;
+    text-align: center;
+    background-color: #E30613;
+    color: #ffffff;
+    flex-direction: column;
+    font-size: 15px;
+    height: 23rem;
+    border-top: 0.125rem solid black;
+    width: 100%;
+}
+
+.footer-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-senai {
+    height: auto;
+    width: 32%;
+    margin: 0.625rem;
+    margin-bottom: 18px;
+}
+
+.bar-footer .site-footer p {
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.contact-info {
+    margin-bottom: 5px; 
+}
+
+.site-footer p {
+    margin: 0.5rem 0;
+}
+
+.contact-info, .author-name, .author-email {
+    margin-bottom: 0.3125rem;
+}
+
+.email-link {
+    color: #2e89e4;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.copy-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text-section{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+    text-align: center;
+}
+
+.footer-horizontal {
+    background-color: #ffffff;
+    height: 0.75vh;
+    width: 50%;
+}
+
+.footer-vertical{
+    background-color: #ffffff;
+    border-right: 3px;
+    width: 8px;
+    height: 70%;
+    margin-top: 15px;
+}
+
+.footer-bottom{
+    background-color: #9A1915;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    margin-top: 15px;
+    
+    /* text-align: justify; */
+
+}
