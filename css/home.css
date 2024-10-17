@@ -141,10 +141,9 @@ body {
 
 .simulados {
     display: flex;
-    align-items: center;
     justify-content: center;
-    gap: 8%;
-    margin: 2%;
+    align-items: center;
+    margin-left: 8%;
 }
 
 .simulados-topics {
@@ -155,12 +154,11 @@ body {
     font-size: 1.5rem;
     color: #8F1A1A;
     margin-bottom: 1rem;
-    position: relative;
 }
 
 .simulados-block {
     height: 8rem;
-    width: 100%;
+    width: 25rem;   
     background-image: linear-gradient(to bottom, #F52C2C, #8F1A1A);
     border-radius: 1rem;
     margin-bottom: 1rem;
