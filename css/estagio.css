@@ -1,18 +1,9 @@
-:root {
-    --background-color: white;
-    --title-color: #681413;
-    --text-color: black;
-    --default-red: #E30613;
-    --mid-red: #9A1915;
-}
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-    font-family: "Montserrat";
-    font-optical-sizing: auto;
+
 }
 
 a {
@@ -58,6 +49,7 @@ body {
     width: 70%;
     justify-content: space-around;
 }
+
 .nav-item a {
     font-size: 1.1rem;
     font-weight: bold;
@@ -74,90 +66,154 @@ a:hover {
     height: auto;
 }
 
-.greetings {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+.carreiras-title {
+    text-align: center;
+    margin: 1.875rem;
+    font-size: 3.125rem;
+    color: #681413;
+    bottom: 0.5rem;
 }
 
-.simulados-title {
-    font-size: 3.125rem;
-    color: var(--title-color);
+.main-text{
+    font-size: 1.75rem;
+    text-align: center;
     margin: 1rem;
 }
 
-.descricao-simulados {
-    text-align: center;
-    color: var(--text-color);
-    font-weight: normal;
+
+
+.contact-info {
+    margin-bottom: 0.313rem;
 }
 
-main {
+.author-name {
+    color: #dccacb;
+    margin-bottom: 0.313rem;
+}
+
+.author-email {
+    margin-bottom: 0.313rem;
+}
+
+.email-link {
+    color: #2e89e4;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.membros-container {
+    display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: center;
-    display: flex;
-    margin: auto;
-    width: 85%;
-    flex-direction: column;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 3.125rem;
+    gap: 5rem;
+    left: 35rem;
+
 }
 
-.simulados-container{
+.carreira-div {
+    font-size: 1rem;
+    background-color: #D9D9D9;
+    border-radius: 1.25rem;
+    height: 40%;
+    width: 25%;
+    flex-flow: wrap;
+    margin: 2%;
+    border-bottom: 0.5rem solid black;
+    border-right: 0.5rem solid black;
+}
+
+.carreira-text {
+    color: black;
+}
+
+.carreira-profissao {
+    color: black;
+}
+
+.estagio-main {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin-bottom: 1.25rem;
+    text-align: center;
+}
+
+.estagio-div {
+    background-color: #D9D9D9;
+    border-radius: 1.25rem;
+    width: 18.75rem;
+    height: 11.25rem;
+    display: flex;
+    border-bottom: 0.313rem solid black;
+    border-right: 0.313rem solid black;
+    margin-left: 20%;
+}
+
+.carrer-name {
+    font-weight: bold;
+}
+
+.carreira-photo {
     width: 100%;
-    height: 40rem;
+    height: 100%;
+    margin: 0;
     display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
-    align-items: center;
 }
 
-.simulado-block{
-    width: 80%;
-    height: 12rem;
-    display: flex;
-    flex-flow: row;
-    justify-content: space-between;
-    align-items: center;
-    background-image: linear-gradient(to right, var(--default-red), var(--mid-red), var(--default-red));
-    border-top-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
-    color: var(--background-color);
-    font-size: 2rem;
-    border: var(--title-color) solid 0.5rem;
+.h6 {
+    font-size: 1.063rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.start{
-    width: 30%;
+.estagio-container {
+    margin-top: 1rem;
+    gap: 5rem;
+    font-size: 1.75rem;
+    flex-direction: row;
+    margin: 0.1rem;
+}
+
+.letras {
+    position: relative;
+    left: -1.2rem;
+}
+
+.estagio-div {
+    height: 10rem;
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.carrer-estagio {
+    width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
-    flex-flow: row ;
-}
-
-.simulado-type{
-    width: 40%;
-    display: flex;
     justify-content: center;
 }
 
-.start-button{
-    width: 50%;
-    height: 50%;
-    align-self: flex-end;
-    background: rgba(255, 255, 255, 0.8);
-    border-radius: 100%;
-}
-
-.start-button:hover{
-    opacity: 70%;
-}
-.simulado-link{
-    width: 50%;
+.nome-estagio {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 1.875rem;
+    font-size: 2.7rem;
+    color: #681413;
+    margin: -0.2rem   ;
+}
+
+.estagio-text {
+    font-size: 1.4rem;
+}
+
+.linkedin {
+    color:blue
 }
 
 .site-footer {
@@ -249,4 +305,45 @@ main {
     
     /* text-align: justify; */
 
+}
+
+@media (max-width: 600px) {
+    .membros-container {
+        flex-direction: column;
+    }
+
+    .carreira-div {
+        height: 10rem;
+        width: 20rem;
+    }
+
+    .carreira-photo {
+        height: 100%;
+        width: 100%;
+    }
+
+    .estagio-container {
+        flex-direction: column;
+        margin-top: 0%;
+    }
+
+    .carrer-estagio {
+        width: 100%;
+        height: 100%;
+    }
+
+    .estagio-text {
+        margin: 1.2rem;
+        font-size: 1.25rem;
+    }
+
+    .carrer-estagio {
+        margin-right: 100%;
+    }
+
+    .main-text{
+        font-size: 0.75rem;
+        text-align: center;
+        margin: 1rem;
+    }
 }
