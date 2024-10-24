@@ -2,6 +2,8 @@
     --background-color: white;
     --title-color: #681413;
     --text-color: black;
+    --default-red: #E30613;
+    --mid-red: #9A1915;
 }
 
 * {
@@ -9,7 +11,8 @@
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-
+    font-family: "Montserrat";
+    font-optical-sizing: auto;
 }
 
 a {
@@ -101,53 +104,60 @@ main {
     margin-bottom: 2rem;
 }
 
-.simulado-block {
+.simulados-container{
     width: 100%;
-    height: 7.5rem;
-    background-image: linear-gradient(to right, #F52C2C, #8F1A1A);
-    background-repeat: none;
-    margin: 1rem;
-    border-radius: 1.25rem;
-    align-items: center;
+    height: 40rem;
     display: flex;
-    border: 2px solid black;
-    justify-content: space-between;
-}
-
-.simulado-type {
-    font-size: 2rem;
-    color: var(--background-color);
-    font-weight: bold;
-    margin-left: 5rem;
-    white-space: nowrap;
-}
-
-.start {
+    flex-flow: column wrap;
+    justify-content: space-around;
     align-items: center;
+}
+
+.simulado-block{
+    width: 80%;
+    height: 12rem;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right, var(--default-red), var(--mid-red), var(--default-red));
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    color: var(--background-color);
+    font-size: 2rem;
+    border: var(--title-color) solid 0.5rem;
+}
+
+.start{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-flow: row ;
+}
+
+.simulado-type{
+    width: 40%;
     display: flex;
     justify-content: center;
-    position: relative;
-    left: 25rem;
 }
 
-.start-text {
-    color: var(--background-color);
-    font-weight: bold;
-    font-size: 2rem;
-    margin-right: 1.5rem;
-}
-
-.start-button {
-    width: 12.5%;
-    height: auto;
-    background-color: var(--background-color);
+.start-button{
+    width: 50%;
+    height: 50%;
+    align-self: flex-end;
+    background: rgba(255, 255, 255, 0.8);
     border-radius: 100%;
-    margin-right: 0.25rem;
 }
 
-.start-button:hover {
-    opacity: 0.85;
-    cursor: pointer;
+.start-button:hover{
+    opacity: 70%;
+}
+.simulado-link{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .site-footer {
