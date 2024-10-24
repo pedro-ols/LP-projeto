@@ -49,6 +49,7 @@ body {
     width: 70%;
     justify-content: space-around;
 }
+
 .nav-item a {
     font-size: 1.1rem;
     font-weight: bold;
@@ -66,34 +67,20 @@ a:hover {
 }
 
 .carreiras-title {
-    margin-top: 1rem;
     text-align: center;
+    margin: 1.875rem;
     font-size: 3.125rem;
     color: #681413;
-}
-
-.saudacoes-title{
-    text-align: center;
-    margin: 0.5em;
-    font-size: 215%;
+    bottom: 0.5rem;
 }
 
 .main-text{
-    font-size: 145%;
+    font-size: 1.75rem;
     text-align: center;
     margin: 1rem;
 }
 
-.site-footer {
-    text-align: center;
-    background-color: #9a1915;
-    color: #ffffff;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    font-size: 0.938rem;
-    margin-top: 6.25rem;
-}
+
 
 .contact-info {
     margin-bottom: 0.313rem;
@@ -121,6 +108,7 @@ a:hover {
     margin-top: 3.125rem;
     gap: 5rem;
     left: 35rem;
+
 }
 
 .carreira-div {
@@ -128,15 +116,15 @@ a:hover {
     background-color: #D9D9D9;
     border-radius: 1.25rem;
     height: 40%;
-    width: 30%;
+    width: 25%;
     flex-flow: wrap;
     margin: 2%;
+    border-bottom: 0.5rem solid black;
+    border-right: 0.5rem solid black;
 }
 
 .carreira-text {
-    position: relative;
     color: black;
-    font-size: 150% ;
 }
 
 .carreira-profissao {
@@ -144,15 +132,13 @@ a:hover {
 }
 
 .estagio-main {
-    flex-direction: column;
+    flex-direction: row;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
     gap: 4rem;
     margin-bottom: 1.25rem;
     text-align: center;
-    margin: 2rem;
 }
 
 .estagio-div {
@@ -183,10 +169,16 @@ a:hover {
 }
 
 .estagio-container {
+    margin-top: 1rem;
     gap: 5rem;
     font-size: 1.75rem;
     flex-direction: row;
     margin: 0.1rem;
+}
+
+.letras {
+    position: relative;
+    left: -1.2rem;
 }
 
 .estagio-div {
@@ -204,6 +196,24 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.nome-estagio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.875rem;
+    font-size: 2.7rem;
+    color: #681413;
+    margin: -0.2rem   ;
+}
+
+.estagio-text {
+    font-size: 1.4rem;
+}
+
+.linkedin {
+    color:blue
 }
 
 .site-footer {
@@ -312,14 +322,9 @@ a:hover {
         width: 100%;
     }
 
-    .estagio-main {
-        margin: 1rem;
-        flex-direction: column;
-    }
-
     .estagio-container {
-        margin-top: 0%;
         flex-direction: column;
+        margin-top: 0%;
     }
 
     .carrer-estagio {
@@ -328,8 +333,8 @@ a:hover {
     }
 
     .estagio-text {
-        margin: 1rem;
-        font-size: 0.30rem;
+        margin: 1.2rem;
+        font-size: 1.25rem;
     }
 
     .carrer-estagio {
@@ -337,11 +342,8 @@ a:hover {
     }
 
     .main-text{
+        font-size: 0.75rem;
         text-align: center;
         margin: 1rem;
-    }
-
-    .carreira-text{
-        text-align: center;
     }
 }
