@@ -49,7 +49,6 @@ body {
     width: 70%;
     justify-content: space-around;
 }
-
 .nav-item a {
     font-size: 1.1rem;
     font-weight: bold;
@@ -59,11 +58,6 @@ body {
 
 a:hover {
     color: #000000;
-}
-
-.senai-image {
-    width: 80%;
-    height: auto;
 }
 
 .carreiras-title {
