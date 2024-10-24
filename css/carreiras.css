@@ -60,6 +60,11 @@ a:hover {
     color: #000000;
 }
 
+.senai-image {
+    width: 80%;
+    height: auto;
+}
+
 .carreiras-title {
     margin-top: 1rem;
     text-align: center;
