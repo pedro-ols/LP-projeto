@@ -1,0 +1,73 @@
+:root {
+    --background-color: ghostwhite;
+    --title-color: #681413;
+    --text-color: black;
+    --light-color: #E30613;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.header-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.nav-image {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 30%;
+}
+
+.site-header {
+    height: 7rem;
+    width: 100%;
+    background-color: #E30613;
+    color: white;
+    align-items: center;
+    display: flex;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: space-around;
+}
+.nav-item a {
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: 0.2s;
+    overflow-wrap: unset;
+}
+
+a:hover {
+    color: #000000;
+}
+
+.senai-image {
+    width: 80%;
+    height: auto;
+}
+
