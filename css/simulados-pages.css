@@ -1,5 +1,5 @@
 :root {
-    --background-color: white;
+    --background-color: ghostwhite;
     --title-color: #681413;
     --text-color: black;
     --light-color: #E30613;
@@ -146,6 +146,28 @@ label {
 
 .input:hover{
     background-color: rgb(red, green, blue);    
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.submit-button {
+    height: 5rem;
+    width: 20rem;
+    background-color: #e90313;
+    border-radius: 1rem;
+    font-size: 1.7rem;
+    transition: 0.2s ease-in-out;
+}
+
+.submit-button:hover {
+    background-color: #a81e1e;
+    cursor: pointer;
+    color: rgb(236, 236, 236);
 }
 
 .site-footer {
