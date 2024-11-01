@@ -2,19 +2,38 @@ Link para o site hospedado em vercel:
 https://lp-projeto.vercel.app/
 
 
-Pontos à fazer/aprimorar
-*
-Melhorar a organização
-- Trello
-- Deixar menos desigual a quantidade de commits
-Documentar semanalmente
-Melhorar e padronizar o design do site
-- Padronizar os subtitulos
-- Padronizar os titulos de cada pagina do site
-- Padronizar os textos
-- Adicionar uma root padrão para todo site
-Adicionar e também melhorar o javascript presente dentro do site
-- Adicionar Javascript em simulados
-- Adicionar um carrossel na Home
-- Adicionar o menu
-*
+Pedro Oliveira
+- Melhorar a organização no Trello
+- Padronizar subtítulos
+- Padronizar títulos de cada página do site
+- Padronizar textos
+- Adicionar transição nas páginas
+- Adicionar o Menu
+- Deixar o design mais profissional
+
+Souza
+- Adicionar uma root padrão para todo o site
+- Melhorar o design dos botões
+- Revisar seção "Sobre Nós" (junto com Raphaelle)
+
+Vitor Argeri
+- Ajustar o footer *FEITO*
+- Inserir tabelas em Simulados
+- Adicionar JavaScript em Simulados
+- Adicionar carrossel na Home
+
+Raphaelle
+- Eliminar o "funilamento" nas páginas de estágio e carreiras
+- Adicionar questões nos simulados
+- Revisar seção "Sobre Nós" (junto com Souza)
+- Inserir links nas páginas de carreiras
+
+Miguel Sarti
+- Adicionar formulário de Contato
+- Revisar toda a Index
+
+---
+
+Caso Haja Tempo 
+- Adicionar PDFs para ajudar no estudo
+- Incluir métodos de estudo e influenciadores em dicas
