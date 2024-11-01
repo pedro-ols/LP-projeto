@@ -349,10 +349,29 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10rem;
-    margin-top: 15px;
+    margin-top: 12.5px;
     /* text-align: justify; */
 }
 
 .footer-title-negrito {
     font-weight: bold;
+}
+
+@media (max-width: 900px) {
+    .header-container{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: space-around;
+    } 
+    .main-nav {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-around;
+    }
+    
 }

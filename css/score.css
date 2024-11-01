@@ -6,8 +6,8 @@
 }
 
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
     overflow-x: hidden;
 }
@@ -18,7 +18,7 @@ a {
 }
 
 body {
-    background-color: ghostwhite;
+    background-color: var(--background-color);
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
 }
@@ -71,103 +71,30 @@ a:hover {
     height: auto;
 }
 
-.greetings {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-}
-
-.simulados-title {
-    font-size: 3.125rem;
-    color: var(--title-color);
-    margin: 1rem;
-}
-
-.goodluck {
-    text-align: center;
-    color: var(--text-color);
-    font-weight: bold;
-    font-size: 2rem;
-    position: relative;
-    bottom: 0.5rem;
-}
-
-.questions-container {
-    position: relative;
-    left: 16%;
-}
-
-.specific-question {
-    white-space: normal;
-    width: 80%;
-    margin: auto;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-}
-
-.question-number {
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-.entire-question {
-    font-size: 2rem;
-    font-weight: normal;
-}
-
-.answer-type {
-    display: flex;
-    align-items: center;
-    background-image: linear-gradient(to bottom, #F52C2C, #8F1A1A);
-    border-radius: 0.75rem;
-    border: 1px solid black;
-    background-repeat: no-repeat;
-    height: 4rem;
+.title {
     margin-top: 1rem;
-    width: 60%;
+    text-align: center;
+    font-size: 3.125rem;
+    color: #681413;
 }
 
-input {
-    position: absolute;
-    left: 54%;
-    height: 2rem;
-    width: 2rem;
-    cursor: pointer;
-}
-
-label {
-    font-size: 1.25rem;
-    color: var(--background-color);
+.greetings {
+    font-size: 1.5rem;
+    color: var(--description-color);
     font-weight: bold;
-    position: relative; 
-    left: 3.25%;
-}
-
-.input:hover{
-    background-color: rgb(red, green, blue);    
-}
-
-.button {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 2rem;
+    margin-top: 1rem;
 }
 
-.submit-button {
-    height: 5rem;
-    width: 20rem;
-    background-color: #e90313;
-    border-radius: 1rem;
-    font-size: 1.7rem;
-    transition: 0.2s ease-in-out;
-}
-
-.submit-button:hover {
-    background-color: #a81e1e;
-    cursor: pointer;
-    color: rgb(236, 236, 236);
+.scores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 40vh;
 }
 
 .site-footer {
@@ -318,21 +245,3 @@ label {
 
 }
 
-@media (max-width: 900px) {
-    .header-container{
-        width: 100%;
-        height: 80%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        align-content: center;
-        justify-content: space-around;
-    } 
-    .main-nav {
-        display: flex;
-        align-items: center;
-        width: 100%;
-        justify-content: space-around;
-    }
-    
-}

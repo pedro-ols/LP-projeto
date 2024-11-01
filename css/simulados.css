@@ -160,6 +160,7 @@ main {
     justify-content: center;
 }
 
+
 .site-footer {
     display: flex;
     text-align: center;
@@ -199,7 +200,9 @@ main {
     margin: 0.5rem 0;
 }
 
-.contact-info, .author-name, .author-email {
+.contact-info,
+.author-name,
+.author-email {
     margin-bottom: 0.3125rem;
 }
 
@@ -215,7 +218,8 @@ main {
     justify-content: center;
 }
 
-.footer-text-section{
+.footer-text-section {
+    width: 20rem;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -226,27 +230,52 @@ main {
 
 .footer-horizontal {
     background-color: #ffffff;
+    overflow: hidden;
     height: 0.75vh;
     width: 50%;
 }
 
-.footer-vertical{
+.footer-vertical {
     background-color: #ffffff;
     border-right: 3px;
     width: 8px;
     height: 70%;
     margin-top: 15px;
+    display: flex;
+    align-items: center;
+    display: flex;
 }
 
-.footer-bottom{
+.footer-bottom {
     background-color: #9A1915;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 10rem;
-    margin-top: 15px;
-    
+    margin-top: 12.5px;
     /* text-align: justify; */
+}
 
+.footer-title-negrito {
+    font-weight: bold;
+}
+
+@media (max-width: 900px) {
+    .header-container{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: space-around;
+    } 
+    .main-nav {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-around;
+    }
+    
 }
