@@ -1,18 +1,8 @@
-:root {
-    --background-color: white;
-    --title-color: #681413;
-    --text-color: black;
-    --default-red: #E30613;
-    --mid-red: #9A1915;
-}
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-    font-family: "Montserrat";
-    font-optical-sizing: auto;
 }
 
 a {
@@ -68,98 +58,6 @@ body {
 a:hover {
     color: #000000;
 }
-
-.senai-image {
-    width: 80%;
-    height: auto;
-}
-
-.greetings {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-}
-
-.simulados-title {
-    font-size: 3.125rem;
-    color: var(--title-color);
-    margin: 1rem;
-}
-
-.descricao-simulados {
-    text-align: center;
-    color: var(--text-color);
-    font-weight: normal;
-}
-
-main {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin: auto;
-    width: 85%;
-    flex-direction: column;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
-.simulados-container{
-    width: 100%;
-    height: 40rem;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.simulado-block{
-    width: 80%;
-    height: 12rem;
-    display: flex;
-    flex-flow: row;
-    justify-content: space-between;
-    align-items: center;
-    background-image: linear-gradient(to right, var(--default-red), var(--mid-red), var(--default-red));
-    border-top-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
-    color: var(--background-color);
-    font-size: 2rem;
-    border: var(--title-color) solid 0.5rem;
-}
-
-.start{
-    width: 30%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    flex-flow: row ;
-}
-
-.simulado-type{
-    width: 40%;
-    display: flex;
-    justify-content: center;
-}
-
-.start-button{
-    width: 50%;
-    height: 50%;
-    align-self: flex-end;
-    background: rgba(255, 255, 255, 0.8);
-    border-radius: 100%;
-}
-
-.start-button:hover{
-    opacity: 70%;
-}
-.simulado-link{
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 
 .site-footer {
     display: flex;
@@ -253,29 +151,10 @@ main {
     justify-content: center;
     align-items: center;
     gap: 10rem;
-    margin-top: 12.5px;
+    margin-top: 15px;
     /* text-align: justify; */
 }
 
 .footer-title-negrito {
     font-weight: bold;
-}
-
-@media (max-width: 900px) {
-    .header-container{
-        width: 100%;
-        height: 80%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        align-content: center;
-        justify-content: space-around;
-    } 
-    .main-nav {
-        display: flex;
-        align-items: center;
-        width: 100%;
-        justify-content: space-around;
-    }
-    
 }

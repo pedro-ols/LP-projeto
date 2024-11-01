@@ -250,14 +250,16 @@ a:hover {
 }
 
 .contact-info {
-    margin-bottom: 5px; 
+    margin-bottom: 5px;
 }
 
 .site-footer p {
     margin: 0.5rem 0;
 }
 
-.contact-info, .author-name, .author-email {
+.contact-info,
+.author-name,
+.author-email {
     margin-bottom: 0.3125rem;
 }
 
@@ -273,7 +275,8 @@ a:hover {
     justify-content: center;
 }
 
-.footer-text-section{
+.footer-text-section {
+    width: 20rem;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -284,19 +287,23 @@ a:hover {
 
 .footer-horizontal {
     background-color: #ffffff;
+    overflow: hidden;
     height: 0.75vh;
     width: 50%;
 }
 
-.footer-vertical{
+.footer-vertical {
     background-color: #ffffff;
     border-right: 3px;
     width: 8px;
     height: 70%;
     margin-top: 15px;
+    display: flex;
+    align-items: center;
+    display: flex;
 }
 
-.footer-bottom{
+.footer-bottom {
     background-color: #9A1915;
     display: flex;
     flex-direction: row;
@@ -304,9 +311,13 @@ a:hover {
     align-items: center;
     gap: 10rem;
     margin-top: 15px;
-    
     /* text-align: justify; */
+}
 
+<<<<<<< HEAD
+.footer-title-negrito {
+    font-weight: bold;
+=======
 }
 
 
@@ -327,4 +338,5 @@ a:hover {
         justify-content: space-around;
     }
     
+>>>>>>> cd177f90e31ca429ef9485e68f92d2c53e9069ba
 }
