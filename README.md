@@ -18,7 +18,7 @@ Souza
 
 Vitor Argeri
 - Ajustar o footer *FEITO*
-- Inserir tabelas em Simulados
+- Inserir tabelas em Simulados *FEITO*
 - Adicionar JavaScript em Simulados
 - Adicionar carrossel na Home
 
