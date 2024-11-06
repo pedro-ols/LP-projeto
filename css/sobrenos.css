@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-
 }
 
 a {
@@ -314,12 +313,9 @@ a:hover {
     /* text-align: justify; */
 }
 
-<<<<<<< HEAD
 .footer-title-negrito {
     font-weight: bold;
-=======
 }
-
 
 @media (max-width: 900px) {
     .header-container{
@@ -338,5 +334,4 @@ a:hover {
         justify-content: space-around;
     }
     
->>>>>>> cd177f90e31ca429ef9485e68f92d2c53e9069ba
 }
