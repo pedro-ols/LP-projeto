@@ -52,4 +52,4 @@ Caso Haja Tempo
 - Adicionar animações
 
 Data de conclusão
-28/11 
+28/11  
