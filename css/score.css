@@ -1,15 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: "Montserrat";
+    font-optical-sizing: auto;
+    text-align: justify;
+}
 :root {
     --background-color: ghostwhite;
     --title-color: #681413;
     --text-color: black;
     --light-color: #E30613;
-}
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    overflow-x: hidden;
 }
 
 a {
