@@ -116,8 +116,24 @@ a:hover {
 }
 
 .entire-question {
-    font-size: 2rem;
-    font-weight: normal;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    font-size: 1.25rem;
+    margin: 2.5rem;
+    font-weight: 450;
+}
+
+.entire-question-text {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    font-size: 1.25rem;
+    margin: 2.5rem;
+    font-weight: 450;
+    text-indent: 2rem;
 }
 
 .answer-type {
@@ -130,6 +146,9 @@ a:hover {
     height: 4rem;
     margin-top: 1rem;
     width: 60%;
+    font-size: 1rem;
+    font-weight: normal;
+    text-align: justify;
 }
 
 input {
@@ -141,7 +160,7 @@ input {
 }
 
 label {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     color: var(--background-color);
     font-weight: bold;
     position: relative; 
