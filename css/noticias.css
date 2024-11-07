@@ -38,6 +38,7 @@ body {
     color: white;
     align-items: center;
     display: flex;
+    border-bottom: #000000 solid 0.25rem;
 }
 
 .main-nav {
@@ -80,6 +81,9 @@ main {
 .title {
     font-size: 2rem;
     margin: 1rem 15rem 1rem 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .subtitle {
