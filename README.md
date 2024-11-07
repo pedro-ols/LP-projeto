@@ -39,11 +39,11 @@ Vitor Argeri
 Raphaelle
 - Eliminar o "funilamento" nas páginas de estágio e carreiras
 - Revisar seção "Sobre Nós" (junto com Souza)
-- Inserir links nas páginas de carreiras
+- Inserir links nas páginas de carreiras e estágio
 
 Miguel Sarti
 - Adicionar formulário de Contato
-- Adicionar as notícias
+- Adicionar as notícias 
 - Arrumar a página de carreiras
 
 Caso Haja Tempo 
@@ -51,4 +51,5 @@ Caso Haja Tempo
 - Incluir métodos de estudo e influenciadores em dicas
 - Adicionar animações
 
-Data 
+Data de conclusão
+28/11 
