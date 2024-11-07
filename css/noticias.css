@@ -8,18 +8,13 @@
     text-align: justify;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
-
 body {
     background-color: ghostwhite;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
 }
 
-.header-container{
+.header-container {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -51,15 +46,73 @@ body {
     width: 70%;
     justify-content: space-around;
 }
+
 .nav-item a {
     font-size: 1.1rem;
     font-weight: bold;
     transition: 0.2s;
     overflow-wrap: unset;
+    text-decoration: none;
+    color: white;
 }
 
-a:hover {
+.nav-item a:hover {
     color: #000000;
+}
+
+.senai-image {
+    width: 80%;
+    height: auto;
+}
+
+main {
+    margin: 0.875rem;
+    width: 100%;
+}
+
+.main-informations {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 2rem;
+    margin: 1rem 15rem 1rem 15rem;
+}
+
+.subtitle {
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 15rem 1rem 15rem;
+}
+
+.author-and-date {
+    flex-direction: column;
+    margin-right: 80rem;
+}
+
+.author {
+    font-size: 1rem;
+}
+
+.date {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.entire-news p {
+    font-size: 1.25rem;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    margin: 0rem 17.5rem 0rem 17.5rem;
+    text-indent: 2rem;
 }
 
 .site-footer {
