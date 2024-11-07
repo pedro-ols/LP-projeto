@@ -89,7 +89,6 @@ a:hover {
 }
 
 .goodluck {
-    text-align: center;
     color: var(--text-color);
     font-weight: bold;
     font-size: 2rem;
@@ -176,7 +175,6 @@ label {
 
 .site-footer {
     display: flex;
-    text-align: center;
     background-color: #E30613;
     color: #ffffff;
     flex-direction: column;
@@ -238,7 +236,6 @@ label {
     justify-content: center;
     align-items: center;
     margin-top: 2.5rem;
-    text-align: center;
 }
 
 .footer-horizontal {
@@ -292,7 +289,6 @@ label {
     justify-content: center;
     align-items: center;
     margin-top: 2.5rem;
-    text-align: center;
 }
 
 .footer-horizontal {

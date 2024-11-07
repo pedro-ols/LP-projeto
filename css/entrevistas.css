@@ -78,8 +78,21 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 3rem;
 }
+.teacher-description {
+    width: 70%;
+    margin-bottom: 3rem;
+}
+
+.video-transcript {
+    width: 70vw;
+    margin: 1rem;
+    text-indent: 2rem;
+}
+
 .video-container {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,20 +101,16 @@ a:hover {
 
 .video-block {
     width: 70%;
-    height: 40rem;
-    background-color: #9A1915;
-    border: #000000 solid 0.5rem;
-    border-radius: 3rem;
-    margin-top: 7%;
-    margin-bottom: 5%;
+    height: 50rem;
+    border: 0.5rem solid #9a1915;   
+    border-top-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
 }
 .video-description {
     font-size: 1.5rem;
-    margin-bottom: 12%;
 }
 .site-footer {
     display: flex;
-    text-align: center;
     background-color: #E30613;
     color: #ffffff;
     flex-direction: column;
@@ -143,7 +152,19 @@ a:hover {
 .author-email {
     margin-bottom: 0.3125rem;
 }
+.transcription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-align: justify;
+}
 
+.entrevistas-h1 {
+    margin-bottom: 1rem;
+}
 .email-link {
     color: #2e89e4;
     text-decoration: none;
@@ -163,7 +184,6 @@ a:hover {
     justify-content: center;
     align-items: center;
     margin-top: 2.5rem;
-    text-align: center;
 }
 
 .footer-horizontal {
@@ -192,7 +212,6 @@ a:hover {
     align-items: center;
     gap: 10rem;
     margin-top: 15px;
-    /* text-align: justify; */
 }
 
 .footer-title-negrito {

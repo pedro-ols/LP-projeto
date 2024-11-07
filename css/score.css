@@ -77,7 +77,6 @@ a:hover {
 
 .title {
     margin-top: 1rem;
-    text-align: center;
     font-size: 3.125rem;
     color: #681413;
 }
@@ -111,7 +110,6 @@ table {
 th, td {
     border: 2px solid black;
     padding: 1.5rem;
-    text-align: center;
 }
 
 td {
@@ -139,7 +137,6 @@ td {
 
 .site-footer {
     display: flex;
-    text-align: center;
     background-color: #E30613;
     color: #ffffff;
     flex-direction: column;
@@ -201,7 +198,6 @@ td {
     justify-content: center;
     align-items: center;
     margin-top: 2.5rem;
-    text-align: center;
 }
 
 .footer-horizontal {
@@ -230,7 +226,6 @@ td {
     align-items: center;
     gap: 10rem;
     margin-top: 15px;
-    /* text-align: justify; */
 }
 
 .footer-title-negrito {
@@ -255,7 +250,6 @@ td {
     justify-content: center;
     align-items: center;
     margin-top: 2.5rem;
-    text-align: center;
 }
 
 .footer-horizontal {
@@ -280,8 +274,5 @@ td {
     align-items: center;
     gap: 10rem;
     margin-top: 15px;
-    
-    /* text-align: justify; */
-
 }
 

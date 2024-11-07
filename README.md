@@ -14,6 +14,7 @@ Pedro Oliveira
 Souza
 - Adicionar uma root padrão para todo o site
 - Melhorar o design dos botões
+- Adicionar questões nos simulados
 - Revisar seção "Sobre Nós" (junto com Raphaelle)
 
 Vitor Argeri
@@ -24,7 +25,6 @@ Vitor Argeri
 
 Raphaelle
 - Eliminar o "funilamento" nas páginas de estágio e carreiras
-- Adicionar questões nos simulados
 - Revisar seção "Sobre Nós" (junto com Souza)
 - Inserir links nas páginas de carreiras
 
