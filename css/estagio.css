@@ -78,7 +78,6 @@ a:hover {
 
 .main-text{
     font-size: 1.75rem;
-    text-align: center;
     margin: 1rem;
 }
 
@@ -140,7 +139,6 @@ a:hover {
     justify-content: center;
     gap: 4rem;
     margin-bottom: 1.25rem;
-    text-align: center;
 }
 
 .estagio-div {
@@ -220,7 +218,6 @@ a:hover {
 
 .site-footer {
     display: flex;
-    text-align: center;
     background-color: #E30613;
     color: #ffffff;
     flex-direction: column;
@@ -282,7 +279,6 @@ a:hover {
     justify-content: center;
     align-items: center;
     margin-top: 2.5rem;
-    text-align: center;
 }
 
 .footer-horizontal {
@@ -311,7 +307,6 @@ a:hover {
     align-items: center;
     gap: 10rem;
     margin-top: 15px;
-    /* text-align: justify; */
 }
 
 .footer-title-negrito {
@@ -340,8 +335,6 @@ a:hover {
     align-items: center;
     gap: 10rem;
     margin-top: 15px;
-    
-    /* text-align: justify; */
 
 }
 
@@ -398,7 +391,6 @@ a:hover {
 
     .main-text{
         font-size: 0.75rem;
-        text-align: center;
         margin: 1rem;
     }
 }

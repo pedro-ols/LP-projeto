@@ -89,7 +89,6 @@ a:hover {
 }
 
 .descricao-simulados {
-    text-align: center;
     color: var(--text-color);
     font-weight: normal;
 }
@@ -164,7 +163,6 @@ main {
 
 .site-footer {
     display: flex;
-    text-align: center;
     background-color: #E30613;
     color: #ffffff;
     flex-direction: column;
@@ -226,7 +224,6 @@ main {
     justify-content: center;
     align-items: center;
     margin-top: 2.5rem;
-    text-align: center;
 }
 
 .footer-horizontal {

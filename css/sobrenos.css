@@ -75,12 +75,10 @@ a:hover {
 
 .main-text {
     font-size: 20px;
-    text-align: center;
     display: flex;
 }
 
 .site-title {
-    text-align: center;
     font-size: 2em;
     font-weight: bolder;
     color: #681413;
@@ -117,7 +115,6 @@ a:hover {
 }
 
 .site-footer {
-    text-align: center;
     background-color: #9a1915;
     color: #ffffff;
     bottom: 0;
@@ -208,7 +205,6 @@ a:hover {
     border-radius: 4.375rem;
     width: 40rem;
     height: 37.5rem;
-    text-align: center;
     border: #681413 solid 0.5rem;
 }
 .hide-icon{
@@ -221,7 +217,6 @@ a:hover {
 
 .site-footer {
     display: flex;
-    text-align: center;
     background-color: #E30613;
     color: #ffffff;
     flex-direction: column;
@@ -283,7 +278,6 @@ a:hover {
     justify-content: center;
     align-items: center;
     margin-top: 2.5rem;
-    text-align: center;
 }
 
 .footer-horizontal {

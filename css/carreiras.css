@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-
+    text-align: justify;
 }
 
 a {
@@ -80,7 +80,6 @@ a:hover {
 
 .main-text{
     font-size: 145%;
-    text-align: center;
     margin: 1rem;
 }
 

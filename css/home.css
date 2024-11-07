@@ -116,7 +116,6 @@ body {
     align-items: center;
     margin: 1.25rem;
     font-size: 1.25rem;
-    text-align: center;
 }
 
 .interviews-div,
@@ -263,7 +262,6 @@ body {
 
 .site-footer {
     display: flex;
-    text-align: center;
     background-color: #E30613;
     color: #ffffff;
     flex-direction: column;
@@ -325,7 +323,6 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 2.5rem;
-    text-align: center;
 }
 
 .footer-horizontal {
@@ -354,7 +351,6 @@ body {
     align-items: center;
     gap: 10rem;
     margin-top: 12.5px;
-    /* text-align: justify; */
 }
 
 .footer-title-negrito {
