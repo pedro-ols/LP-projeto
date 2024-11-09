@@ -27,12 +27,13 @@ Souza
 Vitor Argeri
 - Ajustar o footer *FEITO*
 - Inserir tabelas em Simulados *FEITO*
-- Adicionar JavaScript em Simulados
+- Adicionar JavaScript em Simulados *FEITO*
+- Linkar o Javascript com a página de simulados
 - Adicionar carrossel na Home
 - Terminar de estruturar o css e o html das notícias 
 - Adicionar border-bottom em todas headers *FEITO*
 - Fazer relatório
-- Tirar os text-align: center
+- Tirar os text-align: center *FEITO*
 - Conseguir o Copilot para ajudar no desenvolvimento
 - Checar a identidade visual
 
