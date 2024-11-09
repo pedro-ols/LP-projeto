@@ -30,7 +30,7 @@ Vitor Argeri
 - Adicionar JavaScript em Simulados
 - Adicionar carrossel na Home
 - Terminar de estruturar o css e o html das notícias 
-- Adicionar border-bottom em todas headers
+- Adicionar border-bottom em todas headers *FEITO*
 - Fazer relatório
 - Tirar os text-align: center
 - Conseguir o Copilot para ajudar no desenvolvimento
