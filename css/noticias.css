@@ -121,7 +121,6 @@ main {
 
 .site-footer {
     display: flex;
-    text-align: center;
     background-color: #E30613;
     color: #ffffff;
     flex-direction: column;

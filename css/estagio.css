@@ -70,7 +70,9 @@ a:hover {
 }
 
 .carreiras-title {
-    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
     margin: 1.875rem;
     font-size: 3.125rem;
     color: #681413;
