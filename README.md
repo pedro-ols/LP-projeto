@@ -6,9 +6,12 @@ Todos
 - Melhorar a organização no Trello 
 
 Pedro Oliveira
-- Padronizar subtítulos
-- Padronizar títulos de cada página do site
-- Padronizar textos
+- Padrozinar o site:
+    Espaçamento dos Parágrafos,
+    Títulos,
+    Subtítulos,
+    Cores,
+    Textos
 - Adicionar transição nas páginas
 - Adicionar o Menu
 - Revisar toda a Index
@@ -30,7 +33,7 @@ Vitor Argeri
 - Adicionar JavaScript em Simulados *FEITO*
 - Linkar o Javascript com a página de simulados
 - Adicionar carrossel na Home
-- Terminar de estruturar o css e o html das notícias 
+- Terminar de estruturar o css e o html das notícias *FEITO*
 - Adicionar border-bottom em todas headers *FEITO*
 - Fazer relatório
 - Tirar os text-align: center *FEITO*
