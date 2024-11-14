@@ -76,7 +76,10 @@ a:hover {
 }
 
 .main-title {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     margin: 0.5rem;
 }
 
@@ -84,13 +87,14 @@ a:hover {
     font-size: 3rem;
     color: var(--title-color);
     font-weight: bold;
-    margin: 1rem;
+    margin: 2rem;
 }
-
-.dicas-description {
-    font-size: 1.5rem;
+.dicas-subtitle {
+    font-size: 2rem;
     color: var(--description-color);
     font-weight: bold;
+    align-self: center;
+    margin-bottom: 1.5rem;
 }
 
 .dicas-article {
@@ -110,7 +114,9 @@ a:hover {
     font-weight: bold;
     margin-bottom: 1rem;
 }
-
+.page-description{
+    width: 80%;
+}
 .dicas-explanation {
     font-size: 1.5rem;
     color: var(--description-color);
@@ -166,7 +172,6 @@ a:hover {
 
 .site-footer {
     display: flex;
-    text-align: center;
     background-color: #E30613;
     color: #ffffff;
     flex-direction: column;
@@ -228,7 +233,6 @@ a:hover {
     justify-content: center;
     align-items: center;
     margin-top: 2.5rem;
-    text-align: center;
 }
 
 .footer-horizontal {

@@ -27,19 +27,21 @@ Souza
 Vitor Argeri
 - Ajustar o footer *FEITO*
 - Inserir tabelas em Simulados *FEITO*
-- Adicionar JavaScript em Simulados
+- Adicionar JavaScript em Simulados *FEITO*
+- Linkar o Javascript com a página de simulados
 - Adicionar carrossel na Home
 - Terminar de estruturar o css e o html das notícias 
-- Adicionar border-bottom em todas headers
+- Adicionar border-bottom em todas headers *FEITO*
 - Fazer relatório
-- Tirar os text-align: center
+- Tirar os text-align: center *FEITO*
 - Conseguir o Copilot para ajudar no desenvolvimento
 - Checar a identidade visual
 
 Raphaelle
-- Eliminar o "funilamento" nas páginas de estágio e carreiras
 - Revisar seção "Sobre Nós" (junto com Souza)
 - Inserir links nas páginas de carreiras e estágio
+- Adicionar PDFs para ajudar no estudo
+- Incluir métodos de estudo e influenciadores em dicas
 
 Miguel Sarti
 - Adicionar formulário de Contato
@@ -47,8 +49,7 @@ Miguel Sarti
 - Arrumar a página de carreiras
 
 Caso Haja Tempo 
-- Adicionar PDFs para ajudar no estudo
-- Incluir métodos de estudo e influenciadores em dicas
+
 - Adicionar animações
 
 Data de conclusão
