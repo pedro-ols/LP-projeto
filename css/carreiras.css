@@ -67,11 +67,11 @@ a:hover {
 }
 
 .carreiras-title {
-    margin-top: 1rem;
+    margin: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 3.125rem;
+    font-size: 3rem;
     color: #681413;
 }
 
@@ -79,8 +79,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;    
-    margin: 0.5em;
-    font-size: 215%;
+    font-size: 2rem;
 }
 
 .main-text{

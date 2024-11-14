@@ -38,9 +38,10 @@ Vitor Argeri
 - Checar a identidade visual
 
 Raphaelle
-- Eliminar o "funilamento" nas páginas de estágio e carreiras
 - Revisar seção "Sobre Nós" (junto com Souza)
 - Inserir links nas páginas de carreiras e estágio
+- Adicionar PDFs para ajudar no estudo
+- Incluir métodos de estudo e influenciadores em dicas
 
 Miguel Sarti
 - Adicionar formulário de Contato
@@ -48,8 +49,7 @@ Miguel Sarti
 - Arrumar a página de carreiras
 
 Caso Haja Tempo 
-- Adicionar PDFs para ajudar no estudo
-- Incluir métodos de estudo e influenciadores em dicas
+
 - Adicionar animações
 
 Data de conclusão

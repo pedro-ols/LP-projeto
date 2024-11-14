@@ -10,7 +10,7 @@
 
 body {
     background-color: ghostwhite;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat";
     font-optical-sizing: auto;
 }
 
@@ -72,6 +72,9 @@ body {
     justify-content: center;
     flex-direction: column;
 }
+.page-subtitle{
+    font-size: 2rem;
+}
 
 .title-a {
     display: flex;
@@ -90,10 +93,19 @@ body {
     transition: 0.3s ease-in-out;
     color: #F52C2C;
 }
+.page-title{
+    font-size: 3rem;
+}
 
-.title {
+.title, .page-title {
     display: flex;
-    align-self: center;
+    margin: 2rem;
+    color: #681413;
+    text-decoration: none;
+    width: 100%;
+}
+.title{
+    font-size: 2.1875rem;
 }
 
 .main-image {
