@@ -104,22 +104,28 @@ a:hover {
     align-items: center;
     text-align: center;
     justify-content: center;
-    background-color: white;
+    background-color: ghostwhite;
     border: 2px solid black;
     display: flex;
-    height: 70vh;
     width: 60%;
+    height: calc(width * 10);
     margin-left: 10%;
     margin-right: 10%;
     border-radius: 3vh;
     opacity: 0.75rem;
     overflow: hidden;
     background-image: url(/img/1.jpg);
+    background-repeat: none;
+    background-size: cover;
     background-position: center;
 }
 
+form {
+    margin-top: 3vh;
+}
+
 .informations-box {
-    background-color: white;
+    background-color: ghostwhite;
     height: 100%;
     opacity: 0.75rem;
     justify-content: center;
@@ -129,7 +135,7 @@ a:hover {
 
 .nome-text, .email-text, .telefone-text, .sugestion-text  {
     color: #9A1915;
-    background-color: white;
+    background-color: ghostwhite;
     border-radius: 2vh;
     width: 12rem;
 }
@@ -155,7 +161,7 @@ a:hover {
 
 .text-contato {
     height: 7rem;
-    width: 40vh;
+    width: 100%;
     border-radius: 2.5vh;
     align-items: center;
     display: flex;
@@ -170,6 +176,23 @@ a:hover {
 ::placeholder {
     color: black;
     font-weight: bold;
+}
+
+.logo-app {
+    display: inline;
+    width: 5vh;
+    height: 5vh;
+    background-color: ghostwhite;
+    border-radius: 10vh;
+}
+
+.button-and-social-media {
+    display: flex;
+    margin-bottom: 3vh;
+}
+
+.gmail {
+    margin-left: 9rem;
 }
 
 .submit-contato {
