@@ -168,7 +168,8 @@ a:hover {
     margin-top: 2rem;
     margin-bottom: 2rem;
     border: #681413 solid 0.5rem;
-    width: 25rem;
+    width: 50%;
+    height: auto;
 }
 .group-image img{
     width: 100%;
@@ -206,6 +207,10 @@ a:hover {
     width: 40rem;
     height: 37.5rem;
     border: #681413 solid 0.5rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
 }
 .hide-icon{
     transform: rotate(90deg);
@@ -213,6 +218,7 @@ a:hover {
 
 .people-text {
     margin-top: 1.875rem;
+    width: 80%;
 }
 
 .site-footer {
