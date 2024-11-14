@@ -6,9 +6,12 @@ Todos
 - Melhorar a organização no Trello 
 
 Pedro Oliveira
-- Padronizar subtítulos
-- Padronizar títulos de cada página do site
-- Padronizar textos
+- Padrozinar o site
+    Espaçamento dos Parágrafos
+    Títulos
+    Subtítulos
+    Cores
+    Textos
 - Adicionar transição nas páginas
 - Adicionar o Menu
 - Revisar toda a Index
