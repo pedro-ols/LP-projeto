@@ -35,10 +35,10 @@ Vitor Argeri
 - Adicionar carrossel na Home
 - Terminar de estruturar o css e o html das notícias *FEITO*
 - Adicionar border-bottom em todas headers *FEITO*
-- Fazer relatório
 - Tirar os text-align: center *FEITO*
 - Conseguir o Copilot para ajudar no desenvolvimento
 - Checar a identidade visual
+- Adicionar animações
 
 Raphaelle
 - Revisar seção "Sobre Nós" (junto com Souza)
@@ -51,9 +51,5 @@ Miguel Sarti
 - Adicionar as notícias 
 - Arrumar a página de carreiras
 
-Caso Haja Tempo 
-
-- Adicionar animações
-
 Data de conclusão
-28/11  
+05/12  
