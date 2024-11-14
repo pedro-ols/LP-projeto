@@ -6,11 +6,11 @@ Todos
 - Melhorar a organização no Trello 
 
 Pedro Oliveira
-- Padrozinar o site
-    Espaçamento dos Parágrafos
-    Títulos
-    Subtítulos
-    Cores
+- Padrozinar o site:
+    Espaçamento dos Parágrafos,
+    Títulos,
+    Subtítulos,
+    Cores,
     Textos
 - Adicionar transição nas páginas
 - Adicionar o Menu
