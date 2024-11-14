@@ -51,6 +51,7 @@ body {
     color: white;
     align-items: center;
     display: flex;
+    border-bottom: #000000 solid 0.25rem;
 }
 
 .main-nav {
@@ -83,14 +84,15 @@ a:hover {
 }
 
 .simulados-title {
-    font-size: 3.125rem;
+    font-size: 3rem;
     color: var(--title-color);
-    margin: 1rem;
+    margin-bottom: 2rem;
 }
 
 .descricao-simulados {
     color: var(--text-color);
     font-weight: normal;
+    margin-bottom: 1rem;
 }
 
 main {
@@ -114,18 +116,18 @@ main {
 }
 
 .simulado-block{
+    color: var(--text-color);
     width: 80%;
     height: 12rem;
     display: flex;
     flex-flow: row;
     justify-content: space-between;
     align-items: center;
-    background-image: linear-gradient(to right, var(--default-red), var(--mid-red), var(--default-red));
     border-top-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
     color: var(--background-color);
     font-size: 2rem;
-    border: var(--title-color) solid 0.5rem;
+    border: var(--mid-red) solid 0.5rem;
 }
 
 .start{
@@ -134,12 +136,14 @@ main {
     display: flex;
     align-items: center;
     flex-flow: row ;
+    color: var(--text-color);
 }
 
 .simulado-type{
     width: 40%;
     display: flex;
     justify-content: center;
+    color: var(--text-color);
 }
 
 .start-button{

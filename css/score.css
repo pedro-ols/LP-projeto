@@ -49,8 +49,7 @@ body {
     color: white;
     align-items: center;
     display: flex;
-    /* Apresentar a ideia de colocar uma borda na header pro Pedro amanhã: 
-    border-bottom: 0.3125rem solid black; */
+    border-bottom: #000000 solid 0.25rem;
 }
 
 .main-nav {

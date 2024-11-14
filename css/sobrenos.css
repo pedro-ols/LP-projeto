@@ -42,6 +42,7 @@ body {
     color: white;
     align-items: center;
     display: flex;
+    border-bottom: #000000 solid 0.25rem;
 }
 
 .main-nav {
@@ -91,8 +92,8 @@ a:hover {
 }
 
 .sobrenos-title {
-    margin-top: 20px;
-    font-size: 50px;
+    margin: 2rem;
+    font-size: 3rem;
     color: #681413;
 }
 
@@ -152,8 +153,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 1.25rem;
-    font-size: 1.563rem;
+    font-size: 2rem;
 }
 
 .nos-text {
