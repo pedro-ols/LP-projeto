@@ -31,6 +31,7 @@ body {
     align-items: center;
     align-content: center;
     justify-content: center;
+    border-bottom: #9A1915 solid 0.25rem;
 }
 
 .sub-header{

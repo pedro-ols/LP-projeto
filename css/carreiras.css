@@ -19,11 +19,32 @@ body {
 
 .header-container{
     width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.nav-header{
+    width: 100%;
+    height: 60%;
     display: flex;
     flex-direction: row;
     align-items: center;
     align-content: center;
-    justify-content: space-between;
+    justify-content: center;
+    border-bottom: #9A1915 solid 0.25rem;
+}
+
+.sub-header{
+    width: 100%;
+    height: 40%;
+    background-color: #DDDDDD;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-image {
@@ -35,32 +56,41 @@ body {
 }
 
 .site-header {
-    height: 7rem;
+    height: 10rem;
     width: 100%;
     background-color: #E30613;
-    color: white;
     align-items: center;
     display: flex;
-    border-bottom: #000000 solid 0.25rem;
+   
 }
 
 .main-nav {
     display: flex;
     align-items: center;
-    width: 70%;
+    width: 100%;
     justify-content: space-around;
+
 }
-.nav-item a {
+.nav-item, .nav-item-active{
     font-size: 1.1rem;
     font-weight: bold;
     transition: 0.2s;
     overflow-wrap: unset;
 }
-
-a:hover {
-    color: #000000;
+.nav-item a, .nav-item-active a{
+    text-decoration: none;
+    color: rgb(68, 65, 65);
 }
-
+.nav-item-active{
+    background-color: rgb(247, 247, 250);
+    border-radius: 1rem;
+    width: 7rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
 .senai-image {
     width: 80%;
     height: auto;
