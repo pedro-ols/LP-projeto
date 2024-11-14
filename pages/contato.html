@@ -27,15 +27,48 @@
 
     <main class="main-contato">
         <h1 class="contato-title">Contato</h1>
-        <p class="main-text">Se você tiver alguma dúvida em relação ao site ou uma sugestão, insira suas informações abaixo:
-            <div class="contato-box">
+        <p class="main-text">Se você tiver alguma <strong>dúvida</strong> em relação ao site ou uma <strong>sugestão</strong>, insira suas informações abaixo:</p>
+<br>
+
+        <div class="contato-box">
             <form action="">
-                <input type="email" placeholder="Email:" class="email-contato">
+
+
+                <div class="form">
+                <h1 class="suas-informacoes">Suas informações:</h1>
                 <br>
-                <input type="text" placeholder="Sua sugestão/dúvida:" class="text-contato">
+
+                <h2 class="nome-text">Seu nome:</h2>
+                <input type="name" placeholder=" Nome:" class="nome-contato" required>
+                <br>
+
+                <h2 class="email-text">Seu email:</h2>
+                <input type="email" placeholder=" Email:" class="email-contato" required>
+                <br>
+
+                <h2 class="telefone-text">Seu telefone:</h2>
+                <input type="number" placeholder=" Telefone:" class="telefone-contato" required>
+                <br>
+                <h2 class="sugestion-text">Sua dúvida ou sugestão:</h2>
+                <textarea name="sugestion" class="text-contato" placeholder=" Sua dúvida ou sugestão:" required></textarea>
+
+                <br>
+
+                <div class="button-and-social-media">
+                    <button type="submit" class="submit-contato">Enviar</button>
+
+                    <p><a href="https://gmail.com"><img src="/img/gmail.png" alt="logo-gmail" class="logo-app gmail"></a></p>
+
+                    <p><a href="https://whatsapp.com"><img src="/img/whatsapp.png" alt="logo-whatsapp" class="logo-app"></a></p>
+                    
+                </div>
+                
+            </div>
             </form>
-        </p>
+            
         </div>
+        <br>
+        <p class="main-text">Sua pergunta ou sugestão pode ser <strong>respondida</strong> em até <strong>24h!</strong></p>
     </main>
 
     <footer class="site-footer">

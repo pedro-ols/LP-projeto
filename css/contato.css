@@ -79,32 +79,132 @@ a:hover {
     bottom: 0.5rem;
 }
 
+.main-contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .main-text{
     font-size: 1.75rem;
     margin: 1rem;
     text-align: center;
+    bottom: 2vh;
+    padding: 1vh;
 }
 
-.contact-info {
-    margin-bottom: 0.313rem;
+.suas-informacoes {
+    color: #000000;
+    letter-spacing: 0.1rem;
+    text-decoration: underline;
 }
 
-.author-name {
-    color: #dccacb;
-    margin-bottom: 0.313rem;
+.contato-box {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: ghostwhite;
+    border: 2px solid black;
+    display: flex;
+    width: 60%;
+    height: calc(width * 10);
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 3vh;
+    opacity: 0.75rem;
+    overflow: hidden;
+    background-image: url(/img/1.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
 }
 
-.author-email {
-    margin-bottom: 0.313rem;
+form {
+    margin-top: 3vh;
 }
 
-.email-link {
-    color: #2e89e4;
-    text-decoration: none;
-    transition: 0.5s;
+.informations-box {
+    background-color: ghostwhite;
+    height: 100%;
+    opacity: 0.75rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
+.nome-text, .email-text, .telefone-text, .sugestion-text  {
+    color: #9A1915;
+    background-color: ghostwhite;
+    border-radius: 2vh;
+    width: 12rem;
+}
 
+.nome-text, .email-text {
+    width: 9rem;
+}
+
+.sugestion-text {
+    width: 19.5rem;
+
+}
+
+.nome-contato, .email-contato, .telefone-contato {
+    height: 3rem;
+    width: 25vh;
+    background-color: white;
+    border-radius: 5vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.text-contato {
+    height: 7rem;
+    width: 100%;
+    border-radius: 2.5vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.text-contato::placeholder {
+    position: relative;
+    top: 1rem;
+}
+
+::placeholder {
+    color: black;
+    font-weight: bold;
+}
+
+.logo-app {
+    display: inline;
+    width: 5vh;
+    height: 5vh;
+    background-color: ghostwhite;
+    border-radius: 10vh;
+}
+
+.button-and-social-media {
+    display: flex;
+    margin-bottom: 3vh;
+}
+
+.gmail {
+    margin-left: 9rem;
+}
+
+.submit-contato {
+    width: 10vh;
+    height: 5vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 5vh;
+    background-color: #E30613;
+    color: #ffffff;
+}
 
 .site-footer {
     display: flex;
@@ -148,12 +248,6 @@ a:hover {
 .author-name,
 .author-email {
     margin-bottom: 0.3125rem;
-}
-
-.email-link {
-    color: #2e89e4;
-    text-decoration: none;
-    transition: 0.5s;
 }
 
 .copy-info {
