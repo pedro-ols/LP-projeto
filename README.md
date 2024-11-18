@@ -52,4 +52,4 @@ Miguel Sarti
 - Arrumar a página de carreiras
 
 Data de conclusão
-05/12  
+05/12 
