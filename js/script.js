@@ -1,8 +1,7 @@
 var hideButton = document.getElementById("hide-action-btn");
 var groupImage = document.getElementById("group-image-div");
 
-
-hideButton.addEventListener("click", function() {   
+hideButton.addEventListener("click", function() {
     console.log('ativou função') 
     var display = window.getComputedStyle(groupImage).display;
     
