@@ -146,21 +146,36 @@ form {
 
 .sugestion-text {
     width: 19.5rem;
+}
 
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+input:focus:-moz-placeholder { /* Firefox 18- */
+    color: transparent;  
+}
+
+input:focus::-moz-placeholder {  /* Firefox 19+ */
+    color: transparent;  
+}
+
+input:focus:-ms-input-placeholder {  
+    color: transparent;  
 }
 
 .nome-contato, .email-contato, .telefone-contato {
     height: 3rem;
     width: 25vh;
     background-color: white;
-    border-radius: 5vh;
+    border-radius: 3vh;
     align-items: center;
     display: flex;
     justify-content: center;
 }
 
 .text-contato {
-    height: 7rem;
+    height: 5rem;
     width: 100%;
     border-radius: 2.5vh;
     align-items: center;
@@ -178,21 +193,23 @@ form {
     font-weight: bold;
 }
 
-.logo-app {
-    display: inline;
-    width: 5vh;
-    height: 5vh;
-    background-color: ghostwhite;
-    border-radius: 10vh;
+.logo-app-whatsapp{
+    width: 7.5vh;
+    height: 7.5vh;
+    margin-top: -0.4rem;
 }
 
 .button-and-social-media {
     display: flex;
     margin-bottom: 3vh;
+    position: relative;
+    bottom: 2vh;
 }
 
-.gmail {
-    margin-left: 9rem;
+.logo-app-gmail {
+    margin-left: 13rem;
+    width: 6vh;
+    height: 6vh;
 }
 
 .submit-contato {
