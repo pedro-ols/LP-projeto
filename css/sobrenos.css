@@ -186,7 +186,20 @@ body {
     align-items: center;
     margin-top: 0.938rem;
 }
-
+.hide-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3%;
+    transform: rotate(180deg);
+    border: none;
+    background-color: ghostwhite;
+    margin-top: 2rem;
+}
+.hide-button:active{
+    transform: rotate(270deg);
+    transition: 0.5s;
+}
 .group-image{
     display: flex;
     margin-top: 2rem;
