@@ -37,7 +37,7 @@ Vitor Argeri
 - Adicionar border-bottom em todas headers *FEITO*
 - Tirar os text-align: center *FEITO*
 - Conseguir o Copilot para ajudar no desenvolvimento *FEITO*
-- Checar a identidade visual
+- Checar a identidade visual *FEITO*
 - Adicionar animações
 
 Raphaelle

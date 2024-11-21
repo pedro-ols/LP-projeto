@@ -14,8 +14,6 @@
     --light-color: #E30613;
 }
 
-
-
 a {
     text-decoration: none;
     color: white;
@@ -218,7 +216,7 @@ label {
 }
 
 .submit-button:hover {
-    background-color: #a81e1e;
+    background-color: #9A1915;
     cursor: pointer;
     color: rgb(236, 236, 236);
 }
