@@ -36,7 +36,7 @@ Vitor Argeri
 - Terminar de estruturar o css e o html das notícias *FEITO*
 - Adicionar border-bottom em todas headers *FEITO*
 - Tirar os text-align: center *FEITO*
-- Conseguir o Copilot para ajudar no desenvolvimento
+- Conseguir o Copilot para ajudar no desenvolvimento *FEITO*
 - Checar a identidade visual
 - Adicionar animações
 
