@@ -23,6 +23,7 @@ body {
     background-color: ghostwhite;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
+    animation: fadeIn 0.5s ease;
 }
 
 .header-container{
