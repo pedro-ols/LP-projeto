@@ -2,6 +2,7 @@
 <html lang="pt-BR">
 
 <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_forward" />
     <title>Lingua Portuguesa-Home</title>
     <link rel="stylesheet" href="/css/home.css">
     <script src="../js/script.js" defer></script>
@@ -12,6 +13,7 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 </head>
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -67,16 +69,61 @@
     <button id="hide-action-btn" class="hide-button">
         <h1 class="hide-icon">></h1>
     </button>
-    <section class="news">
-        <div class="section-title">
-            <h1 class="title"><a href="/pages/noticias/noticia1.html" class="title-a">Noticias</a></h1>
-        </div>
-        <div class="news-carousel">
-            <div class="news-block"></div>
-            <div class="news-block"></div>
-            <div class="news-block"></div>
-        </div>
+    <div class="section-title">
+        <h1 class="title"><a class="title-a">Notícias</a></h1>
+    </div>
+    <section class="news swiper">
+        <article class="news-wrapper">
+            <ul class="news-list swiper-wrapper">
+                <li class="news-item swiper-slide">
+                    <a href="" class="news-link">
+                        <img src="img/escritor.jpg" alt="News Image" class="news-image">
+                        <p class="badge rai">Raí</p>
+                        <h2 class="news-title">Blablabla</h2>
+                        <button class="news-button material-symbols-rounded">arrow_forward</button>
+                    </a>
+                </li>
+                <li class="news-item swiper-slide">
+                    <a href="" class="news-link">
+                        <img src="img/escritor.jpg" alt="News Image" class="news-image">
+                        <p class="badge ceni">Rogério Ceni</p>
+                        <h2 class="news-title">Blablabla</h2>
+                        <button class="news-button material-symbols-rounded">arrow_forward</button>
+                    </a>
+                </li>
+                <li class="news-item swiper-slide">
+                    <a href="" class="news-link">
+                        <img src="img/escritor.jpg" alt="News Image" class="news-image">
+                        <p class="badge lucas">Lucas Moura</p>
+                        <h2 class="news-title">Blablabla</h2>
+                        <button class="news-button material-symbols-rounded">arrow_forward</button>
+                    </a>
+                </li>
+                <li class="news-item swiper-slide">
+                    <a href="" class="news-link">
+                        <img src="img/escritor.jpg" alt="News Image" class="news-image">
+                        <p class="badge carteirinha">Carteirinha</p>
+                        <h2 class="news-title">Blablabla</h2>
+                        <button class="news-button material-symbols-rounded">arrow_forward</button>
+                    </a>
+                </li>
+                <li class="news-item swiper-slide">
+                    <a href="" class="news-link">
+                        <img src="img/escritor.jpg" alt="News Image" class="news-image">
+                        <p class="badge wallpaper">Wallpaper</p>
+                        <h2 class="news-title">Blablabla</h2>
+                        <button class="news-button material-symbols-rounded">arrow_forward</button>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="swiper-pagination"></div>
+            <div class="swiper-slide-button swiper-button-prev"></div>
+            <div class="swiper-slide-button swiper-button-next"></div>
+
+        </article>
     </section>
+
 
     <button id="hide-action-btn" class="hide-button">
         <h1 class="hide-icon">></h1>
@@ -137,6 +184,8 @@
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/slider.js"></script>
 </body>
 
 </html>
