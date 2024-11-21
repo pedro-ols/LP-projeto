@@ -4,6 +4,7 @@
 <head>
     <title>Lingua Portuguesa-Home</title>
     <link rel="stylesheet" href="/css/home.css">
+    <script src="../js/script.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -17,42 +18,54 @@
 
     <header class="site-header">
         <div class="header-container">
-            <div class="nav-image">
-                <img class="senai-image" src="/img/logosenai.png" alt="Logo do SESI/SENAI">
+            <div class="nav-header">
+                <div class="nav-image">
+                    <img class="senai-image" src="/img/logosenai.png" alt="Logo do SESI/SENAI">
+                </div>
             </div>
-            <nav class="main-nav">
-                <p class="nav-item"><a href="/index.html">Português</a></p>
-                <p class="nav-item"><a href="/pages/sobrenos.html">Sobre Nós</a></p>
-                <p class="nav-item"><a href="/pages/carreiras.html">Carreiras</a></p>
-                <p class="nav-item"><a href="/pages/dicas.html">Dicas</a></p>
-                <p class="nav-item"><a href="/pages/estagio.html">Estágio</a></p>
-                <p class="nav-item"><a href="/pages/simulados.html">Simulados</a></p>
-            </nav>
+            <div class="sub-header">
+                <nav class="main-nav">
+                    <p class="nav-item-active"><a href="/index.html">Português</a></p>
+                    <p class="nav-item"><a href="/pages/sobrenos.html">Sobre Nós</a></p>
+                    <p class="nav-item"><a href="/pages/carreiras.html">Carreiras</a></p>
+                    <p class="nav-item"><a href="/pages/dicas.html">Dicas</a></p>
+                    <p class="nav-item"><a href="/pages/estagio.html">Estágio</a></p>
+                    <p class="nav-item"><a href="/pages/simulados.html">Simulados</a></p>
+                </nav>
+            </div>
         </div>
     </header>
 
     <main>
         <img class="main-image" src="img/header.jpg" alt="header-img">
         <div class="section-title">
-            <h1 class="title"><a href="/index.html" class="title-a">Portal - Português</a></h1>
+            <div>
+                <h1 class="page-title">Língua Portuguesa</h1>
+            </div>
+            <h2 class="page-subtitle">Projeto Portal Vestibular SESI SENAI</h2>
         </div>
-        <p class="main-text">Olá, nós somos a aba de Língua Portuguesa do Portal vestibular! <br> Se você procura um
-            lugar para mergulhar nas melhores dicas para vestibular, você veio ao lugar certo. <br></p>
+        <p class="main-text">Olá! Seja bem-vindo à aba de Língua Portuguesa do Portal Vestibular feito pelos alunos
+            da ensino médio SESI integrado com SENAI! Se você procura um
+            lugar para mergulhar nas melhores dicas para vestibular, você veio ao lugar certo.</p>
     </main>
 
+    <button id="hide-action-btn" class="hide-button">
+        <h1 class="hide-icon">></h1>
+    </button>
     <section class="interviews">
         <div class="section-title">
             <h1 class="title"><a href="/pages/entrevistas.html" class="title-a">Entrevistas</a></h1>
         </div>
         <div class="interviews-div">
-            <div class="block"></div>
-            <div class="block"></div>
-        </div>
-        <div class="interviews-div">
-            <div class="block-2"></div>
+            <div class="block"><a href="/pages/entrevistas/entrevista3.html"><img src="" alt=""></a></div>
+            <div class="block"><a href="/pages/entrevistas/entrevista1.html"><img src="" alt=""></a></div>
+            <div class="block"> <a href="/pages/entrevistas/entrevista2.html"><img src="" alt=""></a></div>
         </div>
     </section>
 
+    <button id="hide-action-btn" class="hide-button">
+        <h1 class="hide-icon">></h1>
+    </button>
     <section class="news">
         <div class="section-title">
             <h1 class="title"><a href="/pages/noticias/noticia1.html" class="title-a">Noticias</a></h1>
@@ -64,55 +77,9 @@
         </div>
     </section>
 
-
-    <div class="section-title">
-        <h1 class="title"><a href="/pages/simulados.html" class="title-a">Simulados</a></h1>
-    </div>
-    <section class="simulados">
-        <div class="simulados-div">
-            <div class="simulados-topics">
-                <h1 class="simulados-title">Mais Acessados</h1>
-                <div class="simulados-block">
-                    <p class="simuladosblock-text">Conjunções Coordernativas</p>
-                    <img class="simulados-button" src="/img/playimg.png" alt="">
-                </div>
-                <div class="simulados-block">
-                    <p class="simuladosblock-text">Conjunções Coordernativas</p>
-                    <img class="simulados-button" src="/img/playimg.png" alt="">
-                </div>
-                <div class="simulados-block">
-                    <p class="simuladosblock-text">Conjunções Coordernativas</p>
-                    <img class="simulados-button" src="/img/playimg.png" alt="">
-                </div>
-                <div class="simulados-block">
-                    <p class="simuladosblock-text">Conjunções Coordernativas</p>
-                    <img class="simulados-button" src="/img/playimg.png" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="simulados-div">
-            <div class="simulados-topics">
-                <h1 class="simulados-title">Recém Adicionados</h1>
-                <div class="simulados-block">
-                    <p class="simuladosblock-text">Conjunções Coordernativas</p>
-                    <img class="simulados-button" src="/img/playimg.png" alt="">
-                </div>
-                <div class="simulados-block">
-                    <p class="simuladosblock-text">Conjunções Coordernativas</p>
-                    <img class="simulados-button" src="/img/playimg.png" alt="">
-                </div>
-                <div class="simulados-block">
-                    <p class="simuladosblock-text">Conjunções Coordernativas</p>
-                    <img class="simulados-button" src="/img/playimg.png" alt="">
-                </div>
-                <div class="simulados-block">
-                    <p class="simuladosblock-text">Conjunções Coordernativas</p>
-                    <img class="simulados-button" src="/img/playimg.png" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-
+    <button id="hide-action-btn" class="hide-button">
+        <h1 class="hide-icon">></h1>
+    </button>
     <section class="carrers">
         <div class="section-title">
             <h1 class="title"><a href="/pages/" class="title-a">Carreiras</a></h1>

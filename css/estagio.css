@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-
+    font-family: "Montserrat";
+    font-optical-sizing: auto;
+    text-align: justify;
 }
 
 a {
@@ -19,11 +21,32 @@ body {
 
 .header-container{
     width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.nav-header{
+    width: 100%;
+    height: 60%;
     display: flex;
     flex-direction: row;
     align-items: center;
     align-content: center;
-    justify-content: space-between;
+    justify-content: center;
+    border-bottom: #9A1915 solid 0.25rem;
+}
+
+.sub-header{
+    width: 100%;
+    height: 40%;
+    background-color: #DDDDDD;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-image {
@@ -35,52 +58,60 @@ body {
 }
 
 .site-header {
-    height: 7rem;
+    height: 10rem;
     width: 100%;
     background-color: #E30613;
-    color: white;
     align-items: center;
     display: flex;
+   
 }
 
 .main-nav {
     display: flex;
     align-items: center;
-    width: 70%;
+    width: 100%;
     justify-content: space-around;
-}
 
-.nav-item a {
+}
+.nav-item, .nav-item-active{
     font-size: 1.1rem;
     font-weight: bold;
     transition: 0.2s;
     overflow-wrap: unset;
 }
-
-a:hover {
-    color: #000000;
+.nav-item a, .nav-item-active a{
+    text-decoration: none;
+    color: rgb(68, 65, 65);
 }
-
+.nav-item-active{
+    background-color: rgb(247, 247, 250);
+    border-radius: 1rem;
+    width: 7rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
 .senai-image {
     width: 80%;
     height: auto;
 }
 
 .carreiras-title {
-    text-align: center;
-    margin: 1.875rem;
-    font-size: 3.125rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 2rem;
+    font-size: 3rem;
     color: #681413;
     bottom: 0.5rem;
 }
 
 .main-text{
     font-size: 1.75rem;
-    text-align: center;
     margin: 1rem;
 }
-
-
 
 .contact-info {
     margin-bottom: 0.313rem;
@@ -138,7 +169,6 @@ a:hover {
     justify-content: center;
     gap: 4rem;
     margin-bottom: 1.25rem;
-    text-align: center;
 }
 
 .estagio-div {
@@ -218,7 +248,6 @@ a:hover {
 
 .site-footer {
     display: flex;
-    text-align: center;
     background-color: #E30613;
     color: #ffffff;
     flex-direction: column;
@@ -280,7 +309,6 @@ a:hover {
     justify-content: center;
     align-items: center;
     margin-top: 2.5rem;
-    text-align: center;
 }
 
 .footer-horizontal {
@@ -309,7 +337,6 @@ a:hover {
     align-items: center;
     gap: 10rem;
     margin-top: 15px;
-    /* text-align: justify; */
 }
 
 .footer-title-negrito {
@@ -338,12 +365,27 @@ a:hover {
     align-items: center;
     gap: 10rem;
     margin-top: 15px;
-    
-    /* text-align: justify; */
 
 }
 
-@media (max-width: 600px) {
+
+@media (max-width: 900px) {
+    .header-container{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: space-around;
+    } 
+    .main-nav {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-around;
+    }
+    
     .membros-container {
         flex-direction: column;
     }
@@ -379,26 +421,6 @@ a:hover {
 
     .main-text{
         font-size: 0.75rem;
-        text-align: center;
         margin: 1rem;
     }
-}
-
-@media (max-width: 900px) {
-    .header-container{
-        width: 100%;
-        height: 80%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        align-content: center;
-        justify-content: space-around;
-    } 
-    .main-nav {
-        display: flex;
-        align-items: center;
-        width: 100%;
-        justify-content: space-around;
-    }
-    
 }

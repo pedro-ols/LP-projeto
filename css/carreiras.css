@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-
+    text-align: justify;
 }
 
 a {
@@ -19,11 +19,32 @@ body {
 
 .header-container{
     width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.nav-header{
+    width: 100%;
+    height: 60%;
     display: flex;
     flex-direction: row;
     align-items: center;
     align-content: center;
-    justify-content: space-between;
+    justify-content: center;
+    border-bottom: #9A1915 solid 0.25rem;
+}
+
+.sub-header{
+    width: 100%;
+    height: 40%;
+    background-color: #DDDDDD;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-image {
@@ -35,64 +56,79 @@ body {
 }
 
 .site-header {
-    height: 7rem;
+    height: 10rem;
     width: 100%;
     background-color: #E30613;
-    color: white;
     align-items: center;
     display: flex;
+   
 }
 
 .main-nav {
     display: flex;
     align-items: center;
-    width: 70%;
+    width: 100%;
     justify-content: space-around;
+
 }
-.nav-item a {
+.nav-item, .nav-item-active{
     font-size: 1.1rem;
     font-weight: bold;
     transition: 0.2s;
     overflow-wrap: unset;
 }
-
-a:hover {
-    color: #000000;
+.nav-item a, .nav-item-active a{
+    text-decoration: none;
+    color: rgb(68, 65, 65);
 }
-
+.nav-item-active{
+    background-color: rgb(247, 247, 250);
+    border-radius: 1rem;
+    width: 7rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
 .senai-image {
     width: 80%;
     height: auto;
 }
 
 .carreiras-title {
-    margin-top: 1rem;
-    text-align: center;
-    font-size: 3.125rem;
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
     color: #681413;
 }
 
 .saudacoes-title{
-    text-align: center;
-    margin: 0.5em;
-    font-size: 215%;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    font-size: 2rem;
 }
 
 .main-text{
     font-size: 145%;
-    text-align: center;
     margin: 1rem;
+    display: flex;
+    bottom: 1rem;
+    padding: 2rem;
 }
 
 .site-footer {
-    text-align: center;
-    background-color: #9a1915;
+    display: flex;
+    background-color: #E30613;
     color: #ffffff;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    font-size: 0.938rem;
-    margin-top: 6.25rem;
+    flex-direction: column;
+    font-size: 15px;
+    height: 23rem;
+    border-top: 0.125rem solid black;
+    width: 100%;
 }
 
 .contact-info {
@@ -127,16 +163,18 @@ a:hover {
     font-size: 1rem;
     background-color: #D9D9D9;
     border-radius: 1.25rem;
-    height: 40%;
-    width: 30%;
+    height: 60%;
+    width: 50%;
     flex-flow: wrap;
-    margin: 2%;
+    margin: 2%
 }
 
 .carreira-text {
     position: relative;
     color: black;
     font-size: 150% ;
+    padding: 1.5rem;
+    right: 3rem;
 }
 
 .carreira-profissao {
@@ -145,25 +183,23 @@ a:hover {
 
 .estagio-main {
     flex-direction: column;
-    display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
     gap: 4rem;
-    margin-bottom: 1.25rem;
-    text-align: center;
+    margin-bottom: 100rem;
     margin: 2rem;
+    padding: 1rem;
 }
 
 .estagio-div {
     background-color: #D9D9D9;
     border-radius: 1.25rem;
-    width: 18.75rem;
+    width: 20.75rem;
     height: 11.25rem;
-    display: flex;
     border-bottom: 0.313rem solid black;
     border-right: 0.313rem solid black;
-    margin-left: 20%;
+    margin: 4rem;
+    margin-left: 35%;
 }
 
 .carrer-name {
@@ -183,19 +219,9 @@ a:hover {
 }
 
 .estagio-container {
-    gap: 5rem;
-    font-size: 1.75rem;
+    font-size: 1.65rem;
     flex-direction: row;
-    margin: 0.1rem;
-}
-
-.estagio-div {
-    height: 10rem;
-    width: 20rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
+    padding: 1rem;
 }
 
 .carrer-estagio {
@@ -204,11 +230,11 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .site-footer {
     display: flex;
-    text-align: center;
     background-color: #E30613;
     color: #ffffff;
     flex-direction: column;
@@ -270,7 +296,6 @@ a:hover {
     justify-content: center;
     align-items: center;
     margin-top: 2.5rem;
-    text-align: center;
 }
 
 .footer-horizontal {
@@ -348,6 +373,16 @@ a:hover {
         flex-direction: column;
     }
 
+    .estagio-div {
+        padding: 2rem;
+        flex-direction: column;
+        margin-right: 31%;
+    }
+
+    .estagio-descricao {
+        font-size: 0.6rem;
+    }
+
     .carrer-estagio {
         width: 100%;
         height: 100%;
@@ -369,5 +404,6 @@ a:hover {
 
     .carreira-text{
         text-align: center;
+        font-size: 0.1rem;
     }
 }

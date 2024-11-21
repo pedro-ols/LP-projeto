@@ -7,14 +7,6 @@
     font-optical-sizing: auto;
     text-align: justify;
 }
-:root {
-    --background-color: ghostwhite;
-    --title-color: #681413;
-    --text-color: black;
-    --light-color: #E30613;
-}
-
-
 
 a {
     text-decoration: none;
@@ -29,32 +21,11 @@ body {
 
 .header-container{
     width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-}
-
-.nav-header{
-    width: 100%;
-    height: 60%;
     display: flex;
     flex-direction: row;
     align-items: center;
     align-content: center;
-    justify-content: center;
-    border-bottom: #9A1915 solid 0.25rem;
-}
-
-.sub-header{
-    width: 100%;
-    height: 40%;
-    background-color: #DDDDDD;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
 }
 
 .nav-image {
@@ -66,161 +37,191 @@ body {
 }
 
 .site-header {
-    height: 10rem;
+    height: 7rem;
     width: 100%;
     background-color: #E30613;
+    color: white;
     align-items: center;
     display: flex;
-   
+    border-bottom: #000000 solid 0.25rem;
 }
 
 .main-nav {
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 70%;
     justify-content: space-around;
-
 }
-.nav-item, .nav-item-active{
+
+.nav-item a {
     font-size: 1.1rem;
     font-weight: bold;
     transition: 0.2s;
     overflow-wrap: unset;
 }
-.nav-item a, .nav-item-active a{
-    text-decoration: none;
-    color: rgb(68, 65, 65);
+
+a:hover {
+    color: #000000;
 }
-.nav-item-active{
-    background-color: rgb(247, 247, 250);
-    border-radius: 1rem;
-    width: 7rem;
-    height: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
+
 .senai-image {
     width: 80%;
     height: auto;
 }
 
-.greetings {
+.contato-title {
     justify-content: center;
     align-items: center;
     display: flex;
-    flex-direction: column;
-}
-
-.simulados-title {
-    font-size: 3.125rem;
-    color: var(--title-color);
-    margin: 1rem;
-}
-
-.goodluck {
-    color: var(--text-color);
-    font-weight: bold;
-    font-size: 2rem;
-    position: relative;
+    margin: 2rem;
+    font-size: 3rem;
+    color: #681413;
     bottom: 0.5rem;
 }
 
-.questions-container {
-    position: relative;
-    left: 16%;
-}
-
-.specific-question {
-    white-space: normal;
-    width: 80%;
-    margin: auto;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-}
-
-.question-number {
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-.entire-question {
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center ;
-    font-size: 1.25rem;
-    margin: 2.5rem;
-    font-weight: 450;
-}
-
-.entire-question-text {
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center ;
-    font-size: 1.25rem;
-    margin: 2.5rem;
-    font-weight: 450;
-    text-indent: 2rem;
-}
-
-.answer-type {
-    display: flex;
-    align-items: center;
-    background-image: linear-gradient(to bottom, #F52C2C, #8F1A1A);
-    border-radius: 0.75rem;
-    border: 1px solid black;
-    background-repeat: no-repeat;
-    height: 4rem;
-    margin-top: 1rem;
-    width: 60%;
-    font-size: 1rem;
-    font-weight: normal;
-    text-align: justify;
-}
-
-input {
-    position: absolute;
-    left: 54%;
-    height: 2rem;
-    width: 2rem;
-    cursor: pointer;
-}
-
-label {
-    font-size: 1.1rem;
-    color: var(--background-color);
-    font-weight: bold;
-    position: relative; 
-    left: 3.25%;
-}
-
-.input:hover{
-    background-color: rgb(red, green, blue);    
-}
-
-.button {
+.main-contato {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 2rem;
+    flex-direction: column;
 }
 
-.submit-button {
+.main-text{
+    font-size: 1.75rem;
+    margin: 1rem;
+    text-align: center;
+    bottom: 2vh;
+    padding: 1vh;
+}
+
+.suas-informacoes {
+    color: #000000;
+    letter-spacing: 0.1rem;
+    text-decoration: underline;
+}
+
+.contato-box {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: ghostwhite;
+    border: 2px solid black;
+    display: flex;
+    width: 60%;
+    height: calc(width * 10);
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 3vh;
+    opacity: 0.75rem;
+    overflow: hidden;
+    background-image: url(/img/1.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+form {
+    margin-top: 3vh;
+}
+
+.informations-box {
+    background-color: ghostwhite;
+    height: 100%;
+    opacity: 0.75rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.nome-text, .email-text, .telefone-text, .sugestion-text  {
+    color: #9A1915;
+    background-color: ghostwhite;
+    border-radius: 2vh;
+    width: 12rem;
+}
+
+.nome-text, .email-text {
+    width: 9rem;
+}
+
+.sugestion-text {
+    width: 19.2rem;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+input:focus:-moz-placeholder { /* Firefox 18- */
+    color: transparent;  
+}
+
+input:focus::-moz-placeholder {  /* Firefox 19+ */
+    color: transparent;  
+}
+
+input:focus:-ms-input-placeholder {  
+    color: transparent;  
+}
+
+.nome-contato, .email-contato, .telefone-contato {
+    height: 3rem;
+    width: 60vh;
+    background-color: white;
+    border-radius: 3vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0.3rem;
+}
+
+.text-contato {
     height: 5rem;
-    width: 20rem;
-    background-color: #e90313;
-    border-radius: 1rem;
-    font-size: 1.7rem;
-    transition: 0.2s ease-in-out;
+    width: 100%;
+    border-radius: 1vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
-.submit-button:hover {
-    background-color: #a81e1e;
-    cursor: pointer;
-    color: rgb(236, 236, 236);
+.text-contato::placeholder {
+    position: relative;
+    top: 1rem;
+}
+
+::placeholder {
+    color: black;
+    font-weight: bold;
+}
+
+.logo-app-whatsapp{
+    width: 7vh;
+    height: 7vh;
+    margin-top: -0.2rem;
+}
+
+.button-and-social-media {
+    display: flex;
+    margin-bottom: 3vh;
+    position: relative;
+    bottom: 2vh;
+}
+
+.logo-app-gmail {
+    margin-left: 13rem;
+    width: 6vh;
+    height: 6vh;
+}
+
+.submit-contato {
+    width: 10vh;
+    height: 5vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 5vh;
+    background-color: #E30613;
+    color: #ffffff;
 }
 
 .site-footer {
@@ -267,12 +268,6 @@ label {
     margin-bottom: 0.3125rem;
 }
 
-.email-link {
-    color: #2e89e4;
-    text-decoration: none;
-    transition: 0.5s;
-}
-
 .copy-info {
     display: flex;
     align-items: center;
@@ -314,31 +309,10 @@ label {
     align-items: center;
     gap: 10rem;
     margin-top: 15px;
-    /* text-align: justify; */
 }
 
 .footer-title-negrito {
     font-weight: bold;
-}
-
-.email-link {
-    color: #2e89e4;
-    text-decoration: none;
-    transition: 0.5s;
-}
-
-.copy-info {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.footer-text-section{
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2.5rem;
 }
 
 .footer-horizontal {
@@ -363,10 +337,9 @@ label {
     align-items: center;
     gap: 10rem;
     margin-top: 15px;
-    
-    /* text-align: justify; */
 
 }
+
 
 @media (max-width: 900px) {
     .header-container{
@@ -385,4 +358,41 @@ label {
         justify-content: space-around;
     }
     
+    .membros-container {
+        flex-direction: column;
+    }
+
+    .carreira-div {
+        height: 10rem;
+        width: 20rem;
+    }
+
+    .carreira-photo {
+        height: 100%;
+        width: 100%;
+    }
+
+    .estagio-container {
+        flex-direction: column;
+        margin-top: 0%;
+    }
+
+    .carrer-estagio {
+        width: 100%;
+        height: 100%;
+    }
+
+    .estagio-text {
+        margin: 1.2rem;
+        font-size: 1.25rem;
+    }
+
+    .carrer-estagio {
+        margin-right: 100%;
+    }
+
+    .main-text{
+        font-size: 0.75rem;
+        margin: 1rem;
+    }
 }

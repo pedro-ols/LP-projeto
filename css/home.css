@@ -3,22 +3,45 @@
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-
+    font-family: "Montserrat";
+    font-optical-sizing: auto;
+    text-align: justify;
 }
 
 body {
     background-color: ghostwhite;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat";
     font-optical-sizing: auto;
 }
 
-.header-container {
+.header-container{
     width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.nav-header{
+    width: 100%;
+    height: 60%;
     display: flex;
     flex-direction: row;
     align-items: center;
     align-content: center;
-    justify-content: space-between;
+    justify-content: center;
+    border-bottom: #9A1915 solid 0.25rem;
+}
+
+.sub-header{
+    width: 100%;
+    height: 40%;
+    background-color: #DDDDDD;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-image {
@@ -30,34 +53,41 @@ body {
 }
 
 .site-header {
-    height: 7rem;
+    height: 10rem;
     width: 100%;
     background-color: #E30613;
-    color: white;
     align-items: center;
     display: flex;
+   
 }
 
 .main-nav {
     display: flex;
     align-items: center;
-    width: 70%;
+    width: 100%;
     justify-content: space-around;
-}
 
-.nav-item a {
+}
+.nav-item, .nav-item-active{
     font-size: 1.1rem;
     font-weight: bold;
     transition: 0.2s;
     overflow-wrap: unset;
+}
+.nav-item a, .nav-item-active a{
     text-decoration: none;
-    color: white;
+    color: rgb(68, 65, 65);
 }
-
-.nav-item a:hover {
-    color: #000000;
+.nav-item-active{
+    background-color: rgb(247, 247, 250);
+    border-radius: 1rem;
+    width: 7rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
-
 .senai-image {
     width: 80%;
     height: auto;
@@ -66,7 +96,12 @@ body {
 .section-title {
     width: 100%;
     display: flex;
+    align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+.page-subtitle{
+    font-size: 2rem;
 }
 
 .title-a {
@@ -86,10 +121,19 @@ body {
     transition: 0.3s ease-in-out;
     color: #F52C2C;
 }
+.page-title{
+    font-size: 3rem;
+}
 
-.title {
+.title, .page-title {
     display: flex;
-    align-self: center;
+    margin: 2rem;
+    color: #681413;
+    text-decoration: none;
+    width: 100%;
+}
+.title{
+    font-size: 2.1875rem;
 }
 
 .main-image {
@@ -112,11 +156,12 @@ body {
     align-items: center;
     margin: 1.25rem;
     font-size: 1.25rem;
-    text-align: center;
 }
 
 .interviews-div,
 .news-carousel {
+    width: 100%;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -125,15 +170,13 @@ body {
 }
 
 .block,
-.block-2,
 .news-block,
 .carrers-block {
     height: 15rem;
     width: 25rem;
-    background-color: #ff0000;
-    border-radius: 2rem;
-    border-bottom: 0.3125rem solid black;
-    border-right: 0.3125rem solid black;
+    border: 0.5rem solid #9a1915;
+    border-top-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
 }
 
 .block-2 {
@@ -259,7 +302,6 @@ body {
 
 .site-footer {
     display: flex;
-    text-align: center;
     background-color: #E30613;
     color: #ffffff;
     flex-direction: column;
@@ -321,7 +363,6 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 2.5rem;
-    text-align: center;
 }
 
 .footer-horizontal {
@@ -350,7 +391,6 @@ body {
     align-items: center;
     gap: 10rem;
     margin-top: 12.5px;
-    /* text-align: justify; */
 }
 
 .footer-title-negrito {
