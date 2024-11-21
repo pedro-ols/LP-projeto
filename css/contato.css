@@ -145,7 +145,7 @@ form {
 }
 
 .sugestion-text {
-    width: 19.5rem;
+    width: 19.2rem;
 }
 
 input:focus::-webkit-input-placeholder {
@@ -166,18 +166,19 @@ input:focus:-ms-input-placeholder {
 
 .nome-contato, .email-contato, .telefone-contato {
     height: 3rem;
-    width: 25vh;
+    width: 60vh;
     background-color: white;
     border-radius: 3vh;
     align-items: center;
     display: flex;
     justify-content: center;
+    padding: 0.3rem;
 }
 
 .text-contato {
     height: 5rem;
     width: 100%;
-    border-radius: 2.5vh;
+    border-radius: 1vh;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -194,9 +195,9 @@ input:focus:-ms-input-placeholder {
 }
 
 .logo-app-whatsapp{
-    width: 7.5vh;
-    height: 7.5vh;
-    margin-top: -0.4rem;
+    width: 7vh;
+    height: 7vh;
+    margin-top: -0.2rem;
 }
 
 .button-and-social-media {
