@@ -109,9 +109,15 @@ body {
     bottom: 0.5rem;
 }
 
+.main-estagio {
+    margin: 0;
+    width: 100%;
+    }
+
 .main-text{
-    font-size: 1.75rem;
-    margin: 1rem;
+    font-size: 1.5rem;
+    margin: 6rem;
+    bottom: 2rem;
 }
 
 .contact-info {
@@ -134,25 +140,18 @@ body {
 }
 
 .membros-container {
-    display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 3.125rem;
-    gap: 5rem;
-    left: 35rem;
-
 }
 
 .carreira-div {
-    font-size: 1rem;
     background-color: #D9D9D9;
     border-radius: 1.25rem;
-    height: 40%;
-    width: 25%;
-    flex-flow: wrap;
-    margin: 2%;
+    height: 45%;
+    width: 35%;
     border-bottom: 0.5rem solid black;
     border-right: 0.5rem solid black;
+    margin: auto;
 }
 
 .carreira-text {
@@ -236,11 +235,13 @@ body {
     margin: 1.875rem;
     font-size: 2.7rem;
     color: #681413;
-    margin: -0.2rem   ;
+    margin: 2rem;
 }
 
 .estagio-text {
     font-size: 1.4rem;
+    margin: 10rem;
+    text-indent: 1rem;
 }
 
 .linkedin {
@@ -414,6 +415,7 @@ body {
     .estagio-text {
         margin: 1.2rem;
         font-size: 1.25rem;
+        text-indent: 200vh;
     }
 
     .carrer-estagio {
