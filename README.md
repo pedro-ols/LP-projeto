@@ -32,7 +32,7 @@ Vitor Argeri
 - Inserir tabelas em Simulados *FEITO*
 - Adicionar JavaScript em Simulados *FEITO*
 - Linkar o Javascript com a página de simulados
-- Adicionar carrossel na Home
+- Adicionar carrossel na Home *FEITO*
 - Terminar de estruturar o css e o html das notícias *FEITO*
 - Adicionar border-bottom em todas headers *FEITO*
 - Tirar os text-align: center *FEITO*
