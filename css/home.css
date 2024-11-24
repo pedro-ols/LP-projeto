@@ -485,6 +485,12 @@ body {
     font-weight: 600;
 }
 
+.news-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .news-list
 .news-link
 .news-button {
