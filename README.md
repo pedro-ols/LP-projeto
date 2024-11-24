@@ -50,6 +50,8 @@ Miguel Sarti
 - Adicionar formulário de Contato
 - Adicionar as notícias 
 - Arrumar a página de carreiras
+- Adicionar a página de contato na sub-header
+- Arrumar a responsividade das fontes do site com media-screen
 
 Data de conclusão
 05/12 
