@@ -72,7 +72,6 @@ body {
     background-color: #E30613;
     align-items: center;
     display: flex;
-   
 }
 
 .main-nav {
@@ -129,6 +128,10 @@ body {
     margin-bottom: 1.5rem;
 }
 
+.dicas-section {
+    overflow: hidden;
+}
+
 .dicas-article {
     margin: 4rem;
     width: 90%;
@@ -137,7 +140,8 @@ body {
     border-top-right-radius: 3rem;
     border-bottom-left-radius: 3rem;
     background-color: ghostwhite;
-    padding: 2.5rem;
+    padding: 3rem;
+    overflow-y: hidden;
 }
 
 .dicas-name {
