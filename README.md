@@ -46,10 +46,10 @@ Raphaelle
 - Incluir métodos de estudo e influenciadores em dicas
 
 Miguel Sarti
-- Adicionar formulário de Contato
+- Adicionar formulário de Contato *FEITO*
 - Adicionar as notícias 
 - Arrumar a página de carreiras
-- Adicionar a página de contato na sub-header
+- Adicionar a página de contato na sub-header *FEITO*
 - Arrumar a responsividade das fontes do site com media-screen
 
 Data de conclusão
