@@ -14,6 +14,8 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -55,14 +57,15 @@
     <button id="hide-action-btn" class="hide-button">
         <h1 class="hide-icon">></h1>
     </button>
-    <section class="interviews">
-        <div class="section-title">
-            <h1 class="title"><a href="/pages/entrevistas.html" class="title-a">Entrevistas</a></h1>
+
+    <section class="interviews" data-aos="fade=up">
+        <div class="section-title" data-aos="fade-up">
+            <h1 class="title" data-aos="fade-up"><a href="/pages/entrevistas.html" class="title-a">Entrevistas</a></h1>
         </div>
-        <div class="interviews-div">
-            <div class="block"><a href="/pages/entrevistas/entrevista3.html"><img src="" alt=""></a></div>
-            <div class="block"><a href="/pages/entrevistas/entrevista1.html"><img src="" alt=""></a></div>
-            <div class="block"> <a href="/pages/entrevistas/entrevista2.html"><img src="" alt=""></a></div>
+        <div class="interviews-div" data-aos="fade-up">
+            <div class="block" data-aos="fade-up"><a href="/pages/entrevistas/entrevista3.html"><img src="" alt=""></a></div>
+            <div class="block" data-aos="fade-up"><a href="/pages/entrevistas/entrevista1.html"><img src="" alt=""></a></div>
+            <div class="block" data-aos="fade-up"> <a href="/pages/entrevistas/entrevista2.html"><img src="" alt=""></a></div>
         </div>
     </section>
 
@@ -132,9 +135,9 @@
         <div class="section-title">
             <h1 class="title"><a href="/pages/" class="title-a">Carreiras</a></h1>
         </div>
-        <div class="carrers-div">
+        <div class="carrers-div ">
             <div class="carrers-block carrers-block1">
-                <p class="carrers-name">Professor</p>
+                <p class="carrers-name ">Professor</p>
             </div>
             <div class="carrers-block carrers-block2">
                 <p class="carrers-name">Escritor</p>
@@ -186,6 +189,9 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/slider.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>

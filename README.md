@@ -12,12 +12,11 @@ Pedro Oliveira
     Subtítulos,
     Cores,
     Textos
-- Adicionar transição nas páginas
 - Adicionar o Menu
 - Revisar toda a Index
 - Terminar de estruturar o css e o html das entrevistas
 - Integrar com o resto das matérias
-- Fazer relatório de teste de qualidade completo
+- Fazer relatório de teste de qualidade completo *FEITO*
 - Melhorar o design dos botões
 
 Souza
@@ -38,7 +37,7 @@ Vitor Argeri
 - Tirar os text-align: center *FEITO*
 - Conseguir o Copilot para ajudar no desenvolvimento *FEITO*
 - Checar a identidade visual *FEITO*
-- Adicionar animações
+- Adicionar animações 
 
 Raphaelle
 - Revisar seção "Sobre Nós" (junto com Souza)

@@ -11,7 +11,6 @@ body {
     background-color: ghostwhite;
     font-family: "Montserrat";
     font-optical-sizing: auto;
-    animation: fadeIn 0.5s ease;
 }
 
 .header-container{
@@ -538,3 +537,4 @@ body {
         display: none;
     }
 }
+
