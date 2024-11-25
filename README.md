@@ -37,7 +37,7 @@ Vitor Argeri
 - Tirar os text-align: center *FEITO*
 - Conseguir o Copilot para ajudar no desenvolvimento *FEITO*
 - Checar a identidade visual *FEITO*
-- Adicionar animações 
+- Adicionar animações *FEITO*
 
 Raphaelle
 - Revisar seção "Sobre Nós" (junto com Souza)
