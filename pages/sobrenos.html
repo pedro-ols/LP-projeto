@@ -14,6 +14,9 @@
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
       />
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    </head>
 </head>
 
 <body>
@@ -57,10 +60,10 @@
             </div>
         </div>
 
-        <h3 class="membros-title">Membros da Equipe:</h3>
+        <h3 class="membros-title" data-aos="fade-up">Membros da Equipe:</h3>
 
-        <div class="membros-container">
-            <div class="membro-div">
+        <div class="membros-container" data-aos="fade-up">
+            <div class="membro-div" data-aos="fade-up">
                 <img class="person-photo" src="/img/Pedro.jpeg" alt="Pedro">
                 <p class="people-text"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas
                     quis provident sint dicta nulla minus velit esse repellendus tempora ea.
@@ -73,7 +76,7 @@
                 </p>
             </div>
 
-            <div class="membro-div">
+            <div class="membro-div" data-aos="fade-up">
                 <img class="person-photo" src="/img/Vitor.jpeg" alt="Vitor">
                 <p class="people-text"> Eu sou Vitor de Almeida Argeri, tenho 17 anos e sou o Scrum Master da equipe. Gosto de jogos, programação, ler livros e mais importante de tudo, aperfeiçoar meu conhecimento.
                 </p>
@@ -85,7 +88,7 @@
             </div>
 
 
-            <div class="membro-div">
+            <div class="membro-div" data-aos="fade-up">
                 <img class="person-photo" src="/img/Miguel.jpeg" alt="Miguel">
                 <p class="people-text"> Meu nome é Miguel Sarti, tenho 16 anos, dentro da equipe, desepenhei o cargo de membro-desenvolvedor. Gosto de jogar, programar e ir pra academia.
                 </p>
@@ -96,7 +99,7 @@
                 </p>
             </div>
 
-            <div class="membro-div">
+            <div class="membro-div" data-aos="fade-up">
                 <img class="person-photo" src="/img/Raphaelle.jpeg" alt="Raphaelle">
                 <p class="people-text"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas
                     quis provident sint dicta nulla minus velit esse repellendus tempora ea.
@@ -109,7 +112,7 @@
                 </p>
             </div>
 
-            <div class="membro-div">
+            <div class="membro-div" data-aos="fade-up">
                 <img class="person-photo" src="/img/Sara1.jpeg" alt="Souza">
                 <p class="people-text"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas
                     quis provident sint dicta nulla minus velit esse repellendus tempora ea.
@@ -160,4 +163,8 @@
             <p class="copy-info">&copy; 2024 - Todos os direitos reservados</p>
         </div>
     </footer>
+
+    <script>
+        AOS.init();
+      </script>
 </body>

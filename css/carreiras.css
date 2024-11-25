@@ -152,6 +152,10 @@ body {
     transition: 0.5s;
 }
 
+main {
+    overflow-y: hidden;
+}
+
 .membros-container {
     display: flex;
     align-items: center;
@@ -160,6 +164,7 @@ body {
     gap: 5rem;
     left: 35rem;
     margin: 3rem;
+    overflow-y: hidden;
 }
 
 .carreira-div {
@@ -190,6 +195,7 @@ body {
     margin: 2rem;
     padding: 1rem;
     margin: auto;
+    overflow-y: hidden;
 }
 
 .estagio-div {
@@ -201,6 +207,7 @@ body {
     border-right: 0.313rem solid black;
     margin: 1rem;
     margin: auto;
+    overflow-y: hidden;
 }
 
 .carrer-name {
@@ -225,6 +232,7 @@ body {
     bottom: 0.1rem;
     margin-left: 2rem;
     margin: auto;
+    overflow-y: hidden;
 }
 
 li {

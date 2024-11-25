@@ -5,7 +5,6 @@
     overflow-x: hidden;
     font-family: "Montserrat";
     text-align: justify;
-
 }
 
 body {
@@ -94,6 +93,10 @@ body {
     height: auto;
 }
 
+main {
+    overflow-y: hidden;
+}
+
 .grupo {
     display: flex;
     flex-flow: column wrap;
@@ -116,6 +119,7 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    overflow-y: hidden;
 }
 
 .sobrenos-title {
