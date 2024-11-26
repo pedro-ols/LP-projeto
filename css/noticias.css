@@ -162,6 +162,7 @@ main {
 
 .news-text {
     text-indent: 1.5rem;
+    margin: 1rem;
 }
 
 .site-footer {
@@ -173,6 +174,7 @@ main {
     height: 23rem;
     border-top: 0.125rem solid black;
     width: 100%;
+    overflow-y: hidden;
 }
 
 .footer-img {
@@ -227,7 +229,6 @@ main {
     justify-content: center;
     align-items: center;
     margin-top: 2.5rem;
-    text-align: center;
 }
 
 .footer-horizontal {
@@ -255,8 +256,7 @@ main {
     justify-content: center;
     align-items: center;
     gap: 10rem;
-    margin-top: 15px;
-    /* text-align: justify; */
+    margin-top: 12.5px;
 }
 
 .footer-title-negrito {

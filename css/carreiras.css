@@ -201,10 +201,9 @@ main {
 .estagio-div {
     background-color: #fcd8d8;
     border-bottom-left-radius: 2rem;
-    width: 20rem;
-    height: 13rem;
-    margin: auto;
-    bottom: 2rem;
+    width: 22rem;
+    height: 15rem;
+    display: flex;
     overflow-y: hidden;
 }
 
@@ -231,15 +230,15 @@ main {
 }
 
 .estagio-container {
-    padding: 0.5rem 1rem;
-    margin: 1rem 0 1.125rem;
     background-color: #DDDDDD;
     border: 0.3rem solid #8c8b8b;
     border-top-right-radius: 3rem;
     border-bottom-left-radius: 3rem;
     text-align: center;
     display: flex;
-    margin: 2rem;
+    width: 70%;
+    padding: 2rem;
+    margin: 2rem auto;
     overflow-y: hidden;
 }
 
