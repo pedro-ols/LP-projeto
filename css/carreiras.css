@@ -199,14 +199,18 @@ main {
 }
 
 .estagio-div {
-    background-color: #D9D9D9;
-    border-radius: 1.25rem;
-    width: 30rem;
-    height: 20rem;
-    border-bottom: 0.313rem solid black;
-    border-right: 0.313rem solid black;
-    margin: 1rem;
+    background-color: #fcd8d8;
+    border-bottom-left-radius: 2rem;
+    width: 20rem;
+    height: 13rem;
     margin: auto;
+    bottom: 2rem;
+    overflow-y: hidden;
+}
+
+.texto-estagio {
+    font-size: 1.3rem;
+    padding: 2rem;
     overflow-y: hidden;
 }
 
@@ -227,17 +231,16 @@ main {
 }
 
 .estagio-container {
-    font-size: 1.4rem;
-    padding-top: 2rem;
-    bottom: 0.1rem;
-    margin-left: 2rem;
-    margin: auto;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0 1.125rem;
+    background-color: #DDDDDD;
+    border: 0.3rem solid #8c8b8b;
+    border-top-right-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    text-align: center;
+    display: flex;
+    margin: 2rem;
     overflow-y: hidden;
-}
-
-li {
-    font-size: 1.3rem;
-    margin-left: 2rem;
 }
 
 .carrer-estagio {
@@ -246,7 +249,7 @@ li {
     display: flex;
 }
 
-.estagio-name, .estagio-salario, .estagio-descricao, .estagio-requerimentos {
+.estagio-name, .estagio-salario, .estagio-descricao, .estagio-requerimentos, li {
     margin: 0.3rem;
     bottom: 1rem;
 }
