@@ -8,9 +8,9 @@ Todos
 Pedro Oliveira
 - Padrozinar o site:
     Espaçamento dos Parágrafos,
-    Títulos,
-    Subtítulos,
-    Cores,
+    Títulos, *FEITO*
+    Subtítulos, *FEITO*
+    Cores, *FEITO*
     Textos
 - Adicionar o Menu
 - Revisar toda a Index
@@ -54,3 +54,10 @@ Miguel Sarti
 
 Data de conclusão
 05/12 
+
+---------------------------------------------------------
+Problemas extras:
+corrigir header em contatos;
+responsividade em dicas;
+responsividade em estagio;
+responsividade em carreiras;
