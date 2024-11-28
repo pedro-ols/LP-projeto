@@ -48,7 +48,7 @@ Raphaelle
 Miguel Sarti
 - Adicionar formulário de Contato *FEITO*
 - Adicionar as notícias 
-- Arrumar a página de carreiras
+- Arrumar a página de carreiras *FEITO*
 - Adicionar a página de contato na sub-header *FEITO*
 - Arrumar a responsividade das fontes do site com media-screen
 
