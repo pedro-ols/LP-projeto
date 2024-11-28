@@ -6,7 +6,7 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_forward" />
     <title>Lingua Portuguesa-Home</title>
     <link rel="stylesheet" href="/css/home.css">
-    <script src="../js/script.js" defer></script>
+    <script src="./js/show-less-btn2.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -43,29 +43,27 @@
     </header>
 
     <main>
-        <img class="main-image" src="img/header.jpg" alt="header-img">
-        <div class="section-title">
-            <div>
-                <h1 class="page-title">Língua Portuguesa</h1>
-            </div>
-            <h2 class="page-subtitle">Projeto Portal Vestibular SESI SENAI</h2>
+        <div class="main-image-div">
+            <img class="main-image" src="img/header.jpg" alt="header-img">
         </div>
-        <p class="main-text">Olá! Seja bem-vindo à aba de Língua Portuguesa do Portal Vestibular feito pelos alunos
-            da ensino médio SESI integrado com SENAI! Se você procura um
-            lugar para mergulhar nas melhores dicas para vestibular, você veio ao lugar certo.</p>
+
+        <div class="page-title">
+            <h1 class="page-title-h1">Língua Portuguesa</h1>
+            <h2 class="page-subtitle">Projeto Portal Vestibular SESI SENAI</h2>
+            <p class="main-text">Olá! Seja bem-vindo à aba de Língua Portuguesa do Portal Vestibular feito pelos alunos
+                da ensino médio SESI integrado com SENAI! Se você procura um
+                lugar para mergulhar nas melhores dicas para vestibular, você veio ao lugar certo.</p>
+        </div>
     </main>
 
-    <div class="grupo">
-        <button id="hide-action-btn" class="hide-button-active">
-            <img src="\img\262044.png" alt="imagem do botão de ocultar" class="button-icon">
-        </button>
-    </div>
-
-    <section class="interviews" data-aos="fade-up" id="group-image-div">
+    <section class="interviews" data-aos="fade-up">
         <div class="section-title" data-aos="fade-up">
-            <h1 class="title" data-aos="fade-up"><a href="/pages/entrevistas.html" class="title-a">Entrevistas</a></h1>
+            <button id="interview-show-less-btn" class="hide-button-active">
+                <img src="\img\262044.png" alt="imagem do botão de ocultar" class="button-icon">
+            </button>
+            <h1 class="interviews-title" data-aos="fade-up">Entrevistas</h1>
         </div>
-        <div class="interviews-div" data-aos="fade-up">
+        <div class="interviews-div" data-aos="fade-up" id="interviews-row">
             <div class="block" data-aos="fade-up"><a href="/pages/entrevistas/entrevista3.html"><img src="" alt=""></a>
             </div>
             <div class="block" data-aos="fade-up"><a href="/pages/entrevistas/entrevista1.html"><img src="" alt=""></a>
@@ -75,14 +73,11 @@
         </div>
     </section>
 
-    <div class="grupo">
-        <button id="hide-action-btn" class="hide-button-active">
+    <div class="section-title" data-aos="fade-up">
+        <button id="interview-show-less-btn" class="hide-button-active">
             <img src="\img\262044.png" alt="imagem do botão de ocultar" class="button-icon">
         </button>
-    </div>
-
-    <div class="section-title" data-aos="fade-up">
-        <h1 class="title"><a class="title-a" data-aos="fade-up">Notícias</a></h1>
+        <h1 class="interviews-title" data-aos="fade-up">Notícias</h1>
     </div>
     <section class="news swiper" id="group-image-div">
         <article class="news-wrapper">
@@ -136,29 +131,25 @@
         </article>
     </section>
 
-    <div class="grupo">
-        <button id="hide-action-btn" class="hide-button-active">
+    <div class="section-title" data-aos="fade-up">
+        <button id="interview-show-less-btn" class="hide-button-active">
             <img src="\img\262044.png" alt="imagem do botão de ocultar" class="button-icon">
         </button>
+        <h1 class="interviews-title" data-aos="fade-up">Carreiras</h1>
     </div>
-
-    <section class="carrers" data-aos="fade-up" id="group-image-div">
-        <div class="section-title" data-aos="fade-up">
-            <h1 class="title"><a href="/pages/" class="title-a" data-aos="fade-up">Carreiras</a></h1>
+    <div class="carrers-div" data-aos="fade-up">
+        <div class="carrers-block carrers-block1" data-aos="fade-up">
+            <p class="carrers-name" data-aos="fade-up">Professor</p>
         </div>
-        <div class="carrers-div" data-aos="fade-up">
-            <div class="carrers-block carrers-block1" data-aos="fade-up">
-                <p class="carrers-name" data-aos="fade-up">Professor</p>
-            </div>
-            <div class="carrers-block carrers-block2" data-aos="fade-up">
-                <p class="carrers-name" data-aos="fade-up">Escritor</p>
-            </div>
+        <div class="carrers-block carrers-block2" data-aos="fade-up">
+            <p class="carrers-name" data-aos="fade-up">Escritor</p>
         </div>
-        <div class="carrers-div" data-aos="fade-up">
-            <div class="carrers-block carrers-block3" data-aos="fade-up">
-                <p class="carrers-name" data-aos="fade-up">Juiz</p>
-            </div>
+    </div>
+    <div class="carrers-div" data-aos="fade-up">
+        <div class="carrers-block carrers-block3" data-aos="fade-up">
+            <p class="carrers-name" data-aos="fade-up">Juiz</p>
         </div>
+    </div>
     </section>
 
     <footer class="site-footer">
