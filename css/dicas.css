@@ -112,6 +112,7 @@ body {
     justify-content: center;
     flex-direction: column;
     margin: 0.5rem;
+    overflow-y: hidden;
 }
 
 .dicas-title {
@@ -119,13 +120,16 @@ body {
     color: var(--title-color);
     font-weight: bold;
     margin: 2rem;
+    overflow: hidden;
 }
+
 .dicas-subtitle {
     font-size: 2rem;
     color: var(--description-color);
     font-weight: 600;
     align-self: center;
     margin-bottom: 1.5rem;
+    overflow: hidden;
 }
 
 .dicas-section {
@@ -152,7 +156,12 @@ body {
 }
 .page-description{
     width: 80%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1.4rem;
 }
+
 .dicas-explanation {
     font-size: 1.5rem;
     color: var(--description-color);
@@ -208,7 +217,25 @@ body {
 
 .influenciadores {
     width: 100%;
+    overflow-y: hidden;
+}
+
+.img-and-h1 {
     display: flex;
+}
+
+.influenciador-descricao-div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.influenciador-descricao {
+    font-size: 1.1rem;
+    width: 21.25%;
+     margin-right: 3%;
+    margin-left: 3%;
 }
 
 .influenciador {
@@ -217,7 +244,8 @@ body {
     align-items: center;
     flex-direction: column;
     width: 21.25%;
-    margin: 3%;
+    margin-right: 3%;
+    margin-left: 3%;
 }
 
 .influenciador-img:hover {
@@ -235,10 +263,6 @@ body {
 .influenciador-nome {
     font-size: 1.4rem;
     margin: 1rem;
-}
-
-.influenciador-descricao {
-    font-size: 1.1rem;
 }
 
 .site-footer {
@@ -332,6 +356,7 @@ body {
     align-items: center;
     gap: 10rem;
     margin-top: 15px;
+    overflow-y: hidden;
     /* text-align: justify; */
 }
 
@@ -357,3 +382,10 @@ body {
     }
     
 }
+
+.students-methods {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
