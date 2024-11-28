@@ -71,8 +71,8 @@ body {
     align-items: center;
     width: 100%;
     justify-content: space-around;
-
 }
+
 .nav-item, .nav-item-active{
     font-size: 1.1rem;
     font-weight: bold;
@@ -114,12 +114,37 @@ body {
     font-size: 2rem;
 }
 
+.introduction {
+    overflow-y: hidden;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-carreiras{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-text-div {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    overflow-y: hidden;
+}
+
 .main-text{
-    font-size: 145%;
+    font-size: 150%;
     margin: 1rem;
     bottom: 1rem;
     padding: 2rem;
-    display: flex;
+    overflow-y: hidden;
+    width: 100%;
 }
 
 .site-footer {
@@ -146,6 +171,10 @@ body {
     margin-bottom: 0.313rem;
 }
 
+p {
+    overflow-y: hidden;
+}
+
 .email-link {
     color: #2e89e4;
     text-decoration: none;
@@ -160,6 +189,8 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    flex-direction: column;
     margin-top: 3.125rem;
     gap: 5rem;
     left: 35rem;
@@ -177,16 +208,38 @@ main {
     margin: 2%
 }
 
+.carreira-text-main {
+    width: 80%;
+    height: 50%;
+}
+
 .carreira-text {
-    position: relative;
     color: black;
-    font-size: 150% ;
-    padding: 1.5rem;
-    right: 3rem;
+    text-align: center;
+    font-size: 130%;
+    bottom: 1rem;
+    flex-direction: column;
+    overflow-y: hidden;
 }
 
 .carreira-profissao {
     color: black;
+}
+
+.link-estagio {
+    text-decoration: none;
+    color: blue;
+    transition: 0.5s;   
+}
+
+.link-estagio-2 {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+  margin: auto;
 }
 
 .main-estagio {
@@ -201,9 +254,10 @@ main {
 .estagio-div {
     background-color: #fcd8d8;
     border-bottom-left-radius: 2rem;
-    width: 22rem;
-    height: 15rem;
+    width: 60%;
+    height: 10%;
     display: flex;
+    margin: auto;
     overflow-y: hidden;
 }
 
@@ -234,9 +288,12 @@ main {
     border: 0.3rem solid #8c8b8b;
     border-top-right-radius: 3rem;
     border-bottom-left-radius: 3rem;
+    justify-content: center;
     text-align: center;
+    align-items: center;
+    flex-direction: column;
     display: flex;
-    width: 70%;
+    width: 50%;
     padding: 2rem;
     margin: 2rem auto;
     overflow-y: hidden;

@@ -47,7 +47,7 @@ Raphaelle
 Miguel Sarti
 - Adicionar formulário de Contato *FEITO*
 - Adicionar as notícias 
-- Arrumar a página de carreiras
+- Arrumar a página de carreiras *FEITO*
 - Adicionar a página de contato na sub-header *FEITO*
 - Arrumar a responsividade das fontes do site com media-screen
 
@@ -56,7 +56,14 @@ Data de conclusão
 
 ---------------------------------------------------------
 Problemas extras:
+<<<<<<< HEAD
 corrigir header em contatos; *FEITO*
 responsividade em dicas; *FEITO*
 responsividade em estagio; *FEITO*
 responsividade em carreiras; *FEITO*
+=======
+corrigir header em contatos;
+responsividade em dicas;
+responsividade em estagio;
+responsividade em carreiras;
+>>>>>>> 155c90746c1d67e77017b166548527034009f3d7

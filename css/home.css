@@ -60,6 +60,13 @@ body {
    
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .main-nav {
     display: flex;
     align-items: center;
@@ -98,6 +105,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    margin-bottom: 1.5rem;
 }
 .page-title-container{
     overflow: hidden;
@@ -146,9 +154,6 @@ body {
     transition: 0.3s ease-in-out;
     color: #F52C2C;
 }
-.page-title{
-    font-size: 3rem;
-}
 
 .title, .page-title {
     display: flex;
@@ -156,6 +161,9 @@ body {
     color: #681413;
     text-decoration: none;
     width: 100%;
+}
+.page-title p{
+    width: 90%;
 }
 .title{
     font-size: 2.1875rem;
@@ -195,6 +203,12 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.page-title{
+    width: 98.3%;
+}
+
+
 .main-image {
     width: 100%;
     height: auto;
