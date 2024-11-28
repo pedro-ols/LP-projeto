@@ -197,17 +197,18 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 3%;
+    width: 1.5%;
     transform: rotate(180deg);
     border: none;
     background-color: ghostwhite;
     margin-top: 2rem;
     margin-bottom: 1rem;
 }
-.hide-button-active{display: flex;
+.hide-button-active{
+    display: flex;
     justify-content: center;
     align-items: center;
-    width: 3%;
+    width: 1.5%;
     border: none;
     background-color: ghostwhite;
     margin-top: 2rem;
