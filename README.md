@@ -21,10 +21,9 @@ Pedro Oliveira
 
 Souza
 - Adicionar uma root padrão para todo o site 
-- Adicionar questões nos simulados 
-- Revisar seção "Sobre Nós" (junto com Raphaelle) 
-- Inserir links nas páginas iniciais 
-- Fazer os slides 
+- Adicionar questões nos simulados *FEITO*
+- Revisar seção "Sobre Nós" (junto com Raphaelle) *FEITO*
+- Fazer os slides *FEITO*
 
 Vitor Argeri
 - Ajustar o footer *FEITO*
@@ -57,7 +56,7 @@ Data de conclusão
 
 ---------------------------------------------------------
 Problemas extras:
-corrigir header em contatos;
-responsividade em dicas;
-responsividade em estagio;
-responsividade em carreiras;
+corrigir header em contatos; *FEITO*
+responsividade em dicas; *FEITO*
+responsividade em estagio; *FEITO*
+responsividade em carreiras; *FEITO*
