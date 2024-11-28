@@ -21,10 +21,9 @@ Pedro Oliveira
 
 Souza
 - Adicionar uma root padrão para todo o site 
-- Adicionar questões nos simulados 
-- Revisar seção "Sobre Nós" (junto com Raphaelle) 
-- Inserir links nas páginas iniciais 
-- Fazer os slides 
+- Adicionar questões nos simulados *FEITO*
+- Revisar seção "Sobre Nós" (junto com Raphaelle) *FEITO*
+- Fazer os slides *FEITO*
 
 Vitor Argeri
 - Ajustar o footer *FEITO*
@@ -42,13 +41,352 @@ Vitor Argeri
 Raphaelle
 - Revisar seção "Sobre Nós" (junto com Souza)
 - Inserir links nas páginas de carreiras e estágio
-- Adicionar PDFs para ajudar no estudo
-- Incluir métodos de estudo e influenciadores em dicas
+- Adicionar PDFs para ajudar no estudo *FEITO*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- Incluir métodos de estudo e influenciadores em dicas *FEITO*
 
 Miguel Sarti
 - Adicionar formulário de Contato *FEITO*
 - Adicionar as notícias 
-- Arrumar a página de carreiras
+- Arrumar a página de carreiras *FEITO*
 - Adicionar a página de contato na sub-header *FEITO*
 - Arrumar a responsividade das fontes do site com media-screen
 
@@ -57,7 +395,7 @@ Data de conclusão
 
 ---------------------------------------------------------
 Problemas extras:
-corrigir header em contatos;
-responsividade em dicas;
-responsividade em estagio;
-responsividade em carreiras;
+corrigir header em contatos; *FEITO*
+responsividade em dicas; *FEITO*
+responsividade em estagio; *FEITO*
+responsividade em carreiras; *FEITO*

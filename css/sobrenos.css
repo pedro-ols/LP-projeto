@@ -273,6 +273,7 @@ main {
 .people-text {
     margin-top: 1.875rem;
     width: 80%;
+    text-align: center;
 }
 
 .site-footer {
