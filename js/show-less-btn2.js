@@ -1,19 +1,19 @@
-var hideButton = document.getElementById("interview-show-less-btn");
-var groupImage = document.getElementById("interviews-row");
+var showLess2 = document.getElementById("interview-show-less-btn");
+var interviewsDiv = document.getElementById("interviews-row");
 
-hideButton.addEventListener("click", function() {
+showLess2.addEventListener("click", function() {
     console.log('ativou função') 
-    var display = window.getComputedStyle(groupImage).display;
+    var display = window.getComputedStyle(interviewsDiv).display;
     
     if(display !== "none"){
-        groupImage.style.display = "none";
-        hideButton.classList.remove("hide-button-active");
-        hideButton.classList.add("hide-button");
+        interviewsDiv.style.display = "none";
+        showLess2.classList.remove("hide-button-active");
+        showLess2.classList.add("hide-button");
         console.log('ativou if')
     }else{
-        groupImage.style.display = "flex";
-        hideButton.classList.remove("hide-button");
-        hideButton.classList.add("hide-button-active");
+        interviewsDiv.style.display = "flex";
+        showLess2.classList.remove("hide-button");
+        showLess2.classList.add("hide-button-active");
         console.log('ativou else');
     };
 });

@@ -18,6 +18,7 @@ Pedro Oliveira
 - Integrar com o resto das matérias
 - Fazer relatório de teste de qualidade completo *FEITO*
 - Melhorar o design dos botões
+- Arrumar o sobre nós
 
 Souza
 - Adicionar uma root padrão para todo o site 
@@ -37,12 +38,20 @@ Vitor Argeri
 - Conseguir o Copilot para ajudar no desenvolvimento *FEITO*
 - Checar a identidade visual *FEITO*
 - Adicionar animações *FEITO*
+- Fazer o que deve ser feito
+- Mudar as fotos
+- Ajudar o pessoal
+- Arrumar o footer
+- Mandar o video da Ana Clara Freire
+- Arrumar o design de simulados
 
 Raphaelle
 - Revisar seção "Sobre Nós" (junto com Souza)
 - Inserir links nas páginas de carreiras e estágio
-- Adicionar PDFs para ajudar no estudo
-- Incluir métodos de estudo e influenciadores em dicas
+- Adicionar PDFs para ajudar no estudo *FEITO*
+- Incluir métodos de estudo e influenciadores em dicas *FEITO*
+- Incluir faculdades
+- Criar uma página pra cada método
 
 Miguel Sarti
 - Adicionar formulário de Contato *FEITO*
@@ -56,14 +65,7 @@ Data de conclusão
 
 ---------------------------------------------------------
 Problemas extras:
-<<<<<<< HEAD
 corrigir header em contatos; *FEITO*
 responsividade em dicas; *FEITO*
-responsividade em estagio; *FEITO*
-responsividade em carreiras; *FEITO*
-=======
-corrigir header em contatos;
-responsividade em dicas;
 responsividade em estagio;
-responsividade em carreiras;
->>>>>>> 155c90746c1d67e77017b166548527034009f3d7
+responsividade em carreiras; *FEITO*
