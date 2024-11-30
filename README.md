@@ -46,12 +46,13 @@ Vitor Argeri
 - Arrumar o design de simulados
 
 Raphaelle
-- Revisar seção "Sobre Nós" (junto com Souza)
+- Revisar seção "Sobre Nós" (junto com Souza) *FEITO*
 - Inserir links nas páginas de carreiras e estágio
 - Adicionar PDFs para ajudar no estudo *FEITO*
 - Incluir métodos de estudo e influenciadores em dicas *FEITO*
-- Incluir faculdades
+- Incluir faculdades *FEITO*
 - Criar uma página pra cada método
+- Fazer a responsividade de dicas
 
 Miguel Sarti
 - Adicionar formulário de Contato *FEITO*
@@ -66,6 +67,5 @@ Data de conclusão
 ---------------------------------------------------------
 Problemas extras:
 corrigir header em contatos; *FEITO*
-responsividade em dicas; *FEITO*
 responsividade em estagio;
 responsividade em carreiras; *FEITO*

@@ -308,6 +308,7 @@ body {
     color: white;
     transition: .5s ease;
     cursor: pointer;
+    width: 30%;
 }
 
 .greetings {
@@ -524,4 +525,13 @@ body {
         justify-content: space-around;
     }
     
+    .university a {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .university a {
+        font-size: 0.75rem;
+    }
 }
