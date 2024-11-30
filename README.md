@@ -41,7 +41,6 @@ Vitor Argeri
 - Fazer o que deve ser feito
 - Mudar as fotos
 - Ajudar o pessoal
-- Arrumar o footer
 - Mandar o video da Ana Clara Freire
 - Arrumar o design de simulados
 
@@ -60,6 +59,7 @@ Miguel Sarti
 - Arrumar a página de carreiras *FEITO*
 - Adicionar a página de contato na sub-header *FEITO*
 - Arrumar a responsividade das fontes do site com media-screen
+- Arrumar o footer
 
 Data de conclusão
 05/12 
