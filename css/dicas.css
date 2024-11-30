@@ -124,7 +124,7 @@ body {
 }
 
 .dicas-subtitle {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--description-color);
     font-weight: 600;
     align-self: center;
@@ -165,6 +165,149 @@ body {
 .dicas-explanation {
     font-size: 1.5rem;
     color: var(--description-color);
+}
+
+.education-methods {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.method {
+    background-color: red;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    border: 2px solid black;
+    transition: 0.3s ease;
+}
+
+.mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 15rem;
+    width: 100%;
+}
+
+.method:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.center-title {
+    font-size: 2rem;
+    color: #681413;
+}
+
+.first-method,
+.last-method {
+    padding: 2rem;
+}
+
+.center {
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.universities {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 5%;
+    height: 80vh;
+}
+
+.university {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23.333%;
+    height: 60vh;
+    border-radius: 3rem;
+    border: 3px solid #681413;
+    transition: .3s ease;
+    overflow-y: hidden;
+}
+
+.PDFs {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+
+.div-pdf {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    gap: 5%;
+    height: 35vh;
+}
+
+.pdf-block {
+    width: 23.333%;
+    height: 30vh;
+    background-color: red;
+    border-radius: 3rem;
+    border: 2px solid #681413;
+    transition: .3s ease;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    transition: .3s ease;
+    color: white;
+}
+
+.pdf-block:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    text-decoration: underline;
+    filter: brightness(.9);
+}
+
+.pdf-img {
+    height: 7vh;
+    width: auto;
+    margin: 0.6rem;
+}
+
+.universities a {
+    color: #9A1915;
+    background-color: #ffffff;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    padding: 1rem;
+    border-radius: 2rem;
+    position: relative;
+    top: 7rem;
+}
+
+.university:hover {
+    transform: scale(1.1);
+}
+
+.university-name:hover {
+    background-color: #E30613;
+    color: white;
+    transition: .5s ease;
+    cursor: pointer;
 }
 
 .greetings {
@@ -261,7 +404,7 @@ body {
 }
 
 .influenciador-nome {
-    font-size: 1.4rem;
+    font-size: 1.21rem;
     margin: 1rem;
 }
 
@@ -382,10 +525,3 @@ body {
     }
     
 }
-
-.students-methods {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-
