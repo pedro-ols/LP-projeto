@@ -387,6 +387,8 @@ body {
     width: 21.25%;
      margin-right: 3%;
     margin-left: 3%;
+    hyphens: auto;
+    align-self: start;
 }
 
 .influenciador {
@@ -395,6 +397,7 @@ body {
     align-items: center;
     flex-direction: column;
     width: 21.25%;
+    flex-wrap: nowrap;
     margin-right: 3%;
     margin-left: 3%;
 }
@@ -409,12 +412,14 @@ body {
     aspect-ratio: 1/1;
     border-radius: 1rem;
     border: 2px solid #9A1915;
+    object-fit: cover;
 }
 
 .influenciador-nome {
-    font-size: 1.25vw;
-    margin: 1rem;
-    padding: 1rem;
+    font-size: 1rem;
+    margin: 1rem 0;
+    padding: 0;
+    text-align: center;
 }
 
 .site-footer {
