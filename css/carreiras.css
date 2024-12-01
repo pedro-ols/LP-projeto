@@ -100,9 +100,6 @@ body {
 
 .carreiras-title {
     margin: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-size: 3rem;
     color: #681413;
 }
@@ -254,7 +251,7 @@ main {
 .estagio-div {
     background-color: #fcd8d8;
     border-bottom-left-radius: 2rem;
-    width: 60%;
+    width: 80%;
     height: 10%;
     display: flex;
     margin: auto;
@@ -265,6 +262,8 @@ main {
     font-size: 1.3rem;
     padding: 2rem;
     overflow-y: hidden;
+    margin: 0.3rem;
+    bottom: 1rem;
 }
 
 .carrer-name {
@@ -303,11 +302,6 @@ main {
     width: 100%;
     height: 100%;
     display: flex;
-}
-
-.estagio-name, .estagio-salario, .estagio-descricao, .estagio-requerimentos, li {
-    margin: 0.3rem;
-    bottom: 1rem;
 }
 
 .site-footer {
@@ -408,7 +402,7 @@ main {
     font-weight: bold;
 }
 
-@media (min-width: 400px) and (max-width: 900px) {
+@media (max-width: 900px) {
     .header-container{
         width: 100%;
         height: 80%;
@@ -447,12 +441,23 @@ main {
     .estagio-container {
         margin-top: 0%;
         flex-direction: column;
+        width: 80%;
+    }
+
+    .texto-estagio {
+        padding: 1rem;
+        margin: auto;
+        font-size: 1rem;
     }
 
     .estagio-div {
-        padding: 2rem;
         flex-direction: column;
-        margin-right: 31%;
+        display: flex;
+        width: 80%;
+    }
+
+    .estagio-name {
+        font-size: 2rem;
     }
 
     .estagio-descricao {
@@ -480,7 +485,7 @@ main {
 
     .carreira-text{
         text-align: center;
-        font-size: 10rem;
+        font-size: 1.2rem;
     }
 
     .estagio-name{
