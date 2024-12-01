@@ -19,7 +19,7 @@ Pedro Oliveira
 - Fazer relatório de teste de qualidade completo *FEITO*
 - Melhorar o design dos botões
 - Arrumar o sobre nós
-- Arrumar o footer e header de dicas.html
+- Arrumar o footer e header de algumas páginas
 
 Souza
 - Adicionar uma root padrão para todo o site 
