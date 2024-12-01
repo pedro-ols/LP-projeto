@@ -165,6 +165,139 @@ main {
     margin: 1rem;
 }
 
+.news {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.news-list 
+.news-item {
+    list-style: none;
+}
+
+.news-wrapper {
+    max-width: 100%;
+    margin: 0 3.75rem 1.875rem;
+    padding: 1.25rem 0.625rem;
+    overflow: hidden;
+}
+
+.news-list
+.news-item
+.news-link {
+    user-select: none;
+    display: block;
+    background: rgb(238, 238, 238);
+    padding: 1.125rem;
+    border-radius: 0.75rem;
+    text-decoration: none;
+    border: 2px solid transparent;
+    box-shadow: 0 0.625rem 0.625rem rgba(0, 0, 0, 0.05);
+    transition: 0.2s ease;
+}
+
+.news-list
+.news-item
+.news-link:active {
+    cursor: grabbing;
+}
+
+.news-list
+.news-item
+.news-link:hover {
+    border-color: black;
+}
+
+.news-list
+.news-link
+.news-image {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 0.625rem;
+}
+
+.news-list
+.news-link
+.badge {
+    color: black;
+    padding: 0.5rem 1rem;
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin: 1rem 0 1.125rem;
+    background: #ee9b9b;
+    width: fit-content;
+    border-radius: 3.125rem;
+}
+
+
+.news-list
+.news-link
+.news-title {
+    font-size: 1.20rem;
+    color: black;
+    font-weight: 600;
+}
+
+.news-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.news-list
+.news-link
+.news-button {
+    color: black;
+    height: 2.188rem;
+    width: 2.188rem;
+    border-radius: 50%;
+    margin: 1.875rem 0 0.313rem;
+    border: 2px solid #F52C2C;
+    transform: rotate(-45deg);
+    transition: 0.4s ease;
+}
+
+.news-list
+.news-link:hover
+.news-button {
+    color: #fff;
+    background: #F52C2C;
+}
+
+.news-wrapper
+.swiper-pagination-bullet {
+    height: 0.813rem;
+    width: 0.813rem;
+    opacity: 0.5;
+    background: #F52C2C;
+}
+
+.news-wrapper
+.swiper-pagination-bullet-active {
+    opacity: 1;
+}
+
+.news-wrapper .swiper-slide-button {
+    color: #F52C2C;
+    margin-top: -2.188rem;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .news-wrapper {
+        margin: 0 0.625rem 1.563rem;
+    }
+
+    .news-wrapper .swiper-slide-button {
+        display: none;
+    }
+}
+
+
+
 .site-footer {
     display: flex;
     background-color: #E30613;
@@ -262,3 +395,4 @@ main {
 .footer-title-negrito {
     font-weight: bold;
 }
+
