@@ -121,6 +121,7 @@ body {
     font-weight: bold;
     margin: 2rem;
     overflow: hidden;
+    white-space: nowrap;
 }
 
 .dicas-subtitle {
@@ -368,7 +369,9 @@ body {
 
 .influenciadores {
     width: 100%;
-    overflow-y: hidden;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 .img-and-h1 {
@@ -399,6 +402,7 @@ body {
     width: 21.25%;
     flex-wrap: nowrap;
     margin-right: 3%;
+    overflow: hidden;
     margin-left: 3%;
 }
 
@@ -416,10 +420,11 @@ body {
 }
 
 .influenciador-nome {
-    font-size: 1rem;
+    font-size: 1.25rem;
     margin: 1rem 0;
     padding: 0;
     text-align: center;
+    height: 3rem;
 }
 
 .site-footer {
@@ -512,9 +517,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10rem;
-    margin-top: 15px;
-    overflow-y: hidden;
-    /* text-align: justify; */
+    margin-top: 12.5px;
 }
 
 .footer-title-negrito {
@@ -599,6 +602,36 @@ body {
     .dicas-explanation {
         font-size: 1.25rem;
     }
+
+    .influenciadores {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .influenciador-descricao-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .influenciador {
+        width: 90%;
+    }
+
+    .influenciador-nome {
+        font-size: 0.85rem;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-top: 0.5rem;
+    }
+
+    .influenciador-descricao {
+        font-size: 1rem;
+        text-align: justify;
+        width: 90%;
+    }
 }
 
 @media (max-width: 500px) {
@@ -606,8 +639,44 @@ body {
         font-size: 1.25rem;
     }
 
+    .dicas-title {
+        font-size: 2rem;
+    }
+
+    .dicas-subtitle {
+        font-size: 1.25rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
     .dicas-explanation {
         font-size: 1rem;
+    }
+
+
+    .influenciador-nome {
+        font-size: 0.6rem;
+    }
+
+    .img-and-h1 {
+        width: 100%;
+    }
+
+    .influenciador {
+        width: 100%;
+    }
+
+    .influenciador-descricao-div {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .influenciador-descricao {
+        width: 100%;
+        font-size: 0.9rem;
     }
 
     .mid {
