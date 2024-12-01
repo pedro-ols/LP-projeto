@@ -592,6 +592,22 @@ body {
     .center-title {
         font-size: 1rem;
     }
+
+    .PDFs {
+        height: 60vh;
+    }
+
+    .div-pdf {
+        width: 90%;
+        margin-bottom: -5rem;
+        border-radius: 16px;
+        margin: 0.3rem;
+    }
+
+    .pdf-title {
+        font-size: 0.75rem;
+    }
+
 }
 
 @media (max-width: 756px) {
@@ -632,6 +648,18 @@ body {
         text-align: justify;
         width: 90%;
     }
+
+    .div-pdf {
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+    .pdf-block {
+        width: 10rem;
+        height: auto;
+        aspect-ratio: 1/1;
+    }
+    
 }
 
 @media (max-width: 500px) {
@@ -653,6 +681,9 @@ body {
         font-size: 1rem;
     }
 
+    .pdf-block {
+        border-radius: 50%;
+    }
 
     .influenciador-nome {
         font-size: 0.6rem;

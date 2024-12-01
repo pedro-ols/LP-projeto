@@ -39,20 +39,19 @@ Vitor Argeri
 - Conseguir o Copilot para ajudar no desenvolvimento *FEITO*
 - Checar a identidade visual *FEITO*
 - Adicionar animações *FEITO*
-- Fazer o que deve ser feito
 - Mudar as fotos
-- Ajudar o pessoal
-- Mandar o video da Ana Clara Freire
+- Ajudar o pessoal *FEITO*
+- Mandar o video da Ana Clara Freire 
 - Arrumar o design de simulados
 
 Raphaelle
 - Revisar seção "Sobre Nós" (junto com Souza) *FEITO*
-- Inserir links nas páginas de carreiras e estágio
+- Inserir links nas páginas de carreiras e estágio 
 - Adicionar PDFs para ajudar no estudo *FEITO*
 - Incluir métodos de estudo e influenciadores em dicas *FEITO*
 - Incluir faculdades *FEITO*
 - Criar uma página pra cada método
-- Fazer a responsividade de dicas
+- Fazer a responsividade de dicas *FEITO*
 
 Miguel Sarti
 - Adicionar formulário de Contato *FEITO*
