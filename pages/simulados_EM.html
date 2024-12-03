@@ -10,6 +10,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
+        <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 
 <body>
@@ -28,6 +32,7 @@
                     <p class="nav-item"><a href="/pages/dicas.html">Dicas</a></p>
                     <p class="nav-item"><a href="/pages/estagio.html">Estágio</a></p>
                     <p class="nav-item-active"><a href="/pages/simulados.html">Simulados</a></p>
+                    <p class="nav-item"><a href="/pages/contato.html">Contato</a></p>
                 </nav>
             </div>
         </div>
@@ -58,7 +63,7 @@
                     </div>
 
                     <div class="answer-type">
-                        <input type="radio" name="answer" id="answer" value="1" checked>
+                        <input type="radio" name="answer"  value="0" checked>
                         <label for="answer01">5</label>
                     </div>
 
@@ -80,7 +85,7 @@
                     </div>
 
                     <div class="answer-type">
-                        <input type="radio" name="answer" id="answer" value="1" checked>
+                        <input type="radio" name="answer"  value="1" checked>
                         <label for="answer01">Adverbiais, Adjetivas e Substantivas.</label>
                     </div>
 
@@ -111,7 +116,7 @@
                     </div>
 
                     <div class="answer-type">
-                        <input type="radio" name="answer" id="answer" value="1" checked>
+                        <input type="radio" name="answer"  value="1" checked>
                         <label for="answer01">b) utilização de formas verbais que marcam tempos narrativos variados.</label>
                     </div>
 
@@ -144,7 +149,7 @@
                     </h3>
 
                     <div class="answer-type">
-                        <input type="radio" name="answer" id="answer" value="1" checked>
+                        <input type="radio" name="answer"  value="1" checked>
                         <label for="answer01"> inelutável.</label>
                     </div>
 
@@ -196,7 +201,7 @@
                     </div>
 
                     <div class="answer-type">
-                        <input type="radio" name="answer" id="answer" value="1" checked>
+                        <input type="radio" name="answer"  value="1" checked>
                         <label for="answer01">d) descreve e interpreta os fatos, sugerindo que, na visão dos povos originários, era possível a convivência pacífica com o colonizador, já que compartilhavam os mesmos interesses.</label>
                     </div>
 
@@ -224,7 +229,7 @@
                     </div>
 
                     <div class="answer-type">
-                        <input type="radio" name="answer" id="answer" value="1" checked>
+                        <input type="radio" name="answer"  value="1" checked>
                         <label for="answer01">c) metafórico e é antônimo de escurecer.</label>
                     </div>
 
@@ -242,7 +247,7 @@
                     </h3>
 
                     <div class="answer-type">
-                        <input type="radio" name="answer" id="answer" value="1" checked>
+                        <input type="radio" name="answer"  value="1" checked>
                         <label for="answer01">a) "mas também não <u>a</u> encontrou."</label>
                     </div>
 
@@ -286,27 +291,27 @@
 
 
                     <div class="answer-type">
-                        <input type="radio" name="answer" id="answer" value="0" checked>
+                        <input type="radio" name="answer"  value="1" checked>
                         <label for="answer01">a) adjetivação de tempos.</label>
                     </div>
 
                     <div class="answer-type">
-                        <input type="radio" name="answer" id="answer" value="0" checked>
+                        <input type="radio" name="answer"  value="1" checked>
                         <label for="answer01">b) diálogo entre narradores.</label>
                     </div>
 
                     <div class="answer-type">
-                        <input type="radio" name="answer" id="answer" value="0" checked>
+                        <input type="radio" name="answer"  value="1" checked>
                         <label for="answer01">c) referenciação de espaços.</label>
                     </div>
 
                     <div class="answer-type">
-                        <input type="radio" name="answer" id="answer" value="0" checked>
+                        <input type="radio" name="answer"  value="1" checked>
                         <label for="answer01">d) descrição de personagens.</label>
                     </div>
                     
                     <div class="answer-type">
-                        <input type="radio" name="answer" id="answer" value="1" checked>
+                        <input type="radio" name="answer"  value="1" checked>
                         <label for="answer01">e) sequência de ações.</label>
                     </div>
 
@@ -337,7 +342,7 @@
                     </div>
 
                     <div class="answer-type">
-                        <input type="radio" name="answer" id="answer" value="1" checked>
+                        <input type="radio" name="answer"  value="1" checked>
                         <label for="answer01">d) comercialização de pontos de vista.</label>
                     </div>
 
@@ -374,7 +379,7 @@
                     </div>
 
                     <div class="answer-type">
-                        <input type="radio" name="answer" id="answer" value="1" checked >
+                        <input type="radio" name="answer"  value="1" checked >
                         <label for="answer01">d) Os habitantes de uma cidade grande não possuem sotaque na língua falada.</label>
                     </div>
 
@@ -385,6 +390,8 @@
 
                 </article>
             </form>
+            <button id="submit-btn">Verificar Respostas</button>
+            <p id="result"></p>
         </section>
     </main>
 
@@ -425,6 +432,24 @@
         </div>
     </footer>
 
+    <script>
+        document.getElementById("submit-btn").addEventListener("click", function () {
+            const questions = document.querySelectorAll(".specific-question");
+            let score = 0;
+    
+            questions.forEach(question => {
+                const correctValue = question.getAttribute("data-correct");
+                const selectedAnswer = question.querySelector('input[type="radio"]:checked');
+    
+                if (selectedAnswer && selectedAnswer.value === correctValue) {
+                    score++;
+                }
+            });
+    
+            const resultElement = document.getElementById("result");
+            resultElement.textContent = `Você acertou ${score} de ${questions.length} questões!`;
+        });
+    </script>
 </body>
 
 </html>

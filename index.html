@@ -2,16 +2,22 @@
 <html lang="pt-BR">
 
 <head>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_forward" />
     <title>Lingua Portuguesa-Home</title>
     <link rel="stylesheet" href="/css/home.css">
-    <script src="../js/script.js" defer></script>
+    <script src="./js/show-less-btn2.js" defer></script>
+    <script src="./js/show-less-btn3.js" defer></script>
+    <script src="./js/show-less-btn4.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -32,72 +38,201 @@
                     <p class="nav-item"><a href="/pages/dicas.html">Dicas</a></p>
                     <p class="nav-item"><a href="/pages/estagio.html">Estágio</a></p>
                     <p class="nav-item"><a href="/pages/simulados.html">Simulados</a></p>
+                    <p class="nav-item"><a href="/pages/contato.html">Contato</a></p>
                 </nav>
             </div>
         </div>
     </header>
 
     <main>
-        <img class="main-image" src="img/header.jpg" alt="header-img">
-        <div class="section-title">
-            <div>
-                <h1 class="page-title">Língua Portuguesa</h1>
-            </div>
-            <h2 class="page-subtitle">Projeto Portal Vestibular SESI SENAI</h2>
+        <div class="main-image-div">
+            <img class="main-image" src="img/header.jpg" alt="header-img">
         </div>
-        <p class="main-text">Olá! Seja bem-vindo à aba de Língua Portuguesa do Portal Vestibular feito pelos alunos
-            da ensino médio SESI integrado com SENAI! Se você procura um
-            lugar para mergulhar nas melhores dicas para vestibular, você veio ao lugar certo.</p>
+
+        <div class="page-title">
+            <h1 class="page-title-h1">Língua Portuguesa</h1>
+            <h2 class="page-subtitle">Projeto Portal Vestibular SESI SENAI</h2>
+            <p class="main-text">Olá! Seja bem-vindo à aba de Língua Portuguesa do Portal Vestibular feito pelos alunos
+                da ensino médio SESI integrado com SENAI! Se você procura um
+                lugar para mergulhar nas melhores dicas para vestibular, você veio ao lugar certo.</p>
+        </div>
     </main>
 
-    <button id="hide-action-btn" class="hide-button">
-        <h1 class="hide-icon">></h1>
-    </button>
-    <section class="interviews">
-        <div class="section-title">
-            <h1 class="title"><a href="/pages/entrevistas.html" class="title-a">Entrevistas</a></h1>
+    <section class="interviews" data-aos="fade-up">
+        <div class="section-title" data-aos="fade-up">
+            <button id="interview-show-less-btn" class="hide-button-active">
+                <img src="\img\262044.png" alt="imagem do botão de ocultar" class="button-icon">
+            </button>
+            <h1 class="interviews-title" data-aos="fade-up">Entrevistas</h1>
         </div>
-        <div class="interviews-div">
-            <div class="block"><a href="/pages/entrevistas/entrevista3.html"><img src="" alt=""></a></div>
-            <div class="block"><a href="/pages/entrevistas/entrevista1.html"><img src="" alt=""></a></div>
-            <div class="block"> <a href="/pages/entrevistas/entrevista2.html"><img src="" alt=""></a></div>
+        <div class="interviews-div" data-aos="fade-up" id="interviews-row">
+            <div class="block" data-aos="fade-up"><a href="/pages/entrevistas/entrevista3.html"><img src="" alt=""></a>
+            </div>
+            <div class="block" data-aos="fade-up"><a href="/pages/entrevistas/entrevista1.html"><img src="" alt=""></a>
+            </div>
+            <div class="block" data-aos="fade-up"> <a href="/pages/entrevistas/entrevista2.html"><img src="" alt=""></a>
+            </div>
         </div>
     </section>
 
-    <button id="hide-action-btn" class="hide-button">
-        <h1 class="hide-icon">></h1>
-    </button>
-    <section class="news">
-        <div class="section-title">
-            <h1 class="title"><a href="/pages/noticias/noticia1.html" class="title-a">Noticias</a></h1>
-        </div>
-        <div class="news-carousel">
-            <div class="news-block"></div>
-            <div class="news-block"></div>
-            <div class="news-block"></div>
-        </div>
+    <div class="section-title" data-aos="fade-up">
+        <button id="news-show-less-btn" class="hide-button-active">
+            <img src="\img\262044.png" alt="imagem do botão de ocultar" class="button-icon">
+        </button>
+        <h1 class="interviews-title" data-aos="fade-up">Notícias</h1>
+    </div>
+    <section class="news swiper" id="news-row">
+        <article class="news-wrapper">
+            <ul class="news-list swiper-wrapper" data-aos="fade-up">
+                <li class="news-item swiper-slide" data-aos="fade-up">
+                    <a href="/pages/noticias/noticia1.html" class="news-link">
+                        <img src="img/noticia-1.png" alt="News Image" class="news-image">
+                        <p class="badge rai">Da Redação</p>
+                        <h2 class="news-title"> Premiê de Portugal defende que português seja língua oficial da ONU </h2>
+                        <button class="news-button material-symbols-rounded">arrow_forward</button>
+                    </a>
+                </li>
+                <li class="news-item swiper-slide" data-aos="fade-up">
+                    <a href="/pages/noticias/noticia2.html" class="news-link">
+                        <img src="img/noticia-2.png" alt="News Image" class="news-image">
+                        <p class="badge ceni">Marília Monitchele</p>
+                        <h2 class="news-title">Fernando Venâncio: “A língua portuguesa não nasceu com os portugueses”</h2>
+                        <button class="news-button material-symbols-rounded">arrow_forward</button>
+                    </a>
+                </li>
+                <li class="news-item swiper-slide" data-aos="fade-up">
+                    <a href="/pages/noticias/noticia3.html" class="news-link">
+                        <img src="img/noticia-3.png" alt="News Image" class="news-image">
+                        <p class="badge lucas">Laísa Dall'Agnol</p>
+                        <h2 class="news-title">Prefeitura de São Paulo quer guarani como segunda língua oficial da cidade</h2>
+                        <button class="news-button material-symbols-rounded">arrow_forward</button>
+                    </a>
+                </li>
+                <li class="news-item swiper-slide" data-aos="fade-up">
+                    <a href="/pages/noticias/noticia4.html" class="news-link">
+                        <img src="img/noticia-4.png" alt="News Image" class="news-image">
+                        <p class="badge carteirinha">Wilson Ledo</p>
+                        <h2 class="news-title">Novas regras de Portugal para imigrantes geram dúvidas, entenda:</h2>
+                        <button class="news-button material-symbols-rounded">arrow_forward</button>
+                    </a>
+                </li>
+                <li class="news-item swiper-slide" data-aos="fade-up">
+                    <a href="/pages/noticias/noticia5.html" class="news-link">
+                        <img src="img/noticia-5.png" alt="News Image" class="news-image">
+                        <p class="badge wallpaper">Lucas Pordeus León</p>
+                        <h2 class="news-title">CPLP: entenda o que é a Comunidade dos Países de Língua Portuguesa.</h2>
+                        <button class="news-button material-symbols-rounded">arrow_forward</button>
+                    </a>
+                </li>
+                <li class="news-item swiper-slide" data-aos="fade-up">
+                    <a href="/pages/noticias/noticia6.html" class="news-link">
+                        <img src="img/noticia-6.jpeg" alt="News Image" class="news-image">
+                        <p class="badge rai">Mirella Cordeiro</p>
+                        <h2 class="news-title">4 professores de português famosos para seguir nas redes sociais.</h2>
+                        <h2 class="news-title"></h2>
+                        <button class="news-button material-symbols-rounded">arrow_forward</button>
+                    </a>
+                </li>
+                <li class="news-item swiper-slide" data-aos="fade-up">
+                    <a href="/pages/noticias/noticia7.html" class="news-link">
+                        <img src="img/noticia-7.png" alt="News Image" class="news-image">
+                        <p class="badge rai">Jornal da USP</p>
+                        <h2 class="news-title">Pesquisadores dedicados à linguística africana estudam seu impacto no Brasil de hoje.</h2>
+                        <button class="news-button material-symbols-rounded">arrow_forward</button>
+                    </a>
+                </li>
+                <li class="news-item swiper-slide" data-aos="fade-up">
+                    <a href="/pages/noticias/noticia8.html" class="news-link">
+                        <img src="img/noticia-8.png" alt="News Image" class="news-image">
+                        <p class="badge rai">Universia Brasil</p>
+                        <h2 class="news-title">MEC divulga uma estratégia para melhorar a alfabetização no Brasil</h2>
+                        <button class="news-button material-symbols-rounded">arrow_forward</button>
+                    </a>
+                </li>
+                <li class="news-item swiper-slide" data-aos="fade-up">
+                    <a href="/pages/noticias/noticia9.html" class="news-link">
+                        <img src="img/noticia-9.png" alt="News Image" class="news-image">
+                        <p class="badge rai">Faculdade EXAME</p>
+                        <h2 class="news-title">Como usar o gerúndio corretamente sem virar gerundismo</h2>
+                        <button class="news-button material-symbols-rounded">arrow_forward</button>
+                    </a>
+                </li>
+                <li class="news-item swiper-slide" data-aos="fade-up">
+                    <a href="/pages/noticias/noticia10.html" class="news-link">
+                        <img src="img/noticia-10.png" alt="News Image" class="news-image">
+                        <p class="badge rai">Inclusão Social</p>
+                        <h2 class="news-title">Projeto estudantil estimula aprendizagem da língua portuguesa e exercício</h2>
+                        <button class="news-button material-symbols-rounded">arrow_forward</button>
+                    </a>
+                </li>
+                <li class="news-item swiper-slide" data-aos="fade-up">
+                    <a href="/pages/noticias/noticia11.html" class="news-link">
+                        <img src="img/noticia-11.png" alt="News Image" class="news-image">
+                        <p class="badge rai">Eventos Ribeirão</p>
+                        <h2 class="news-title">Professora da USP Ribeirão oferece curso gratuito de português para imigrantes.</h2>
+                        <button class="news-button material-symbols-rounded">arrow_forward</button>
+                    </a>
+                </li>
+                <li class="news-item swiper-slide" data-aos="fade-up">
+                    <a href="/pages/noticias/noticia12.html" class="news-link">
+                        <img src="img/noticia-12.png" alt="News Image" class="news-image">
+                        <p class="badge rai">Da Redação</p>
+                        <h2 class="news-title">Quantos países sabem falar português no mundo além do Brasil?</h2>
+                        <button class="news-button material-symbols-rounded">arrow_forward</button>
+                    </a>
+                </li>
+                <li class="news-item swiper-slide" data-aos="fade-up">
+                    <a href="/pages/noticias/noticia13.html" class="news-link">
+                        <img src="img/noticia-13.png" alt="News Image" class="news-image">
+                        <p class="badge rai">Ana Zimmerman</p>
+                        <h2 class="news-title">Série do Jornal Hoje aborda a língua portuguesa coloquial falada nas ruas</h2>
+                        <button class="news-button material-symbols-rounded">arrow_forward</button>
+                    </a>
+                </li>
+                <li class="news-item swiper-slide" data-aos="fade-up">
+                    <a href="/pages/noticias/noticia14.html" class="news-link">
+                        <img src="img/noticia-14.png" alt="News Image" class="news-image">
+                        <p class="badge rai">Camilla Costa</p>
+                        <h2 class="news-title">Os 10 erros de português mais cometidos na gramática
+                             pelos brasileiros</h2>
+                        <button class="news-button material-symbols-rounded">arrow_forward</button>
+                    </a>
+                </li>
+                <li class="news-item swiper-slide" data-aos="fade-up">
+                    <a href="pages/noticias/noticia15.html" class="news-link">
+                        <img src="img/noticia-15.png" alt="News Image" class="news-image">
+                        <p class="badge rai">Jornal USP</p>
+                        <h2 class="news-title">Estudiosos discutem a língua portuguesa na educação, literatura e comunicação</h2>
+                        <button class="news-button material-symbols-rounded">arrow_forward</button>
+                    </a>
+                </li>
+
+            </ul>
+
+            <div class="swiper-pagination"></div>
+            <div class="swiper-slide-button swiper-button-prev" data-aos="fade-up"></div>
+            <div class="swiper-slide-button swiper-button-next" data-aos="fade-up"></div>
+
+        </article>
     </section>
 
-    <button id="hide-action-btn" class="hide-button">
-        <h1 class="hide-icon">></h1>
-    </button>
-    <section class="carrers">
-        <div class="section-title">
-            <h1 class="title"><a href="/pages/" class="title-a">Carreiras</a></h1>
+    <div class="section-title" data-aos="fade-up">
+        <button id="showLess4" class="hide-button-active">
+            <img src="\img\262044.png" alt="imagem do botão de ocultar" class="button-icon">
+        </button>
+        <h1 class="interviews-title" data-aos="fade-up">Carreiras</h1>
+    </div>
+    <div class="carrers-div" id="carrers-div">
+        <div class="carrers-block carrers-block1 animate_animated animate__backInUp">
+            <p class="carrers-name">Professor</p>
         </div>
-        <div class="carrers-div">
-            <div class="carrers-block carrers-block1">
-                <p class="carrers-name">Professor</p>
-            </div>
-            <div class="carrers-block carrers-block2">
-                <p class="carrers-name">Escritor</p>
-            </div>
+        <div class="carrers-block carrers-block2">
+            <p class="carrers-name">Escritor</p>
         </div>
-        <div class="carrers-div">
-            <div class="carrers-block carrers-block3">
-                <p class="carrers-name">Juiz</p>
-            </div>
+        <div class="carrers-block carrers-block3">
+            <p class="carrers-name">Juiz</p>
         </div>
+    </div>
     </section>
 
     <footer class="site-footer">
@@ -137,6 +272,11 @@
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/slider.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

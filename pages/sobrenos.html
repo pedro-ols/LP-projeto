@@ -10,6 +10,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
 </head>
 
 <body>
@@ -18,7 +22,8 @@
         <div class="header-container">
             <div class="nav-header">
                 <div class="nav-image">
-                    <img class="senai-image" src="/img/logosenai.png" alt="Logo do SESI/SENAI">
+                    <a href="https://www.sp.senai.br/"><img class="senai-image" src="/img/logosenai.png"
+                            alt="Logo do SESI/SENAI"></a>
                 </div>
             </div>
             <div class="sub-header">
@@ -29,6 +34,7 @@
                     <p class="nav-item"><a href="/pages/dicas.html">Dicas</a></p>
                     <p class="nav-item"><a href="/pages/estagio.html">Estágio</a></p>
                     <p class="nav-item"><a href="/pages/simulados.html">Simulados</a></p>
+                    <p class="nav-item"><a href="/pages/contato.html">Contato</a></p>
                 </nav>
             </div>
         </div>
@@ -43,81 +49,78 @@
                 quis provident sint dicta nulla minus velit esse repellendus tempora ea.
                 Voluptates on ex quisquam nam labore quia natus dignissimos alias!</p>
 
-            <button id="hide-action-btn" class="hide-button">
-                <h1 class="hide-icon">></h1>
+            <button id="hide-action-btn" class="hide-button-active">
+                <img src="\img\262044.png" alt="imagem do botão de ocultar">
             </button>
 
             <div class="group-image" id="group-image-div">
                 <img src="/img/foto-grupo-sobrenos.jpg" alt="imagem do grupinho">
             </div>
         </div>
+        <hr>
 
-        <h3 class="membros-title">Membros da Equipe:</h3>
+        <h3 class="membros-title" data-aos="fade-up">Membros da Equipe:</h3>
 
-        <div class="membros-container">
-            <div class="membro-div">
+        <div class="membros-container" data-aos="fade-up">
+            <div class="membro-div" data-aos="fade-up">
                 <img class="person-photo" src="/img/Pedro.jpeg" alt="Pedro">
-                <p class="people-text"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas
-                    quis provident sint dicta nulla minus velit esse repellendus tempora ea.
-                    Voluptates on ex quisquam nam labore quia natus dignissimos alias!
+                <p class="people-text"> Olá, me chamo Pedro e tenho 17 anos. Estudo no SESI Valinhos e faço Desenvolvimento de Sistemas no SENAI Valinhos. 
+                    Gosto muito de videogames, futebol, e tenho descoberto uma nova paixão por tecnologia e programação.
                 </p>
+                <p><strong>Nome completo:</strong> Pedro de Oliveira Santos
 
-                <p>Nome completo: Pedro Oliveira;
-
-                    Cargo scrum: <b>Product Owner</b>
+                    <p>Cargo scrum: <b>Product Owner</b></p>
                 </p>
             </div>
 
-            <div class="membro-div">
+            <div class="membro-div" data-aos="fade-up">
                 <img class="person-photo" src="/img/Vitor.jpeg" alt="Vitor">
-                <p class="people-text"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas
-                    quis provident sint dicta nulla minus velit esse repellendus tempora ea.
-                    Voluptates on ex quisquam nam labore quia natus dignissimos alias!
+                <p class="people-text"> Eu sou Vitor de Almeida Argeri, tenho 17 anos e sou o Scrum Master da equipe.
+                    Gosto de jogos, programação, ler livros e mais importante de tudo, aperfeiçoar meu conhecimento.
                 </p>
 
-                <p>Nome completo: Vitor de Almeida Argeri;
+                <p><strong>Nome completo:</strong> Vitor Almeida Argeri
 
-                    Cargo scrum: <b>Scrum Master</b>
+                    <p>Cargo scrum: <b>Scrum Master</b></p>
                 </p>
             </div>
 
 
-            <div class="membro-div">
+            <div class="membro-div" data-aos="fade-up">
                 <img class="person-photo" src="/img/Miguel.jpeg" alt="Miguel">
-                <p class="people-text"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas
-                    quis provident sint dicta nulla minus velit esse repellendus tempora ea.
-                    Voluptates on ex quisquam nam labore quia natus dignissimos alias!
+                <p class="people-text"> Meu nome é Miguel Sarti, tenho 16 anos, dentro da equipe, desepenhei o cargo de
+                    membro-desenvolvedor. Gosto de jogar, programar e ir pra academia.
                 </p>
 
-                <p>Nome completo: Miguel Sarti;
+                <p><strong>Nome completo:</strong> Miguel Sarti
 
-                    Cargo scrum: <b>Developer</b>
+                    <p>Cargo scrum: <b>Developer</b></p>
                 </p>
             </div>
 
-            <div class="membro-div">
+            <div class="membro-div" data-aos="fade-up">
                 <img class="person-photo" src="/img/Raphaelle.jpeg" alt="Raphaelle">
-                <p class="people-text"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas
-                    quis provident sint dicta nulla minus velit esse repellendus tempora ea.
-                    Voluptates on ex quisquam nam labore quia natus dignissimos alias!
+                <p class="people-text"> Meu nome é Raphaelle e tenho 16 anos. Estudo no SESI de Valinhos e atualmente estou cursando Desenvolvimento de Sistemas no SENAI.
+                    Gosto de jogar jogos online, assistir séries/filmes e ler. Em meu tempo livre toco guitarra, como forma de expressar minha paixão pela música. 
                 </p>
 
-                <p>Nome completo: Raphaelle Lacerda;
+                <p><strong>Nome completo:</strong> Raphaelle de Morais Silva Lacerda
 
-                    Cargo scrum: <b>Developer</b>
+                    <p>Cargo scrum: <b>Developer</b></p>
                 </p>
             </div>
 
-            <div class="membro-div">
+            <div class="membro-div" data-aos="fade-up">
                 <img class="person-photo" src="/img/Sara1.jpeg" alt="Souza">
-                <p class="people-text"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas
-                    quis provident sint dicta nulla minus velit esse repellendus tempora ea.
-                    Voluptates on ex quisquam nam labore quia natus dignissimos alias!
+                <p class="people-text">Me chamo Sara, mas pode me chamar de Souza!
+                    Atualmente estudo no SESI Valinhos, curso Desenvolvimento de Sistemas no SENAI, e trabalho em uma loja de sapatos.
+                    Tenho 16 anos e meus passatempos favoritos são desenhar, escrever, fazer artesanatos, jogar online (principalmente os de FPS), e dormir.
+
                 </p>
 
-                <p>Nome completo: Sara Souza;
+                <p><strong>Nome completo:</strong> Sara Esteves Dias de Souza
 
-                    Cargo scrum: <b>Developer</b>
+                    <p>Cargo scrum: <b>Developer</b></p>
                 </p>
             </div>
         </div>
@@ -159,4 +162,8 @@
             <p class="copy-info">&copy; 2024 - Todos os direitos reservados</p>
         </div>
     </footer>
+
+    <script>
+        AOS.init();
+    </script>
 </body>

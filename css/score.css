@@ -7,6 +7,7 @@
     font-optical-sizing: auto;
     text-align: justify;
 }
+
 :root {
     --background-color: ghostwhite;
     --title-color: #681413;
@@ -23,6 +24,7 @@ body {
     background-color: var(--background-color);
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
+    animation: fadeIn 0.5s ease;
 }
 
 .header-container{
@@ -53,6 +55,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    border-bottom: #000000 solid 0.25rem;
 }
 
 .nav-image {

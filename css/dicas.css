@@ -24,6 +24,7 @@ body {
     background-color: ghostwhite;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
+    animation: fadeIn 0.5s ease;
 }
 
 .header-container{
@@ -54,6 +55,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    border-bottom: #000000 solid 0.25rem;
 }
 
 .nav-image {
@@ -70,7 +72,6 @@ body {
     background-color: #E30613;
     align-items: center;
     display: flex;
-   
 }
 
 .main-nav {
@@ -111,6 +112,7 @@ body {
     justify-content: center;
     flex-direction: column;
     margin: 0.5rem;
+    overflow-y: hidden;
 }
 
 .dicas-title {
@@ -118,24 +120,34 @@ body {
     color: var(--title-color);
     font-weight: bold;
     margin: 2rem;
+    overflow: hidden;
+    white-space: nowrap;
 }
+
 .dicas-subtitle {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--description-color);
-    font-weight: bold;
+    font-weight: 600;
     align-self: center;
     margin-bottom: 1.5rem;
+    overflow: hidden;
+}
+
+.dicas-section {
+    overflow: hidden;
+    margin: 1rem;
 }
 
 .dicas-article {
-    margin: 4rem;
+    margin: 1rem;
     width: 90%;
     height: auto;
     border: 0.5rem solid #9a1915;
     border-top-right-radius: 3rem;
     border-bottom-left-radius: 3rem;
     background-color: ghostwhite;
-    padding: 2.5rem;
+    padding: 3rem;
+    overflow-y: hidden;
 }
 
 .dicas-name {
@@ -146,10 +158,165 @@ body {
 }
 .page-description{
     width: 80%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1.4rem;
 }
+
 .dicas-explanation {
     font-size: 1.5rem;
     color: var(--description-color);
+}
+
+.education-methods {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+
+.method {
+    background-color: red;
+    width: 5rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border: 2px solid black;
+    transition: 0.3s ease;
+    margin: 1rem;
+}
+
+.mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+}
+
+.method:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.center-title {
+    font-size: 2rem;
+    color: #681413;
+}
+
+.first-method,
+.last-method {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.center {
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 18rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    padding: 3rem;
+    border: 2px solid black;
+}
+
+.universities {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 5%;
+    height: auto;
+    padding: 2rem;
+}
+
+.university {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23.333%;
+    height: 60vh;
+    border-radius: 3rem;
+    border: 3px solid #681413;
+    transition: .3s ease;
+    overflow-y: hidden;
+}
+
+.PDFs {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+
+.div-pdf {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    gap: 5%;
+    height: 35vh;
+}
+
+.pdf-block {
+    width: 23.333%;
+    height: 30vh;
+    background-color: red;
+    border-radius: 3rem;
+    border: 2px solid #681413;
+    transition: .3s ease;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    transition: .3s ease;
+    color: white;
+}
+
+.pdf-block:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    text-decoration: underline;
+    filter: brightness(.9);
+}
+
+.pdf-img {
+    height: 7vh;
+    width: auto;
+    margin: 0.6rem;
+}
+
+.universities a {
+    color: #9A1915;
+    background-color: #ffffff;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    padding: 1rem;
+    border-radius: 2rem;
+    position: relative;
+    top: 7rem;
+}
+
+.university:hover {
+    transform: scale(1.1);
+}
+
+.university-name:hover {
+    background-color: #E30613;
+    color: white;
+    transition: .5s ease;
+    cursor: pointer;
+    width: 30%;
 }
 
 .greetings {
@@ -198,6 +365,66 @@ body {
 .button-ahref {
    text-decoration: none;
    color: var(--description-color); 
+}
+
+.influenciadores {
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.img-and-h1 {
+    display: flex;
+}
+
+.influenciador-descricao-div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.influenciador-descricao {
+    font-size: 1.1rem;
+    width: 21.25%;
+     margin-right: 3%;
+    margin-left: 3%;
+    hyphens: auto;
+    align-self: start;
+}
+
+.influenciador {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 21.25%;
+    flex-wrap: nowrap;
+    margin-right: 3%;
+    overflow: hidden;
+    margin-left: 3%;
+}
+
+.influenciador-img:hover {
+    cursor: pointer;
+    border: 2px solid #E30613;
+}
+
+.influenciador-img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 1rem;
+    border: 2px solid #9A1915;
+    object-fit: cover;
+}
+
+.influenciador-nome {
+    font-size: 1.25rem;
+    margin: 1rem 0;
+    padding: 0;
+    text-align: center;
+    height: 3rem;
 }
 
 .site-footer {
@@ -290,8 +517,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10rem;
-    margin-top: 15px;
-    /* text-align: justify; */
+    margin-top: 12.5px;
 }
 
 .footer-title-negrito {
@@ -314,5 +540,190 @@ body {
         width: 100%;
         justify-content: space-around;
     }
+
+    .universities {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 2rem;
+    }
+
+    .university {
+        width: 90%;
+        height: 50vh;
+    }
     
+    .university a {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }        
+
+    .university a {
+        width: 50%;
+        height: 10vh;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-size: 2rem;
+    }
+
+    .dicas-name {
+        font-size: 1.8rem;
+    }
+    .dicas-explanation {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .university a {
+        font-size: 1.25rem;
+    }
+
+    .method {
+        width: 5rem;
+    }
+
+    .center {
+        width: 12rem;
+    }
+
+    .center-title {
+        font-size: 1rem;
+    }
+
+    .PDFs {
+        height: 60vh;
+    }
+
+    .div-pdf {
+        width: 90%;
+        margin-bottom: -5rem;
+        border-radius: 16px;
+        margin: 0.3rem;
+    }
+
+    .pdf-title {
+        font-size: 0.75rem;
+    }
+
+}
+
+@media (max-width: 756px) {
+    .dicas-name {
+        font-size: 1.5rem;
+    }
+
+    .dicas-explanation {
+        font-size: 1.25rem;
+    }
+
+    .influenciadores {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .influenciador-descricao-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .influenciador {
+        width: 90%;
+    }
+
+    .influenciador-nome {
+        font-size: 0.85rem;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-top: 0.5rem;
+    }
+
+    .influenciador-descricao {
+        font-size: 1rem;
+        text-align: justify;
+        width: 90%;
+    }
+
+    .div-pdf {
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+    .pdf-block {
+        width: 10rem;
+        height: auto;
+        aspect-ratio: 1/1;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .dicas-name {
+        font-size: 1.25rem;
+    }
+
+    .dicas-title {
+        font-size: 2rem;
+    }
+
+    .dicas-subtitle {
+        font-size: 1.25rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .dicas-explanation {
+        font-size: 1rem;
+    }
+
+    .pdf-block {
+        border-radius: 50%;
+    }
+
+    .influenciador-nome {
+        font-size: 0.6rem;
+    }
+
+    .img-and-h1 {
+        width: 100%;
+    }
+
+    .influenciador {
+        width: 100%;
+    }
+
+    .influenciador-descricao-div {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .influenciador-descricao {
+        width: 100%;
+        font-size: 0.9rem;
+    }
+
+    .mid {
+        gap: 0;
+    }
+
+    .method {
+        width: 3rem;
+    }
+
+    .center-title {
+        font-size: 0.8rem;
+        overflow: visible;
+    }
+
+    .center {
+        width: 9rem;
+    }
 }

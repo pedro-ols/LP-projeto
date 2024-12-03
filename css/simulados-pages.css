@@ -14,8 +14,6 @@
     --light-color: #E30613;
 }
 
-
-
 a {
     text-decoration: none;
     color: white;
@@ -25,6 +23,7 @@ body {
     background-color: ghostwhite;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
+    animation: fadeIn 0.5s ease;
 }
 
 .header-container{
@@ -55,6 +54,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    border-bottom: #000000 solid 0.25rem;
 }
 
 .nav-image {
@@ -218,7 +218,7 @@ label {
 }
 
 .submit-button:hover {
-    background-color: #a81e1e;
+    background-color: #9A1915;
     cursor: pointer;
     color: rgb(236, 236, 236);
 }

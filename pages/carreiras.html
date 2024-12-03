@@ -2,14 +2,21 @@
 <html lang="pt-BR">
 
 <head>
-    <title>Lingua Portuguesa-Carreiras</title>
+    <title>Lingua Portuguesa - Carreiras</title>
     <link rel="stylesheet" href="/css/carreiras.css">
     <script src="../js/script.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
+        <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <header class="site-header">
     <div class="header-container">
@@ -26,88 +33,121 @@
                 <p class="nav-item"><a href="/pages/dicas.html">Dicas</a></p>
                 <p class="nav-item"><a href="/pages/estagio.html">Estágio</a></p>
                 <p class="nav-item"><a href="/pages/simulados.html">Simulados</a></p>
+                <p class="nav-item"><a href="/pages/contato.html">Contato</a></p>
             </nav>
         </div>
     </div>
 </header>
     
-    <main class="main-carreiras">
-        <h1 class="carreiras-title">Carreiras</h1>
-        <h4 class="saudacoes-title">Seja bem-vindo!</h4>
-        <p class="main-text">Essa é a aba sobre as carreiras! Onde disponibilizamos ver quais as carreiras que nós temos em nosso site e se caso você se interessar por algum, você pode realizar uma avaliação onde poderá ver em qual profissão que seria a mais adequada para sua carreira, e caso tenha alguma dúvida ou problema que encontrou em nosso site, busque nos contar através da aba "Contatos" que vamos resolver.</p>
-            <div class="membros-container">
-                <div class="carreira-div"><img class="carreira-photo" src="/img/professor.jpg" alt="professor"></div>
-                <p class="carreira-text"><strong>Professor:</strong> Se você busca em ser professor,será necessário ter formação na área de pedagogia ou em licenciaturas diversas.se você se interessou, vá na aba "Estágio".</p>
-                </div>
-            <div class="membros-container">
-                    <div class="carreira-div"><img class="carreira-photo" src="/img/escritor.jpg" alt="escritor"></div>
-                    <p class="carreira-text"><strong>Escritor:</strong> Se você busca em ser um escritor, será necessário ter vontade de escrever esaber criar texto corretamente e criativase você se interessou, vá na aba "Estágio".</p>
-            </div>
-            <div class="membros-container">
-                <div class="carreira-div"><img class="carreira-photo" src="/img/juiz.webp" alt="juiz"></div>
-                <p class="carreira-text"><strong>Juiz:</strong> Se caso você queria se tornar um juiz,
-                    será necessário ter formação na área dedireito e ter três anos de experiência nelase você se interessou, vá na aba "Estágio".</p>
+    <section class="introduction">
+        <h1 class="carreiras-title" data-aos="fade-up">Carreiras</h1>
+        <h4 class="saudacoes-title" data-aos="fade-up">Seja bem-vindo!</h4>
+        <div class="main-text-div">
+            <p class="main-text" data-aos="fade-up">Essa é a aba sobre as carreiras! Onde disponibilizamos ver quais as carreiras que nós temos em nosso site e se caso você se interessar por algum, você pode realizar uma avaliação onde poderá ver em qual profissão que seria a mais adequada para sua carreira, e caso tenha alguma dúvida ou problema que encontrou em nosso site, busque nos contar através da aba "Contatos" que vamos resolver.</p>
         </div>
+    </section>
+    
+
+    <main data-aos="fade-up">
+            <div class="membros-container" data-aos="fade-up">
+                <div class="carreira-div" data-aos="fade-up"><img class="carreira-photo" src="/img/professor.jpg" alt="professor"></div>
+                <div class="carreira-text-main">
+                <p class="carreira-text" data-aos="fade-up"><strong>Professor: </strong>Se você busca em ser professor, será necessário ter formação na área de pedagogia ou em licenciaturas diversas. Se você se interessou, vá na aba <a href="/pages/estagio.html" class="link-estagio">"Estágio"</a>.</p>
+            
             </div>
+        </div>
+                
+            <div class="membros-container" data-aos="fade-up">
+                    <div class="carreira-div" data-aos="fade-up" ><img class="carreira-photo" src="/img/escritor.jpg" alt="escritor"></div>
+                    <div class="carreira-text-main">
+                    <p class="carreira-text" data-aos="fade-up"><strong>Escritor: </strong>Se você busca em ser um escritor, será necessário ter vontade de escrever e saber criar texto corretamente e criativa. Se você se interessou, vá na aba <a href="/pages/estagio.html" class="link-estagio">"Estágio"</a>.</p>
+                </div>
+            </div>
+
+            <div class="membros-container" data-aos="fade-up">
+                <div class="carreira-div" data-aos="fade-up"><img class="carreira-photo" src="/img/juiz.webp" alt="juiz"></div>
+                <div class="carreira-text-main">
+                <p class="carreira-text" data-aos="fade-up"><strong>Juiz: </strong>Se busca em ser um juiz, será necessário ter formação na área de direito e ter possuir três anos de experiência. Se você se interessou, vá na aba <a href="/pages/estagio.html" class="link-estagio">"Estágio"</a>.</p>
+            </div>
+        </div>
+
             
     </main>
-    <p class="main-text">Caso você queria se aprofundar mais em qualquer uma das carreiras listadas,você pode dar uma olhada na aba "Estágio", onde você pode realizar uma avaliação e ver em qual carreira que você pode se encaixar:</p>
-        <h1 class="carreiras-title">Estágio</h1>
-        <main class="estagio-main">
-            <div class="estagio-container">
-                <div class="estagio-div"><img class="carrer-estagio" src="/img/estagio-direito.jpg" alt="estagio1"></div>
-                
-                <p class="estagio-name"><strong>Estágio: </strong>Direito</p>
-                    <p class="estagio-salario"><strong>Salário: </strong>R$1.838,00</p>
-                        <p class="estagio-descricao"><strong>Descrição: </strong>Consiste em garantir a justiça, a ordem e o bem-estar social.</p>
-                        <p class="estagio-requerimentos"><strong>Requerimentos:</strong>
-                    <ol>
+    <section class="introduction">
+    <div class="main-text-div" data-aos="fade-up">
+    <p class="main-text" data-aos="fade-up">Caso você queria se aprofundar mais em qualquer uma das carreiras listadas, você pode dar uma olhada na aba <a href="/pages/estagio.html" class="link-estagio">"Estágio"</a>, onde você pode realizar uma avaliação e ver em qual carreira que você pode se encaixar:</p>
+</section>
+</div>
+        <h1 class="carreiras-title" data-aos="fade-up">Estágio</h1>
+        <main class="estagio-main" data-aos="fade-up">
+            <div class="estagio-container" data-aos="fade-up">
+                <a href="/pages/estagio.html" class="link-estagio-2">
+                <div class="estagio-div" data-aos="fade-up"><img class="carrer-estagio" src="/img/estagio-direito.jpg" alt="estagio1"></div>
+                <div class="texto-estagio">
+                <p data-aos="fade-up"><strong>Estágio: </strong>Direito</p>
+                    <p data-aos="fade-up"><strong>Salário: </strong>R$1.838,00</p>
+                        <p data-aos="fade-up"><strong>Descrição: </strong>Consiste em garantir a justiça, a ordem e o bem-estar social.</p>
+                        <p data-aos="fade-up"><strong>Requerimentos:</strong>
+                    <ol data-aos="fade-up">
                         <li>- Leitura</li>
                         <li>- Boa Escrita</li>
                         <li>- Inteligência Emocional</li>
                     </ol></p>
                 </div>
+                </a>
             </div>
-            <div class="estagio-container">
-                <div class="estagio-div"><img class="carrer-estagio" src="/img/estagio-letras.jpg" alt="estagio2"></div>
-                
-                <p class="estagio-name"><strong>Estágio:</strong> Letras </p>
-                    <p class="estagio-salario"><strong>Salário:</strong> R$1.739,51</p>
-                        <p class="estagio-descricao"><strong>Descrição: </strong>Consiste em aprofundar o conhecimento sobre as línguas.</p>
-                        <p class="estagio-requerimentos"><strong>Requerimentos:</strong>
-                    <ol>
+
+
+            <div class="estagio-container" data-aos="fade-up">
+                <a href="/pages/estagio.html" class="link-estagio-2">
+                <div class="estagio-div" data-aos="fade-up"><img class="carrer-estagio" src="/img/estagio-letras.jpg" alt="estagio2"></div>
+                <div class="texto-estagio">
+                <p data-aos="fade-up"><strong>Estágio:</strong> Letras </p>
+                    <p data-aos="fade-up"><strong>Salário:</strong> R$1.739,51</p>
+                        <p data-aos="fade-up"><strong>Descrição: </strong>Consiste em aprofundar o conhecimento sobre as línguas.</p>
+                        <p data-aos="fade-up"><strong>Requerimentos:</strong>
+                    <ol data-aos="fade-up">
                         <li>- Comunicação</li>
                         <li>- Análise Textual</li>
                         <li>- Escrita</li>
                     </ol></p>
                 </div>
+                </a>
             </div>
 
-            <div class="estagio-container">
-                <div class="estagio-div"><img class="carrer-estagio" src="/img/estagio-pedagogia.jpeg" alt="estagio3"></div>
-                
-                <p class="estagio-name"><strong>Estágio:</strong> Pedagogia</p>
-                    <p class="estagio-salario"><strong>Salário:</strong> R$1.706,71</p>
-                        <p class="estagio-descricao"><strong>Descrição: </strong>Consiste em compreender a educação e a condução de assuntos.</p>
-                <p class="estagio-requerimentos"><strong>Requerimentos:</strong>
-                <ol>
+
+            <div class="estagio-container" data-aos="fade-up">
+                <a href="/pages/estagio.html" class="link-estagio-2">
+                <div class="estagio-div" data-aos="fade-up"><img class="carrer-estagio" src="/img/estagio-pedagogia.jpeg" alt="estagio3"></div>
+                <div class="texto-estagio">
+                <p data-aos="fade-up"><strong>Estágio:</strong> Pedagogia</p>
+                    <p data-aos="fade-up"><strong>Salário:</strong> R$1.706,71</p>
+                        <p data-aos="fade-up"><strong>Descrição: </strong>Consiste em compreender a educação e a condução de assuntos.</p>
+                <p data-aos="fade-up"><strong>Requerimentos:</strong>
+                <ol data-aos="fade-up">
                     <li>- Inglês Fluente</li>
                     <li>- Educação</li>
                     <li>- Conhecimento para Ensinar</li>
                 </ol></p>
+                </div>
+                </a>
             </div>
-            <div class="estagio-container">
-                <div class="estagio-div"><img class="carrer-estagio" src="/img/estagio-redacao.jpeg" alt="estagio4"></div>
-                
-                <p class="estagio-name"><strong>Estágio:</strong> Redação</p>
-                <p class="estagio-salario"><strong>Salário:</strong> R$1.033,00</p>
-                <p class="estagio-descricao"><strong>Descrição: </strong>Consiste em auxiliar as pessoas com as redações se houverem dificuldades</p>
-                <p class="estagio-requerimentos"><strong>Requerimentos:</strong>
-                <ol>
+
+            <div class="estagio-container" data-aos="fade-up">
+                <a href="/pages/estagio.html" class="link-estagio-2">
+                <div class="estagio-div" data-aos="fade-up"><img class="carrer-estagio" src="/img/estagio-redacao.jpeg" alt="estagio4"></div>
+                <div class="texto-estagio">
+                <p data-aos="fade-up"><strong>Estágio:</strong> Redação</p>
+                <p data-aos="fade-up"><strong>Salário:</strong> R$1.033,00</p>
+                <p data-aos="fade-up"><strong>Descrição: </strong>Consiste em auxiliar as pessoas com as redações.
+                <p data-aos="fade-up"><strong>Requerimentos:</strong>
+                <ol data-aos="fade-up">
                     <li>- Graduação</li>
                     <li>- Inglês fluente</li>
                     <li>- Interpretação</li>
                 </ol></p>
+            </div>
+            </a>
             </div>
         </main>
 
@@ -147,6 +187,10 @@
                 <p class="copy-info">&copy; 2024 - Todos os direitos reservados</p>
             </div>
         </footer>
+
+        <script>
+            AOS.init();
+          </script>
 
 </body>
 </html>
