@@ -238,7 +238,8 @@ body {
 .estagio-text {
     font-size: 1.4rem;
     margin: 8rem;
-    
+    word-spacing: normal;
+    word-wrap: nowrap;
 }
 
 .linkedin {
