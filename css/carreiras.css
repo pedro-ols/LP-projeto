@@ -102,6 +102,7 @@ body {
     margin: 2rem;
     font-size: 3rem;
     color: #681413;
+    text-align: center;
 }
 
 .saudacoes-title{
@@ -208,6 +209,7 @@ main {
 .carreira-text-main {
     width: 80%;
     height: 50%;
+    overflow-y: hidden;
 }
 
 .carreira-text {
@@ -396,6 +398,7 @@ main {
     gap: 10rem;
     margin-top: 15px;
     text-align: justify;
+    overflow-y: hidden;
 }
 
 .footer-title-negrito {
