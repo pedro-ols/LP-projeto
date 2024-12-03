@@ -135,11 +135,12 @@ body {
 
 .dicas-section {
     overflow: hidden;
-    margin: 1rem;
 }
 
 .dicas-article {
-    margin: 1rem;
+    margin: 1.5rem;
+    margin-left: 5%;
+    margin-right: 5%;
     width: 90%;
     height: auto;
     border: 0.5rem solid #9a1915;
@@ -316,7 +317,6 @@ body {
     color: white;
     transition: .5s ease;
     cursor: pointer;
-    width: 30%;
 }
 
 .greetings {

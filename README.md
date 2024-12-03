@@ -43,6 +43,9 @@ Vitor Argeri
 - Ajudar o pessoal *FEITO*
 - Mandar o video da Ana Clara Freire 
 - Arrumar o design de simulados
+- Arrumar a ultima noticia
+- Arrumar o hover do botao de dicas *FEITO*
+- Centralizar Dicas *FEITO*
 
 Raphaelle
 - Revisar seção "Sobre Nós" (junto com Souza) *FEITO*
