@@ -205,6 +205,7 @@ body {
 .center-title {
     font-size: 2rem;
     color: #681413;
+    user-select: none;
 }
 
 .first-method,
@@ -213,6 +214,28 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
+}
+
+.method {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pomodoro {
+    background-image: url("../img/pomodoro-img.webp");
+}
+
+.difuso {
+    background-image: url("../img/difuso-img.png");
+}
+
+.mnemonico {
+    background-image: url("../img/mnemonico-img.jpg");
+}
+
+.robinson {
+    background-image: url("../img/metodo-robinson.jpg");
 }
 
 .center {
