@@ -144,6 +144,7 @@ main{
     justify-content: center;
     flex-direction: row;
     margin-bottom: 1.5rem;
+    text-align: center; 
 }
 .page-title-container{
     overflow: hidden;
@@ -169,6 +170,7 @@ main{
     width: 20%;
     margin-left: 2rem;
     margin-right: 2rem;
+    text-align: center;
 }
 .page-subtitle{
     font-size: 2rem;
@@ -337,7 +339,45 @@ main{
     width: 3rem;
     margin-left: 1rem;
 }
-
+.entrevistas-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+.entrevistas-card{
+    width: 90%;
+    height: 100%;
+    background-color: #eeeeec;
+    display: flex;
+    flex-direction: column;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    box-shadow: 0 0.625rem 0.625rem rgba(0, 0, 0, 0.1);;
+    padding: 2rem;
+}
+.entrevistas-card:hover{
+    border: #000000 solid 2px;
+}
+.nome-professora{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.entrevistas-thumb{
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    height: 60%;
+    background-color: #DDDDDD;
+}
+.entrevistas-card-container{
+    width: calc(100%/3);
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .simulados-button:hover {
     opacity: 0.8;
     cursor: pointer;
@@ -367,7 +407,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 24.7rem;
+    width: auto;
     margin-left: 0.1rem;
     margin-bottom: 8rem;
     font-weight: bold;
@@ -381,18 +421,23 @@ main{
 }
 
 .carrers-block1 {
+    width: 30%;
     background-image: url(/img/professor.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+
+
 .carrers-block2 {
+    width: 30%;
     background-image: url(/img/escritor.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .carrers-block3 {
+    width: 30%;
     background-image: url(/img/juiz.webp);
     background-repeat: no-repeat;
     background-size: cover;
@@ -421,7 +466,21 @@ main{
     align-items: center;
     flex-direction: column;
 }
-
+.professor{
+    background-image: url(../img/professor.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.escritor{
+    background-image: url(../img/escritor.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.juiz{
+    background-image: url(../img/juiz.webp);
+    background-position: center;
+    background-size: cover;
+}
 .footer-senai {
     height: auto;
     width: 32%;
