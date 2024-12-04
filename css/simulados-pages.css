@@ -239,16 +239,17 @@ label {
 .button {
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
     margin: 2rem;
 }
 
 .submit-button {
     height: 5rem;
-    width: 20rem;
+    width: 25%;
     background-color: #e90313;
     border-radius: 1rem;
-    font-size: 1.7rem;
+    font-size: 1.25rem;
     transition: 0.2s ease-in-out;
     display: flex;
     align-items: center;
@@ -438,3 +439,12 @@ label {
     left: 16%;
 }
 
+#results {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    font-weight: bold;
+}
+
+.tables-container {
+    margin-bottom: 3rem;
+}

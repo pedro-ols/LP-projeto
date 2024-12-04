@@ -2,19 +2,29 @@
 <html lang="pt-BR">
 
 <head>
+    <style>
+        .hidden {
+            display: none;
+        }
+        .tables-container {
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
     <title>Língua Portuguesa - Simulado 1</title>
     <link rel="stylesheet" href="/css/simulados-pages.css">
+    <link rel="stylesheet" href="/css/score.css">
     <script src="../js/script.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-        <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-  <script src="../js/menu_btn.js" defer></script>
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script src="../js/menu_btn.js" defer></script>
 </head>
 
 <body>
@@ -30,7 +40,7 @@
                         <img src="/img/menu-icon-PNG-1.png" alt="menu">
                     </button>
                     <div class="dropdown-menu" id="dropdownmenulist">
-                        <a class="dropdown-item" href="https://luschettini.github.io/site-portaleducacional/" >Início do portal</a>
+                        <a class="dropdown-item" href="https://luschettini.github.io/site-portaleducacional/">Início do portal</a>
                         <a class="dropdown-item" href="https://site-biologia-41g2.vercel.app/">Biologia</a>
                         <a class="dropdown-item" href="https://portal-noticias-html.vercel.app/">Educação Física e Artes</a>
                         <a class="dropdown-item" href="https://site-filosofia.vercel.app/">Filosofia</a>
@@ -66,28 +76,28 @@
         <section class="questions-container">
 
             <form action="questions" class="questions">
-                <article class="specific-question" data-correct="1">
+                <article class="specific-question" data-correct="2">
                     <h3 class="question-number">Questão Número: 01</h3>
                     <h3 class="entire-question">Qual a função sintática do termo destacado na frase "A menina comprou um livro"?</h3>
 
                     <div class="answer-type">
-                        <input type="radio" name="answer"  value="0" checked>
+                        <input type="radio" name="answer1" value="0">
                         <label for="answer01">a) Sujeito</label>
                     </div>
 
                     <div class="answer-type">
-                        <input type="radio" name="answer"  value="0" checked>
-                        <label for="answer01">b) Predicado</label>
+                        <input type="radio" name="answer1" value="0">
+                        <label for="answer02">b) Predicado</label>
                     </div>
 
                     <div class="answer-type">
-                        <input type="radio" name="answer"  value="1" checked>
-                        <label for="answer01">c) Verbo</label>
+                        <input type="radio" name="answer1" value="1">
+                        <label for="answer03">c) Verbo</label>
                     </div>
 
                     <div class="answer-type">
-                        <input type="radio" name="answer"  value="0" checked>
-                        <label for="answer01">d) Objeto direto</label>
+                        <input type="radio" name="answer1" value="0">
+                        <label for="answer04">d) Objeto direto</label>
                     </div>
 
                 </article>
@@ -98,116 +108,180 @@
                     <h3 class="entire-question">Assinale a alternativa em que todas as palavras são acentuadas pela mesma regra:</h3>
 
                     <div class="answer-type">
-                        <input type="radio" name="answer"  value="1" checked>
-                        <label for="answer01">a) Pá, pé, pó</label>
+                        <input type="radio" name="answer2" value="1">
+                        <label for="answer05">a) Pá, pé, pó</label>
                     </div>
 
                     <div class="answer-type">
-                        <input type="radio" name="answer"  value="0" checked>
-                        <label for="answer01">b) Café, cipó, herói</label>
+                        <input type="radio" name="answer2" value="0">
+                        <label for="answer06">b) Café, cipó, herói</label>
                     </div>
 
                     <div class="answer-type">
-                        <input type="radio" name="answer"  value="0" checked>
-                        <label for="answer01">c) História, série, júri</label>
+                        <input type="radio" name="answer2" value="0">
+                        <label for="answer07">c) História, série, júri</label>
                     </div>
 
                     <div class="answer-type">
-                        <input type="radio" name="answer"  value="0" checked>
-                        <label for="answer01">d) Canário, diário, mistério</label>
+                        <input type="radio" name="answer2" value="0">
+                        <label for="answer08">d) Canário, diário, mistério</label>
                     </div>
 
                 </article>
             </form>
             <form action="questions" class="questions">
-                <article class="specific-question" data-correct="1">
+                <article class="specific-question" data-correct="2">
                     <h3 class="question-number">Questão Número: 03</h3>
                     <h3 class="entire-question">Identifique a figura de linguagem presente no verso "O sol beijava a praia":</h3>
 
                     <div class="answer-type">
-                        <input type="radio" name="answer"  value="0" checked>
-                        <label for="answer01">a) Metáfora</label>
+                        <input type="radio" name="answer3" value="0">
+                        <label for="answer09">a) Metáfora</label>
                     </div>
 
                     <div class="answer-type">
-                        <input type="radio" name="answer"  value="0" checked>
-                        <label for="answer01">b) Comparação</label>
+                        <input type="radio" name="answer3" value="0">
+                        <label for="answer10">b) Comparação</label>
                     </div>
 
                     <div class="answer-type">
-                        <input type="radio" name="answer"  value="1" checked>
-                        <label for="answer01">c) Personificação</label>
+                        <input type="radio" name="answer3" value="1">
+                        <label for="answer11">c) Personificação</label>
                     </div>
 
                     <div class="answer-type">
-                        <input type="radio" name="answer"  value="0" checked>
-                        <label for="answer01">d) Hipérbole</label>
+                        <input type="radio" name="answer3" value="0">
+                        <label for="answer12">d) Hipérbole</label>
                     </div>
 
                 </article>
             </form>
             <form action="questions" class="questions">
-                <article class="specific-question" data-correct="1">
+                <article class="specific-question" data-correct="3">
                     <h3 class="question-number">Questão Número: 04</h3>
                     <h3 class="entire-question">Assinale a alternativa em que a concordância verbal está correta:</h3>
             
                     <div class="answer-type">
-                        <input type="radio" id="answer01" name="answer" value="0">
-                        <label for="answer01">a) Fazem cinco anos que não o vejo.</label>
+                        <input type="radio" name="answer4" value="0">
+                        <label for="answer13">a) Fazem cinco anos que não o vejo.</label>
                     </div>
             
                     <div class="answer-type">
-                        <input type="radio" id="answer02" name="answer" value="0">
-                        <label for="answer02">b) Haviam muitas pessoas na festa.</label>
+                        <input type="radio" name="answer4" value="0">
+                        <label for="answer14">b) Haviam muitas pessoas na festa.</label>
                     </div>
             
                     <div class="answer-type">
-                        <input type="radio" id="answer03" name="answer" value="1" checked>
-                        <label for="answer03">c) Faz muitos anos que estudo português.</label>
+                        <input type="radio" name="answer4" value="1">
+                        <label for="answer15">c) Faz muitos anos que estudo português.</label>
                     </div>
             
                     <div class="answer-type">
-                        <input type="radio" id="answer04" name="answer" value="0">
-                        <label for="answer04">d) Existiam poucas vagas para o curso.</label>
+                        <input type="radio" name="answer4" value="0">
+                        <label for="answer16">d) Existiam poucas vagas para o curso.</label>
                     </div>
             
                 </article>
             </form>
             
             <form action="questions" class="questions">
-                <article class="specific-question" data-correct="1">
+                <article class="specific-question" data-correct="3">
                     <h3 class="question-number">Questão Número: 05</h3>
                     <h3 class="entire-question">Indique o advérbio presente na frase “O vizinho fala alto.”</h3>
 
                     <div class="answer-type">
-                        <input type="radio" name="answer"  value="0" checked>
-                        <label for="answer01">a) Fala</label>
+                        <input type="radio" name="answer5" value="0">
+                        <label for="answer17">a) Fala</label>
                     </div>
 
                     <div class="answer-type">
-                        <input type="radio" name="answer"  value="0" checked>
-                        <label for="answer01">b) Vizinho</label>
+                        <input type="radio" name="answer5" value="0">
+                        <label for="answer18">b) Vizinho</label>
                     </div>
 
                     <div class="answer-type">
-                        <input type="radio" name="answer"  value="0" checked>
-                        <label for="answer01">c) O</label>
+                        <input type="radio" name="answer5" value="0">
+                        <label for="answer19">c) O</label>
                     </div>
 
                     <div class="answer-type">
-                        <input type="radio" name="answer"  value="1" checked>
-                        <label for="answer01">d) Alto</label>
+                        <input type="radio" name="answer5" value="1">
+                        <label for="answer20">d) Alto</label>
                     </div>
 
                 </article>
             </form>
-
         </section>
     </main>
 
-    <a href="/pages/score.html"><div class="button">
-        <button class="submit-button">Finalizar simulado</button>
-    </div></a>
+    <div class="button">
+        <button id="verify-answers" class="submit-button">Concluir o Simulado</button>
+        <div id="results"></div>
+    </div>
+
+    <div class="tables-container">
+        <table class="correct-answers">
+            <thead>
+                <tr>
+                    <th>Questão</th>
+                    <th>Alternativa Escolhida</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Questão 01</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Questão 02</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Questão 03</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Questão 04</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Questão 05</td>
+                    <td>-</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="your-answers hidden">
+            <thead>
+                <tr>
+                    <th>Questão</th>
+                    <th>Alternativas Corretas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Questão 01</td>
+                    <td>C</td>
+                </tr>
+                <tr>
+                    <td>Questão 02</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>Questão 03</td>
+                    <td>C</td>
+                </tr>
+                <tr>
+                    <td>Questão 04</td>
+                    <td>C</td>
+                </tr>
+                <tr>
+                    <td>Questão 05</td>
+                    <td>D</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
     <footer class="site-footer">
 
@@ -247,5 +321,40 @@
     </footer>
 
 </body>
+
+<script>
+    document.getElementById('verify-answers').addEventListener('click', function () {
+        const questions = document.querySelectorAll('.specific-question');
+        let correctAnswers = 0;
+        let totalQuestions = questions.length;
+
+        questions.forEach((question, index) => {
+            const correctValue = question.getAttribute('data-correct');
+            const selectedOption = question.querySelector('input[type="radio"]:checked');
+
+            if (selectedOption && selectedOption.value === correctValue) {
+                correctAnswers++;
+            }
+
+            // Atualiza a tabela com as respostas escolhidas
+            const chosenTableRow = document.querySelector(`.correct-answers tbody tr:nth-child(${index + 1}) td:nth-child(2)`);
+            if (selectedOption) {
+                chosenTableRow.textContent = selectedOption.nextElementSibling.textContent.trim().charAt(0).toUpperCase();
+            } else {
+                chosenTableRow.textContent = '-';
+            }
+        });
+
+        const resultsDiv = document.getElementById('results');
+        resultsDiv.textContent = `Você acertou ${correctAnswers} de ${totalQuestions} questões.`;
+
+        if(correctAnswers === totalQuestions) {
+            resultsDiv.textContent += ` Parabéns! Você acertou todas as questões.`;
+        }
+
+        // Mostra a tabela
+        document.querySelector('.your-answers').classList.remove('hidden');
+    });
+</script>
 
 </html>
