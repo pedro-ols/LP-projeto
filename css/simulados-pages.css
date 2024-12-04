@@ -146,7 +146,6 @@ body {
 
 .entire-question {
     width: 60%;
-    display: flex;
     justify-content: flex-start;
     align-items: center ;
     font-size: 1.25rem;
@@ -403,3 +402,4 @@ label {
     position: relative;
     left: 16%;
 }
+
