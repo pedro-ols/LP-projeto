@@ -41,7 +41,7 @@ Vitor Argeri
 - Adicionar animações *FEITO*
 - Mudar as fotos
 - Ajudar o pessoal *FEITO*
-- Mandar o video da Ana Clara Freire 
+- Mandar o video da Ana Clara Freire *FEITO*
 - Arrumar o design de simulados
 - Arrumar a ultima noticia
 - Arrumar o hover do botao de dicas *FEITO*

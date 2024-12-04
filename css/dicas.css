@@ -249,6 +249,26 @@ body {
     overflow-y: hidden;
 }
 
+.usp,
+.puc,
+.unicamp {
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.usp {
+    background-image: url(https://imagens.usp.br/wp-content/uploads/usp006.jpg);
+}
+
+.unicamp {
+    background-image: url(https://unicamp.br/unicamp/sites/default/files/inline-images/man_enade_20201028_2.jpg);
+}
+
+.puc {
+    background-image: url(https://j.pucsp.br/sites/default/files/foto_geral_3.jpg);
+}
+
 .PDFs {
     justify-content: center;
     align-items: center;
