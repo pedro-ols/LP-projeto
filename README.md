@@ -70,5 +70,5 @@ Data de conclusão
 ---------------------------------------------------------
 Problemas extras:
 corrigir header em contatos; *FEITO*
-responsividade em estagio;
+responsividade em estagio; *FEITO*
 responsividade em carreiras; *FEITO*
