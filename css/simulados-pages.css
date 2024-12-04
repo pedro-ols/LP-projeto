@@ -74,6 +74,7 @@ body {
     width: 16rem;
     height: 30rem;
     border: #9A1915 solid 0.2rem;
+    z-index: 2;
 }
 .dropdown-item{
     color: #9A1915;

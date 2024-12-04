@@ -28,7 +28,7 @@ body {
     width: 5rem;
     height: 5rem;
     border: none;
-    background-color: #E30613;
+    background-color: rgb(227, 6, 19, 0);
 }
 .dropdown-menu{
     display: none;
@@ -38,7 +38,10 @@ body {
     background-color: #DDDDDD;
     width: 16rem;
     height: 30rem;
-    border: #9A1915 solid 0.2rem;
+    border: rgb(153, 25, 21) solid 0.2rem;
+}
+.dropdown_icon{
+    width: 100%;
 }
 .dropdown-item{
     color: #9A1915;
@@ -88,7 +91,7 @@ body {
 .site-header {
     height: 10rem;
     width: 100%;
-    background-color: #E30613;
+    background-color: rgb(227, 6, 19);
     align-items: center;
     display: flex;
    
