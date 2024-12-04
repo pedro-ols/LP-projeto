@@ -390,3 +390,16 @@ label {
     }
     
 }
+
+.question-4 {
+    width: 80%;
+    justify-content: start;
+    flex-direction: column;
+    position: relative;
+    margin-left: 10%;
+}
+
+.main-fund-2 {
+    position: relative;
+    left: 16%;
+}
