@@ -367,7 +367,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 24.7rem;
+    width: auto;
     margin-left: 0.1rem;
     margin-bottom: 8rem;
     font-weight: bold;
@@ -381,18 +381,21 @@ main{
 }
 
 .carrers-block1 {
+    width: 30%;
     background-image: url(/img/professor.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .carrers-block2 {
+    width: 30%;
     background-image: url(/img/escritor.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .carrers-block3 {
+    width: 30%;
     background-image: url(/img/juiz.webp);
     background-repeat: no-repeat;
     background-size: cover;
