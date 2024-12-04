@@ -148,11 +148,12 @@ body {
 .entire-question {
     width: 60%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center ;
     font-size: 1.25rem;
-    margin: 2.5rem;
     font-weight: 450;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .entire-question-text {
@@ -215,12 +216,15 @@ label {
     border-radius: 1rem;
     font-size: 1.7rem;
     transition: 0.2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .submit-button:hover {
-    background-color: #9A1915;
+    background-color: #e54742;
     cursor: pointer;
-    color: rgb(236, 236, 236);
+    color: white;
 }
 
 .site-footer {
