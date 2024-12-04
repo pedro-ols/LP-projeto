@@ -99,6 +99,23 @@ main {
     margin-top: 2rem;
 }
 
+.pomodoro {
+    background-image: url("../img/pomodoro-img.webp");
+}
+
+.difuso {
+    background-image: url("../img/difuso-img.png");
+}
+
+.mnemonico {
+    background-image: url("../img/mnemonico-img.jpg");
+}
+
+.robinson {
+    background-image: url("../img/metodo-robinson.jpg");
+}
+
+
 .method-title {
     justify-content: start;
     align-items: center;
@@ -118,11 +135,12 @@ main {
     color: black;
 }
 
+
+
 .main-img-div {
     width: 100%;
     height: 50vh;
     object-fit: cover;
-    background: url(../img/pomodoro-img.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

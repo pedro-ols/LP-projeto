@@ -43,17 +43,16 @@ Vitor Argeri
 - Ajudar o pessoal *FEITO*
 - Mandar o video da Ana Clara Freire *FEITO*
 - Arrumar o design de simulados
-- Arrumar a ultima noticia
+- Arrumar a ultima noticia *FEITO*
 - Arrumar o hover do botao de dicas *FEITO*
 - Centralizar Dicas *FEITO*
 
 Raphaelle
 - Revisar seção "Sobre Nós" (junto com Souza) *FEITO*
-- Inserir links nas páginas de carreiras e estágio 
 - Adicionar PDFs para ajudar no estudo *FEITO*
 - Incluir métodos de estudo e influenciadores em dicas *FEITO*
 - Incluir faculdades *FEITO*
-- Criar uma página pra cada método
+- Criar uma página pra cada método *FEITO*
 - Fazer a responsividade de dicas *FEITO*
 
 Miguel Sarti
@@ -63,6 +62,7 @@ Miguel Sarti
 - Adicionar a página de contato na sub-header *FEITO*
 - Arrumar a responsividade das fontes do site com media-screen
 - Arrumar o footer
+- Inserir links nas páginas de carreiras e estágio 
 
 Data de conclusão
 05/12 
@@ -70,5 +70,5 @@ Data de conclusão
 ---------------------------------------------------------
 Problemas extras:
 corrigir header em contatos; *FEITO*
-responsividade em estagio;
+responsividade em estagio; *FEITO*
 responsividade em carreiras; *FEITO*
