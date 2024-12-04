@@ -71,7 +71,6 @@ body {
     background-color: #E30613;
     align-items: center;
     display: flex;
-   
 }
 
 .main-nav {
@@ -162,9 +161,9 @@ body {
     justify-content: center;
     align-items: center ;
     font-size: 1.25rem;
-    margin: 2.5rem;
     font-weight: 450;
-    text-indent: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .answer-type {
@@ -191,10 +190,11 @@ input {
 }
 
 label {
-    font-size: 1.1rem;
+    font-size: 0.75rem;
     color: var(--background-color);
     font-weight: bold;
     position: relative; 
+    width: 80%;
     left: 3.25%;
 }
 
