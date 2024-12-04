@@ -58,7 +58,41 @@ body {
     align-items: center;
     border-bottom: #000000 solid 0.25rem;
 }
-
+.dropdown-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    border: none;
+    background-color: #E30613;
+}
+.dropdown-menu{
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    background-color: #DDDDDD;
+    width: 16rem;
+    height: 30rem;
+    border: #9A1915 solid 0.2rem;
+}
+.dropdown-item{
+    color: #9A1915;
+    text-decoration: none;
+    font-size: 1.3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    height: 12%;
+}
+.dropdown-item:hover{
+    background-color: #817c7c;
+    color: #681413;
+    text-decoration: none;
+    transition: 0.5s;
+}
 .nav-image {
     display: flex;
     align-items: center;
