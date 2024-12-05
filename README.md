@@ -31,7 +31,7 @@ Vitor Argeri
 - Ajustar o footer *FEITO*
 - Inserir tabelas em Simulados *FEITO*
 - Adicionar JavaScript em Simulados *FEITO*
-- Linkar o Javascript com a página de simulados
+- Linkar o Javascript com a página de simulados *FEITO*
 - Adicionar carrossel na Home *FEITO*
 - Terminar de estruturar o css e o html das notícias *FEITO*
 - Adicionar border-bottom em todas headers *FEITO*
