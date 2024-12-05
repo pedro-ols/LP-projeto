@@ -152,6 +152,7 @@ body {
 .simulados-title {
     font-size: 3rem;
     color: var(--title-color);
+    overflow: visible;
     margin-bottom: 2rem;
 }
 
@@ -159,6 +160,12 @@ body {
     color: var(--text-color);
     font-weight: normal;
     margin-bottom: 1rem;
+    font-size: 1.45rem;
+    word-spacing: normal;
+    white-space: normal;
+    letter-spacing: normal;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 main {
@@ -201,8 +208,15 @@ main {
     height: 100%;
     display: flex;
     align-items: center;
+    overflow-x: visible;
     flex-flow: row ;
     color: var(--text-color);
+}
+
+.start-text {
+    position: relative;
+    overflow: visible;
+    right: 3vw;
 }
 
 .simulado-type{
@@ -223,13 +237,14 @@ main {
 .start-button:hover{
     opacity: 70%;
 }
+
 .simulado-link{
     width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 50%;
 }
-
 
 .site-footer {
     display: flex;
