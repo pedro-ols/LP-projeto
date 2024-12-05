@@ -359,6 +359,7 @@ body {
     flex-direction: column;
     transition: .3s ease;
     color: white;
+    background: url(../img/background-pdf.jpg);
 }
 
 .pdf-block:hover {
@@ -555,6 +556,16 @@ body {
     transition: 0.5s;
 }
 
+.pdf-title {
+    word-spacing: normal;
+    text-align: center;
+    line-height: 1.6;
+    hyphens: auto;
+    font-weight: 400;
+    color: black;
+    text-shadow: 1px 1px 2px #000000;
+}
+
 .copy-info {
     display: flex;
     align-items: center;
@@ -671,10 +682,6 @@ body {
         font-size: 1rem;
     }
 
-    .PDFs {
-        height: 60vh;
-    }
-
     .div-pdf {
         width: 90%;
         margin-bottom: -5rem;
@@ -683,7 +690,7 @@ body {
     }
 
     .pdf-title {
-        font-size: 0.75rem;
+        font-size: 0.5rem;
     }
 
 }
@@ -737,6 +744,10 @@ body {
         height: auto;
         aspect-ratio: 1/1;
     }
+
+    .pdf-title {
+        font-size: 0.5rem;
+    }
     
 }
 
@@ -757,10 +768,6 @@ body {
 
     .dicas-explanation {
         font-size: 1rem;
-    }
-
-    .pdf-block {
-        border-radius: 50%;
     }
 
     .influenciador-nome {
@@ -804,4 +811,21 @@ body {
     .center {
         width: 9rem;
     }
+
+    .div-pdf {
+        flex-direction: column;
+        margin-bottom: 3rem;
+    }
+
+    .pdf-block {
+        border-radius: 1rem;
+        width: 60%;
+        height: 15rem;
+    }
+
+    .pdf-title {
+        position: relative;
+        bottom: 0.5rem;
+    }
+
 }
