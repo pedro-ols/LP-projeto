@@ -367,6 +367,7 @@ body {
     cursor: pointer;
     text-decoration: underline;
     filter: brightness(.9);
+    
 }
 
 .pdf-title {
