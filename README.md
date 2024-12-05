@@ -1,6 +1,6 @@
 # Portal de Matérias
 
-Bem-vindo ao **Portal de Matérias**, uma plataforma dedicada à Língua Portuguesa. Nosso objetivo é reunir e disponibilizar conteúdos e recursos relacionados à área, como notícias, dicas, simulados, carreiras, e muito mais. Acesse o site diretamente: [lp-projeto.vercel.app](https://lp-projeto.vercel.app/).
+Bem-vindo ao nosso portal, uma plataforma dedicada à **Língua Portuguesa**. Nosso objetivo é reunir e disponibilizar conteúdos e recursos relacionados à área, como notícias, dicas, simulados, carreiras, e muito mais. Acesse o site diretamente: [lp-projeto.vercel.app](https://lp-projeto.vercel.app/).
 
 ---
 

@@ -148,7 +148,7 @@ body {
 }
 
 .main-text{
-    font-size: 110%;
+    font-size: 0.9rem;
     margin: 1rem;
     text-align: center;
     bottom: 2vh;
@@ -342,6 +342,12 @@ input:focus:-ms-input-placeholder {
     margin-bottom: 0.3125rem;
 }
 
+.email-link {
+    color: #2e89e4;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
 .copy-info {
     display: flex;
     align-items: center;
@@ -382,36 +388,11 @@ input:focus:-ms-input-placeholder {
     justify-content: center;
     align-items: center;
     gap: 10rem;
-    margin-top: 15px;
+    margin-top: 12.5px;
 }
 
 .footer-title-negrito {
     font-weight: bold;
-}
-
-.footer-horizontal {
-    background-color: #ffffff;
-    height: 0.75vh;
-    width: 50%;
-}
-
-.footer-vertical{
-    background-color: #ffffff;
-    border-right: 3px;
-    width: 8px;
-    height: 70%;
-    margin-top: 15px;
-}
-
-.footer-bottom{
-    background-color: #9A1915;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10rem;
-    margin-top: 15px;
-
 }
 
 
