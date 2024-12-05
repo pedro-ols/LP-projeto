@@ -1,74 +1,52 @@
-Link para o site hospedado em vercel:
-https://lp-projeto.vercel.app/
+# Portal de Matérias
 
-Todos
-- Deixar o design mais profissional
-- Melhorar a organização no Trello 
+Bem-vindo ao **Portal de Matérias**, uma plataforma dedicada à Língua Portuguesa. Nosso objetivo é reunir e disponibilizar conteúdos e recursos relacionados à área, como notícias, dicas, simulados, carreiras, e muito mais. Acesse o site diretamente: [lp-projeto.vercel.app](https://lp-projeto.vercel.app/).
 
-Pedro Oliveira
-- Padrozinar o site:
-    Espaçamento dos Parágrafos,
-    Títulos, *FEITO*
-    Subtítulos, *FEITO*
-    Cores, *FEITO*
-    Textos
-- Adicionar o Menu
-- Revisar toda a Index
-- Terminar de estruturar o css e o html das entrevistas
-- Integrar com o resto das matérias
-- Fazer relatório de teste de qualidade completo *FEITO*
-- Melhorar o design dos botões
-- Arrumar o sobre nós
-- Arrumar o footer e header das páginas
+---
 
-Souza
-- Adicionar uma root padrão para todo o site 
-- Adicionar questões nos simulados *FEITO*
-- Revisar seção "Sobre Nós" (junto com Raphaelle) *FEITO*
-- Fazer os slides *FEITO*
+## 📚 Funcionalidades
 
-Vitor Argeri
-- Ajustar o footer *FEITO*
-- Inserir tabelas em Simulados *FEITO*
-- Adicionar JavaScript em Simulados *FEITO*
-- Linkar o Javascript com a página de simulados *FEITO*
-- Adicionar carrossel na Home *FEITO*
-- Terminar de estruturar o css e o html das notícias *FEITO*
-- Adicionar border-bottom em todas headers *FEITO*
-- Tirar os text-align: center *FEITO*
-- Conseguir o Copilot para ajudar no desenvolvimento *FEITO*
-- Checar a identidade visual *FEITO*
-- Adicionar animações *FEITO*
-- Mudar as fotos
-- Ajudar o pessoal *FEITO*
-- Mandar o video da Ana Clara Freire *FEITO*
-- Arrumar o design de simulados
-- Arrumar a ultima noticia *FEITO*
-- Arrumar o hover do botao de dicas *FEITO*
-- Centralizar Dicas *FEITO*
+- **Notícias**: Atualizações e informações sobre o universo da Língua Portuguesa.
+- **Sobre Nós**: Conheça a equipe por trás do projeto.
+- **Contato**: Informações para entrar em contato.
+- **Estágios e Carreiras**: Recursos para quem deseja ingressar ou crescer na área.
+- **Simulados**: Teste seus conhecimentos em Língua Portuguesa com simulados exclusivos.
+- **Dicas**:
+  - Métodos de estudo em formato PDF.
+  - Sugestões de faculdades para quem deseja seguir carreira na área.
+  - Estratégias práticas para otimizar seus estudos.
 
-Raphaelle
-- Revisar seção "Sobre Nós" (junto com Souza) *FEITO*
-- Adicionar PDFs para ajudar no estudo *FEITO*
-- Incluir métodos de estudo e influenciadores em dicas *FEITO*
-- Incluir faculdades *FEITO*
-- Criar uma página pra cada método *FEITO*
-- Fazer a responsividade de dicas *FEITO*
+---
 
-Miguel Sarti
-- Adicionar formulário de Contato *FEITO*
-- Adicionar as notícias 
-- Arrumar a página de carreiras *FEITO*
-- Adicionar a página de contato na sub-header *FEITO*
-- Arrumar a responsividade das fontes do site com media-screen
-- Arrumar o footer
-- Inserir links nas páginas de carreiras e estágio 
+## 🌟 Objetivo
 
-Data de conclusão
-05/12 
+Nosso foco não é ensinar diretamente sobre a Língua Portuguesa, mas sim ser um ponto de encontro para recursos, informações e oportunidades relacionadas à área. Acreditamos que o conhecimento pode ser construído com as ferramentas certas e uma comunidade engajada.
 
----------------------------------------------------------
-Problemas extras:
-corrigir header em contatos; *FEITO*
-responsividade em estagio; *FEITO*
-responsividade em carreiras; *FEITO*
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- **Frontend**: HTML, CSS e JavaScript.
+- **Deploy**: Vercel ([lp-projeto.vercel.app](https://lp-projeto.vercel.app/)).
+
+---
+
+## 👥 Equipe
+
+Somos estudantes do SENAI de Valinhos e dedicamos este projeto ao aprendizado e desenvolvimento colaborativo.
+
+- **Pedro Oliveira (P.O.)**: Product Owner  
+- **Vitor Argeri**: Scrum Master  
+- **Miguel Sarti**: Developer  
+- **Sara Souza**: Developer  
+- **Raphaelle Lacerda**: Developer  
+
+---
+
+## 📩 Contato
+
+Para dúvidas, sugestões ou parcerias, entre em contato conosco através da seção [Contato](https://lp-projeto.vercel.app/) do site.
+
+---
+
+Acesse agora e explore o universo da Língua Portuguesa em [lp-projeto.vercel.app](https://lp-projeto.vercel.app/).
