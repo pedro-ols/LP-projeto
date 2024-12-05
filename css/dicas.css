@@ -369,6 +369,16 @@ body {
     filter: brightness(.9);
 }
 
+.pdf-title {
+    word-spacing: normal;
+    text-align: center;
+    line-height: 1.6;
+    hyphens: auto;
+    font-weight: 400;
+    color: black;
+    text-shadow: 1px 1px 2px #000000;
+}
+
 .pdf-img {
     height: 7vh;
     width: auto;
@@ -554,16 +564,6 @@ body {
     color: #2e89e4;
     text-decoration: none;
     transition: 0.5s;
-}
-
-.pdf-title {
-    word-spacing: normal;
-    text-align: center;
-    line-height: 1.6;
-    hyphens: auto;
-    font-weight: 400;
-    color: black;
-    text-shadow: 1px 1px 2px #000000;
 }
 
 .copy-info {

@@ -305,6 +305,8 @@ input:focus:-ms-input-placeholder {
     height: 23rem;
     border-top: 0.125rem solid black;
     width: 100%;
+    position: relative;
+    top: 3rem;
 }
 
 .footer-img {
