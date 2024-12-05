@@ -175,11 +175,11 @@ main {
 
 .person-photo {
     height: 25rem;
-    width: 25rem;
-    border-radius: 3.125rem;
+    width: 70%;
     margin-top: 1.25rem;
-    border: #681413 solid 0.313rem;
-}
+    border: #bbbbbb solid 0.5rem;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;}
 
 .site-footer {
     background-color: #9a1915;
@@ -253,10 +253,10 @@ main {
 }
 .group-image{
     display: flex;
-    margin-bottom: 2rem;
+    margin: 3rem;
     border-top-right-radius: 3rem;
     border-bottom-left-radius: 3rem;
-    border: #681413 solid 0.5rem;
+    border: #bbbbbb solid 0.5rem;
     width: 50%;
     height: auto;
 }
@@ -290,16 +290,20 @@ main {
 .membro-div {
     font-size: 1rem;
     margin: 0.938rem;
-    background-color: #9a1915;
+    background-color: #eeeeec;
     color: aliceblue;
-    border-radius: 4.375rem;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
     width: 40rem;
-    height: 37.5rem;
-    border: #681413 solid 0.5rem;
+    height: 50.5rem;
+    border: #bbbbbb solid 0.5rem;
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
+    color: black;
+    font-size: 1.3rem;
+    text-align: justify;
 }
 .hide-icon{
     transform: rotate(90deg);
@@ -308,9 +312,11 @@ main {
 .people-text {
     margin-top: 1.875rem;
     width: 80%;
-    text-align: center;
+    text-align: justify;
 }
-
+.name{
+    text-align: justify;
+}
 .site-footer {
     display: flex;
     background-color: #E30613;
