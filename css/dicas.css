@@ -293,6 +293,7 @@ body {
     gap: 5%;
     height: auto;
     padding: 2rem;
+    height: 20rem;
 }
 
 .university {
@@ -300,7 +301,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 23.333%;
-    height: 60vh;
+    height: 100%;
     border-radius: 3rem;
     border: 3px solid #681413;
     transition: .3s ease;
@@ -333,7 +334,10 @@ body {
     display: flex;
     width: 100%;
     flex-direction: column;
-    overflow-y: hidden;
+}
+
+.pdf-block{
+    border-radius: 30rem;
 }
 
 .div-pdf {
@@ -342,13 +346,15 @@ body {
     justify-content: center;
     align-items: center;
     margin-bottom: 3rem;
-    gap: 5%;
-    height: 35vh;
+    gap: 5%;    
+    height: 23vh;
+    overflow: hidden;
 }
 
 .pdf-block {
-    width: 23.333%;
-    height: 30vh;
+    overflow: visible;
+    height: 20vh;
+    width: 30rem;
     background-color: red;
     border-radius: 3rem;
     border: 2px solid #681413;
@@ -367,7 +373,8 @@ body {
     cursor: pointer;
     text-decoration: underline;
     filter: brightness(.9);
-    
+    overflow: visible;
+    padding: 2rem;
 }
 
 .pdf-title {
@@ -376,6 +383,7 @@ body {
     line-height: 1.6;
     font-weight: bold;
     hyphens: auto;
+    overflow: hidden;
     font-weight: 400;
     color: black;
     text-shadow: 1px 1px 2px #000000;
@@ -401,6 +409,10 @@ body {
 
 .university:hover {
     transform: scale(1.1);
+}
+
+.university-name {
+    margin-bottom: 5vh;
 }
 
 .university-name:hover {
@@ -614,7 +626,7 @@ body {
 .footer-title-negrito {
     font-weight: bold;
 }
-
+/* 
 @media (max-width: 900px) {
     .header-container{
         width: 100%;
@@ -832,4 +844,4 @@ body {
         text-shadow: none;
     }
 
-}
+} */
