@@ -373,6 +373,7 @@ body {
     word-spacing: normal;
     text-align: center;
     line-height: 1.6;
+    font-weight: bold;
     hyphens: auto;
     font-weight: 400;
     color: black;
@@ -826,6 +827,8 @@ body {
     .pdf-title {
         position: relative;
         bottom: 0.5rem;
+        font-weight: bold;
+        text-shadow: none;
     }
 
 }
